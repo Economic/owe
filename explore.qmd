@@ -1,0 +1,111 @@
+---
+title: "Explore"
+editor: source
+execute:
+  echo: false
+---
+
+
+```{r}
+#| output: false
+library(tidyverse)
+
+truncate <- function(x) {
+  case_when(x > 3 ~ 3, x < -3 ~ -3, TRUE ~ x)
+}
+
+read_csv("mw_owe_database.csv") %>% 
+  mutate(across(owe_ub|owe_lb, truncate)) %>% 
+  ojs_define(data = .)
+```
+
+```{ojs}
+viewof group = Inputs.radio([null, "Overall", "Teens", "US"], {label: "Select a subgroup", value: null, format: x => x ?? "All studies"})
+```
+
+There are \${count_studies} studies in the \${group_focus_description}. The median own-wage elasticity is \${my_median_formatted} and the mean own-wage elasticity is \${my_mean_formatted}.
+
+```{ojs}
+Plot.plot({
+  width: 1080,
+  marginLeft: 200,
+  x: {
+    axis: "top",
+    grid: true,
+    domain: [-3, 3]
+  },
+  y: {
+    label: null,
+    domain: d3.sort(filtered_data, d => d.owe_b).map(d => d.study)
+  },
+  marks: [
+    Plot.ruleX(owe_data, {
+      x: 0, 
+      opacity: 0.05
+    }),
+    Plot.ruleY(owe_data, {
+      x1: "owe_lb",
+      x2: "owe_ub",
+      y: "study",
+      strokeWidth: 4,
+      strokeOpacity: 0.3,
+      strokeLinecap: "round",
+      
+    }),
+    Plot.dot(owe_data, {
+      x: "owe_b",
+      y: "study",
+      r: 5,
+      fill: "currentColor"
+    })
+  ]
+})
+```
+
+```{ojs}
+owe_data = transpose(data)
+
+filtered_data = owe_data.filter(d => d.group == group || d.country == group || group == null)
+
+count_studies = d3.count(filtered_data, d => d.owe_b)
+
+my_median = d3.median(filtered_data, d => d.owe_b)
+
+my_median_formatted = my_median.toLocaleString(undefined, {maximumFractionDigits:2})
+
+my_mean = d3.mean(filtered_data, d => d.owe_b)
+
+my_mean_formatted = my_mean.toLocaleString(undefined, {maximumFractionDigits:2})
+
+group_focus_description = {
+  if(group != null) {
+    return "database focused on " + group
+  }
+  else {
+    return 'database'
+  }
+}
+
+```
+
+```{r}
+library(reactable)
+library(htmltools)
+
+data <- mtcars[1:5, c("mpg", "cyl")]
+data$tooltipcell<-"<span title='your content'>this is a car</span>"
+with_tooltip <- function(value, tooltip) {
+  span(style = "text-decoration: underline; text-decoration-style: dotted;", title = tooltip, value)
+}
+
+reactable(
+  data,
+  columns = list(
+    mpg = colDef(name="mpg"),
+    cyl = colDef(header = with_tooltip("cyl", "Number of cylinders")),
+    tooltipcell=colDef(html = TRUE)
+  )
+)
+
+reactable(read_csv("mw_owe_database.csv"))
+```

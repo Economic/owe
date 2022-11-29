@@ -1,0 +1,57 @@
+Study,Coefficient,Standard Error,Upper Bound,Lower Bound,Year,Country,Group
+Sabia et al. 2012,-2.130,1.230,-3.000,0.281,2012,US,16-29 without HS degree
+Pereira 2003,-1.180,0.280,-1.729,-0.631,2003,Portugal,Teens
+Bell 1997 - Mexico,-1.080,1.420,-3.000,1.703,1997,Mexico,Low-skilled workers
+Neumark and Nizalova 2007,-0.910,0.580,-2.047,0.227,2007,US,Youth
+Bell 1997 - Colombia,-0.900,0.420,-1.723,-0.077,1997,Colombia,Low-skilled workers
+Kim and Taylor 1995,-0.880,0.130,-1.135,-0.625,1995,US,Teens
+Currie and Fallick 1996,-0.860,0.320,-1.487,-0.233,1995,US,Incumbents
+Liu et al. 2016,-0.830,0.254,-1.328,-0.332,2016,US,Teens
+Brummund and Strain 2018,-0.650,0.340,-1.316,0.016,2018,US,Restaurant
+Giuliano 2013,-0.590,0.610,-1.786,0.606,2013,US,Teens (Retail)
+Sabia 2008,-0.580,0.230,-1.031,-0.129,2008,US,Single mothers
+Campolieti et al. 2006,-0.550,0.350,-1.236,0.136,2006,Canada,Teens
+Dickens Riley Wilkinson 2015,-0.550,0.250,-1.040,-0.060,,UK,Part-time women
+Burkhauser et al. 2000,-0.480,0.040,-0.558,-0.402,2000,US,Teens
+Orrenius and Zavodny 2008,-0.400,0.401,-1.186,0.386,2008,US,Less-educated immigrants
+Machin et al. 2003,-0.350,0.160,-0.664,-0.036,2003,UK,Care homes
+Dube et al. 2016,-0.267,0.383,-1.018,0.484,2016,US,Teens
+Fang and Lin 2015,-0.230,0.140,-0.504,0.044,2015,China,Other Demographics
+Totty 2018b,-0.218,0.554,-1.304,0.868,2017,US,Teens
+Card et al 1994,-0.210,0.230,-0.661,0.241,1994,US,Restaurants
+Zavodny 2000,-0.174,0.896,-1.930,1.582,2000,US,Teens
+Slichter 2015,-0.172,0.458,-1.070,0.726,2015,US,Restaurants
+Totty 2018a,-0.155,0.218,-0.582,0.272,2017,US,Restaurants
+Draca et al. 2011,-0.150,1.460,-3.000,2.712,2011,UK,Firm exposure
+Dube and Zipperer 2015,-0.140,0.260,-0.650,0.370,,US,Teens
+Eriksson & Pytlikova 2004 Slovakia,-0.110,0.040,-0.188,-0.032,2004,Slovakia,Firm exposure
+Addison et al. 2010,-0.040,0.190,-0.412,0.332,2010,US,Teens
+Dube et al. 2007,0.030,0.060,-0.088,0.148,2007,US,Restaurants
+Dube et al 2010,0.085,0.310,-0.523,0.693,2010,US,Restaurants
+Hirsch et al. 2015,0.100,0.420,-0.723,0.923,2015,US,Restaurants
+Allegretto et al. 2011,0.130,0.160,-0.184,0.444,2011,US,Teens
+Ericksson & Pytlikova 2004 Czech,0.190,0.190,-0.182,0.562,2004,Czech Rep,Firm exposure
+Nadler et al. 2019,0.210,0.201,-0.184,0.604,2019,US,Restaurants
+Azar et al. 2019,0.455,0.773,-1.060,1.970,2019,US,Retail
+Card 1992a,0.820,0.670,-0.493,2.133,1992,US,Teens
+Card 1992b,1.330,0.490,0.370,2.290,1992,US,Teens
+,,,,,,,
+Jardim et al. 2018a,-2.810,1.380,-3.000,-0.105,2017,US,Overall
+Monras 2019,-0.599,0.440,-1.461,0.263,2019,US,Overall
+Bossler and Gerner 2019,-0.266,0.170,-0.599,0.067,2019,Germany,Overall
+Neumark Schweitzer Wascher 2004,-0.230,0.100,-0.426,-0.034,,US,Overall
+Harasztosi and Lindner 2019,-0.180,0.030,-0.239,-0.121,2019,Hungary,Overall
+Aitken Dolton Riley 2019,-0.170,0.149,-0.462,0.122,,UK,Overall
+Jardim et al. 2018b,-0.160,,,,2018,US,Overall
+Bailey et al. 2018,-0.159,0.068,-0.292,-0.026,2018,US,Overall
+Dickens and Lind 2019,-0.110,0.300,-0.698,0.478,,UK,Overall
+Manning 2016,-0.040,0.210,-0.452,0.372,,UK,Overall
+"Dube 2019 (this report, UK NLW)",-0.010,0.330,-0.657,0.637,,UK,Overall
+Godoy and Reich 2019,0.000,0.311,-0.610,0.610,2019,US,Overall
+Derenoncourt and Montialoux 2018,0.016,0.059,-0.100,0.132,2018,US,Overall
+Ashfeldt Roth Steidel 2018,0.102,0.062,-0.020,0.224,2018,Germany,Overall
+Dustmann et al. 2019,0.170,0.160,-0.144,0.484,2019,Germany,Overall
+Stewart 2004,0.250,0.516,-0.761,1.261,,UK,Overall
+Cengiz 2019,0.312,0.298,-0.272,0.896,2019,US,Overall
+"Dube 2019 (this report, U.S.)",0.320,0.370,-0.405,1.045,,US,Overall
+Cengiz et al. 2019,0.411,0.430,-0.432,1.254,2019,US,Overall

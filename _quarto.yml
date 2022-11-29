@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: _site
+  
+execute:
+  freeze: auto
+
+website:
+  title: "OWE database"
+  repo-url: https://github.com/minimum-wages/owe
+  search: false
+  navbar:
+    background: light
+    left:
+      - href: index.qmd
+        text: Overview
+      - href: explore.qmd
+      - href: download.qmd
+        text: Download
+      - href: documentation.qmd
+      - href: submit.qmd
+    right:
+      - icon: github
+        href: https://github.com/minimum-wages/owe
+        aria-label: OWE GitHub    
+  
+
+format:
+  html:
+    theme: 
+      light: [cosmo, theme.scss]
+    css: styles.css
+    toc: true
+
+editor: visual
+
