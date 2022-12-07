@@ -5,7 +5,7 @@ project:
   
 website:
   title: "OWE database"
-  repo-url: https://github.com/minimum-wages/owe
+  repo-url: https://github.com/economic/owe
   search: false
   navbar:
     background: light
@@ -24,7 +24,7 @@ website:
       - href: submit.qmd
     right:
       - icon: github
-        href: https://github.com/minimum-wages/owe
+        href: https://github.com/economic/owe
         aria-label: OWE GitHub    
   
 
