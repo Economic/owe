@@ -2,7 +2,6 @@
 pagetitle: "Minimum wage own-wage elasticity database"
 page-layout: custom
 section-divs: false
-toc: false
 css: index.css
 editor: source
 
@@ -17,7 +16,7 @@ editor: source
 ### A collection of estimates from minimum wage research studies
 
 ::: {.hero-buttons}
-[Explore](explore.html){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Explore](explore/subgroup_figure.html){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
 [Download](download.html){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 [Documentation](documentation.html){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
 ::: 
@@ -26,14 +25,13 @@ editor: source
 :::
 
 ::: {.content-block}
-### hello!
-
+### Distribution of own-wage elasticities
 ```{r}
 #| echo: false
 #| warning: false
-#| out-width: 100%
-#| out-height: 740px
-#| fig-format: svg
+#| out-width: 90%
+#| fig-cap: 
+#|   - "{{< var citation.full >}}"
 library(tidyverse)
 library(hrbrthemes)
 library(viridis)
@@ -108,7 +106,8 @@ binned_data %>%
     panel.grid.minor.y = element_blank(),
     legend.title=element_blank(),
     legend.position = c(0.85, 0.8),
-    axis.title.x = element_text(hjust = 0.6)
+    axis.title.x = element_text(hjust = 0.6),
+    plot.margin = margin(0,0,0,0)
   )
 ```
 :::

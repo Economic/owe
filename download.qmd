@@ -1,6 +1,37 @@
 ---
-pagetitle: "Download"
+title: "Download the latest data"
 editor: source
 ---
 
-# Download the data
+[mw_owe_database.csv](mw_owe_database.csv)
+
+```{r}
+#| echo: false
+#| warning: false
+library(tidyverse)
+library(reactable)
+
+read_csv("mw_owe_database.csv") %>% 
+  filter(row_number() == 1) %>% 
+  mutate(
+    study = "Study name",
+    group = "Group of workers",
+    country = "Country",
+    owe_b = "Effect size",
+    owe_se = "Standard error",
+    owe_lb = "Lower bound of 95% confidence interval",
+    owe_ub = "Upper bound of 95% confidence interval",
+  ) %>% 
+  pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
+  reactable()
+```
+
+See the [documentation](documentation.html) for additional details.
+
+## Citation and use of the data
+If you use the data or this site in your own work, please reference or cite it appropriately:
+
+::: {.callout-note}
+## Source
+{{< var citation.full >}}
+:::

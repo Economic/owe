@@ -1,0 +1,7 @@
+citation:
+  version: 0.1
+  year: 2022
+  authors: Arindrajit Dube and Ben Zipperer
+  title: "*Minimum wage own-wage elasticity database*"
+  url: "<https://minimum-wages.github.io/owe>"
+  full: "{{< var citation.authors >}}. {{< var citation.year >}}. {{< var citation.title >}}, Version {{< var citation.version >}}. {{< var citation.url >}}"

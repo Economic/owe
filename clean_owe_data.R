@@ -49,7 +49,9 @@ owe_database <- bind_rows(dube_original, ns_review, new_additions) %>%
   mutate(
     owe_ub = owe_b + 1.96 * owe_se,
     owe_lb = owe_b - 1.96 * owe_se
-  )
+  ) %>% 
+  select(study, group, country, owe_b, owe_se, owe_lb, owe_ub) %>% 
+  arrange(study)
 
 write_csv(owe_database, "mw_owe_database.csv")
   

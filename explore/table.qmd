@@ -1,0 +1,91 @@
+---
+title: "Table of studies"
+editor: source
+execute:
+  echo: false
+  warning: false
+format: 
+  html:
+    page-layout: full
+---
+
+```{r}
+library(tidyverse)
+library(reactable)
+library(htmltools)
+
+read_csv("../mw_owe_database.csv", show_col_types = FALSE) %>% 
+  select(study, group, country, owe_b, owe_se) %>% 
+  reactable(
+    defaultPageSize = 20,
+    highlight = TRUE,
+    striped = TRUE,
+    filterable = TRUE,
+    columns = list(
+      study = colDef(
+        name = "Study",
+        minWidth = 120
+      ),
+      group = colDef(
+        name = "Group",
+        minWidth = 50,
+        filterInput = function(values, name) {
+          tags$select(
+            # Set to undefined to clear the filter
+            onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+            # "All" has an empty value to clear the filter, and is the default option
+            tags$option(value = "", "All"),
+            lapply(unique(values), tags$option),
+            "aria-label" = sprintf("Filter %s", name),
+            style = "width: 100%; height: 28px;"
+          )
+        }
+      ),
+      country = colDef(
+        name = "Country",
+        minWidth = 30,
+        filterInput = function(values, name) {
+          tags$select(
+            # Set to undefined to clear the filter
+            onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+            # "All" has an empty value to clear the filter, and is the default option
+            tags$option(value = "", "All"),
+            lapply(unique(values), tags$option),
+            "aria-label" = sprintf("Filter %s", name),
+            style = "width: 100%; height: 28px;"
+          )
+        }
+      ),
+      owe_b = colDef(
+        name = "Elasticity",
+        format = colFormat(digits = 2),
+        minWidth = 40,
+        filterable = FALSE
+      ),
+      owe_se = colDef(
+        name = "Standard Error",
+        format = colFormat(digits = 2),
+        minWidth = 40,
+        filterable = FALSE
+      )
+    ),
+    elementId = "cars-select"
+  )
+```
+
+```{r}
+# data <- mtcars[1:5, c("mpg", "cyl")]
+# data$tooltipcell<-"<span title='your content'>this is a car</span>"
+# with_tooltip <- function(value, tooltip) {
+#   span(style = "text-decoration: underline; text-decoration-style: dotted;", title = tooltip, value)
+# }
+# 
+# reactable(
+#   data,
+#   columns = list(
+#     mpg = colDef(name="mpg"),
+#     cyl = colDef(header = with_tooltip("cyl", "Number of cylinders")),
+#     tooltipcell=colDef(html = TRUE)
+#   )
+# )
+```

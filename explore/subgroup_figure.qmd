@@ -1,5 +1,5 @@
 ---
-title: "Explore"
+title: "Select a subgroup"
 editor: source
 execute:
   echo: false
@@ -14,13 +14,13 @@ truncate <- function(x) {
   case_when(x > 3 ~ 3, x < -3 ~ -3, TRUE ~ x)
 }
 
-read_csv("mw_owe_database.csv") %>% 
+read_csv("../mw_owe_database.csv") %>% 
   mutate(across(owe_ub|owe_lb, truncate)) %>% 
   ojs_define(data = .)
 ```
 
 ```{ojs}
-viewof group = Inputs.radio([null, "Overall", "Teens", "US"], {label: "Select a subgroup", value: null, format: x => x ?? "All studies"})
+viewof group = Inputs.radio([null, "Overall", "Teens", "US"], {value: null, format: x => x ?? "All studies"})
 ```
 
 There are \${count_studies} studies in the \${group_focus_description}. The median own-wage elasticity is \${my_median_formatted} and the mean own-wage elasticity is \${my_mean_formatted}.
@@ -88,24 +88,4 @@ group_focus_description = {
 
 ```
 
-```{r}
-library(reactable)
-library(htmltools)
 
-data <- mtcars[1:5, c("mpg", "cyl")]
-data$tooltipcell<-"<span title='your content'>this is a car</span>"
-with_tooltip <- function(value, tooltip) {
-  span(style = "text-decoration: underline; text-decoration-style: dotted;", title = tooltip, value)
-}
-
-reactable(
-  data,
-  columns = list(
-    mpg = colDef(name="mpg"),
-    cyl = colDef(header = with_tooltip("cyl", "Number of cylinders")),
-    tooltipcell=colDef(html = TRUE)
-  )
-)
-
-reactable(read_csv("mw_owe_database.csv"))
-```

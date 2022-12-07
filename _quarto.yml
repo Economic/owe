@@ -1,10 +1,8 @@
 project:
   type: website
   output-dir: _site
+  resources: mw_owe_database.csv
   
-execute:
-  freeze: auto
-
 website:
   title: "OWE database"
   repo-url: https://github.com/minimum-wages/owe
@@ -12,11 +10,16 @@ website:
   navbar:
     background: light
     left:
-      - href: index.qmd
-        text: Overview
-      - href: explore.qmd
-      - href: download.qmd
-        text: Download
+      - text: Overview
+        href: index.qmd
+      - text: Explore
+        menu: 
+          - text: "Subgroup figure"
+            href: explore/subgroup_figure.qmd
+          - text: "Table of studies"
+            href: explore/table.qmd
+      - text: Download
+        href: download.qmd
       - href: documentation.qmd
       - href: submit.qmd
     right:
@@ -30,7 +33,7 @@ format:
     theme: 
       light: [cosmo, theme.scss]
     css: styles.css
-    toc: true
+    toc: false
 
 editor: visual
 
