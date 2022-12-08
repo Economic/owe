@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: _site
-  resources: mw_owe_database.csv
+  resources: mw_owe_database.csv, mw_owe_studies.csv, mw_owe_studies.bib
   
 website:
   title: "OWE database"

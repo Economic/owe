@@ -1,5 +1,6 @@
 library(tidyverse)
 library(googlesheets4)
+library(bib2df)
 
 gs4_deauth()
 owe_sheet <- "1-uBymldLhp5IsG-qiRmUGDy883ij8vjYdx6YpbHAing"
@@ -54,4 +55,26 @@ owe_database <- bind_rows(dube_original, ns_review, new_additions) %>%
   arrange(study)
 
 write_csv(owe_database, "mw_owe_database.csv")
+
+
+# new data version
+bib_data <- read_sheet(owe_sheet, "papers") %>% 
+  select(
+    study_id, matches("author_"), year, 
+    title, journal, volume, number, pages, url
+  )
+
+write_csv(bib_data, "mw_owe_studies.csv")
+
+bib_data %>% 
+  mutate(
+    author = paste(author_1, author_2, author_3, author_4, sep = ","),
+    author = str_replace_all(author, ",NA", ""),
+    author = str_split(author, ",")
+  ) %>% 
+  select(-matches("author_")) %>% 
+  mutate(category = "ARTICLE") %>% 
+  rename(CATEGORY = category, BIBTEXKEY = study_id) %>% 
+  rename_with(toupper, author|year|title|journal|volume|number|pages|url) %>% 
+  df2bib("mw_owe_studies.bib")
   

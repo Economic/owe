@@ -2,7 +2,7 @@
 title: "Download the latest data"
 editor: source
 ---
-
+## Elasticities
 [mw_owe_database.csv](mw_owe_database.csv)
 
 ```{r}
@@ -25,8 +25,11 @@ read_csv("mw_owe_database.csv") %>%
   pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
   reactable()
 ```
-
+<br/>
 See the [documentation](documentation.html) for additional details.
+
+## Studies
+List of all studies used: [csv](mw_owe_studies.csv) or [bibtex](mw_owe_studies.bib)
 
 ## Citation and use of the data
 If you use the data or this site in your own work, please reference or cite it appropriately:

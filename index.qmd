@@ -10,7 +10,6 @@ editor: source
 ::: {.hero-banner}
 
 ::: {.content-block}
-
 # Minimum wage own-wage elasticity database
 
 ### A collection of estimates from minimum wage research studies
@@ -25,18 +24,27 @@ editor: source
 :::
 
 ::: {.content-block}
-### Distribution of own-wage elasticities
+```{r}
+#| echo: false
+#| warning: false
+
+library(tidyverse)
+data <- read_csv("mw_owe_database.csv", show_col_types = FALSE) 
+
+study_count <- nrow(data) 
+```
+  
+### Distribution of own-wage elasticities from `r study_count` studies
 ```{r}
 #| echo: false
 #| warning: false
 #| out-width: 90%
 #| fig-cap: 
 #|   - "{{< var citation.full >}}"
-library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 
-data <- read_csv("mw_owe_database.csv", show_col_types = FALSE) %>% 
+binned_data <- data %>% 
   mutate(bin = case_when(
     owe_b < -1 ~ -1.1,
     owe_b >= -1 & owe_b < -0.8 ~ -0.9,
@@ -46,9 +54,7 @@ data <- read_csv("mw_owe_database.csv", show_col_types = FALSE) %>%
     owe_b >= -0.2 & owe_b < 0.0 ~ -0.1,
     owe_b >= 0.0 & owe_b < 0.2 ~ 0.1,
     owe_b >= 0.2 ~ 0.3
-  )) 
-  
-binned_data <- data %>% 
+  )) %>% 
   mutate(group = case_when(
     owe_b < -0.8 ~ '"Large" negative',
     owe_b >= -0.8 & owe_b < -0.4 ~ '"Medium" negative',
