@@ -2,7 +2,8 @@
 title: "Download the latest data"
 editor: source
 ---
-## Elasticities
+
+## Table of elasticities
 [mw_owe_database.csv](mw_owe_database.csv)
 
 ```{r}
@@ -29,7 +30,7 @@ read_csv("mw_owe_database.csv") %>%
 See the [documentation](documentation.html) for additional details.
 
 ## Studies
-List of all studies used: [csv](mw_owe_studies.csv) or [bibtex](mw_owe_studies.bib)
+Bibliography: [bibtex](mw_owe_studies.bib) [csv](mw_owe_studies.csv) 
 
 ## Citation and use of the data
 If you use the data or this site in your own work, please reference or cite it appropriately:

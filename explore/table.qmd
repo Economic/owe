@@ -29,17 +29,17 @@ read_csv("../mw_owe_database.csv", show_col_types = FALSE) %>%
       group = colDef(
         name = "Group",
         minWidth = 50,
-        filterInput = function(values, name) {
-          tags$select(
-            # Set to undefined to clear the filter
-            onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
-            # "All" has an empty value to clear the filter, and is the default option
-            tags$option(value = "", "All"),
-            lapply(unique(values), tags$option),
-            "aria-label" = sprintf("Filter %s", name),
-            style = "width: 100%; height: 28px;"
-          )
-        }
+        # filterInput = function(values, name) {
+        #   tags$select(
+        #     # Set to undefined to clear the filter
+        #     onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
+        #     # "All" has an empty value to clear the filter, and is the default option
+        #     tags$option(value = "", "All"),
+        #     lapply(unique(values), tags$option),
+        #     "aria-label" = sprintf("Filter %s", name),
+        #     style = "width: 100%; height: 28px;"
+        #   )
+        # }
       ),
       country = colDef(
         name = "Country",
