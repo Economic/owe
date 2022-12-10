@@ -1,8 +1,10 @@
 ---
-title: "Submit"
+title: "Submit new studies or modifications"
 editor: source
 ---
 
-This is a living database. 
+Do you know of a study we should add? Did we not select the most appropriate elasticities from a given paper?
 
-Submit a new study or modification instructions.
+Please email [benzipperer@gmail.com](mailto:benzipperer@gmail.com?subject=Own-wage elasticity database) or file an issue at the underlying [Github repository](https://github.com/Economic/owe/issues).
+
+We welcome feedback and will continue to update the database with new studies.

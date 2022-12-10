@@ -21,7 +21,8 @@ website:
       - text: Download
         href: download.qmd
       - href: documentation.qmd
-      - href: submit.qmd
+      - text: Submit
+        href: submit.qmd
     right:
       - icon: github
         href: https://github.com/economic/owe

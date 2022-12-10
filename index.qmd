@@ -34,7 +34,7 @@ data <- read_csv("mw_owe_database.csv", show_col_types = FALSE)
 study_count <- nrow(data) 
 ```
   
-### Distribution of own-wage elasticities from `r study_count` studies
+### Distribution of own-wage elasticities from `r study_count` minimum wage studies
 ```{r}
 #| echo: false
 #| warning: false
