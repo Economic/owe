@@ -68,10 +68,7 @@ median_owe <- data %>%
   summarize(median(owe_b) * -1) %>% 
   pull()
 
-median_owe_label <- paste(
-  "Median OWE =", 
-  scales::label_number(accuracy = 0.01)(median_owe * -1)
-)
+median_owe_label <- paste("Median OWE =", round(median_owe * -1, 2))
 
 y_axis_breaks <- seq(-14, 14, 4) / 10 * -1
 y_axis_labels <- c(
@@ -118,5 +115,24 @@ binned_data %>%
     axis.title.x = element_text(hjust = 0.6),
     plot.margin = margin(0,0,0,0)
   )
+```
+
+```{ojs}
+//| output: false
+
+data = FileAttachment("mw_owe_database.csv").csv({typed: true})
+
+```
+
+```{ojs}
+//| fig-cap: "{{< var citation.full >}}"
+plot = Plot.plot({
+  x: {grid: true},
+  color: {legend: true},
+  marks: [
+    Plot.rectX(data, Plot.binY({x: "count"}, {y: "owe_b"})),
+    Plot.ruleX([0])
+  ]
+})
 ```
 :::

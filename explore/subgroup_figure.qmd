@@ -71,11 +71,11 @@ count_studies = d3.count(filtered_data, d => d.owe_b)
 
 my_median = d3.median(filtered_data, d => d.owe_b)
 
-my_median_formatted = my_median.toLocaleString(undefined, {maximumFractionDigits:2})
+my_median_formatted = my_median.toFixed(2)
 
 my_mean = d3.mean(filtered_data, d => d.owe_b)
 
-my_mean_formatted = my_mean.toLocaleString(undefined, {maximumFractionDigits:2})
+my_mean_formatted = my_mean.toFixed(2)
 
 group_focus_description = {
   if(group != null) {

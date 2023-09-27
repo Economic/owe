@@ -62,8 +62,9 @@ write_csv(owe_database, "mw_owe_database.csv")
 bib_data <- read_sheet(owe_sheet, "papers") %>% 
   select(
     study_id, matches("author_"), year, 
-    title, journal, volume, number, pages, url
+    title, journal, volume, number, pages, url, country
   ) %>% 
+  # identify author last names
   mutate(across(
     matches("author_"), 
     ~str_replace(.x, ".* ", ""), 
@@ -98,6 +99,7 @@ bib_data %>%
   mutate(category = "ARTICLE") %>% 
   rename(CATEGORY = category, BIBTEXKEY = study_id) %>% 
   rename_with(toupper, author|year|title|journal|volume|number|pages|url) %>% 
+  select(-country) %>% 
   df2bib("mw_owe_studies.bib")  
 
 # csv bibliography
@@ -106,7 +108,56 @@ bib_data %>%
   relocate(author_id) %>% 
   write_csv("mw_owe_studies.csv")
 
-owe_data <- read_sheet(owe_sheet, "estimates") %>% 
-  filter(primary == 1) %>% 
-  full_join(bib_data, by = "study_id")
-  
+owe_data_initial <- read_sheet(owe_sheet, "estimates") %>% 
+  # use primary, valid estimates only
+  mutate(primary = as.character(primary)) %>% 
+  filter(primary == "1") %>% 
+  # calculate new owe
+  calculate_owe(owe_new) %>% 
+  # if owe b or se was originally missing, use new calculated owe
+  # otherwise stick with spreadsheet owe
+  mutate(
+    owe_b = if_else(is.na(owe_b), owe_new_b, owe_b),
+    owe_se = if_else(is.na(owe_se), owe_new_se, owe_se)
+  ) %>% 
+  mutate(
+    owe_ub = owe_b + 1.96 * owe_se,
+    owe_lb = owe_b - 1.96 * owe_se
+  ) 
+
+owe_data_refined <- owe_data_initial %>% 
+  inner_join(bib_data, by = "study_id") %>% 
+  select(
+    study = author_id,
+    journal,
+    group,
+    country,
+    owe_b, 
+    owe_se, 
+    owe_lb, 
+    owe_ub
+  ) 
+
+write_csv(owe_data_refined, "mw_owe_database.csv")
+
+
+owe_data_refined
+
+owe_data_refined %>% 
+  skimr::skim(owe_b)
+
+owe_data_refined %>% 
+  filter(country == "US") %>% 
+  skimr::skim(owe_b)
+
+owe_data_refined %>% 
+  filter(country == "US", journal != "Working Paper") %>% 
+  skimr::skim(owe_b)
+
+
+# suggested filters
+# group of workers: Any group, Overall workforce, Teenagers, Restaurant workers
+# country: All countries, US
+# study: All studies, published, working paper
+
+
