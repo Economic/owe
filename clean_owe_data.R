@@ -14,6 +14,8 @@ calculate_owe <- function(.data, x) {
       )
     )
 }
+# note when emp_b non zero, the above is equal to
+# emp_b^2 / wage_b^2 * (emp_se^2 / emp_b^2 + wage_se^2 / wage_b^2)
 
 dube_original <- read_sheet(owe_sheet, "dube_original") %>% 
   rename_with(tolower) %>% 
