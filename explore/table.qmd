@@ -68,11 +68,13 @@ tbl <- reactable(
     # ),
     group = colDef(
       name = "Group",
-      width = 125
+      width = 125,
+      align = "center"
     ),
     country = colDef(
       name = "Country",
       width = 100,
+      align = "center",
       filterInput = function(values, name) {
         tags$select(
           # Set to undefined to clear the filter
@@ -99,7 +101,7 @@ tbl <- reactable(
       # significantly increase the file size.
       cell = JS("renderMovie"),
       html = TRUE,
-      minWidth = 300
+      minWidth = 250
     ),
     journal = colDef(show = FALSE),
     title = colDef(show = FALSE),
@@ -422,5 +424,6 @@ div(
 .detail-description {
   font-size: 0.875rem;
 }
+
 ```
 
