@@ -60,7 +60,7 @@ tbl <- reactable(
   highlight = TRUE,
   onClick = "expand",
   details = row_details,
-  resizable = TRUE, wrap = FALSE,
+  wrap = TRUE, 
   columns = list(
     # study = colDef(
     #   name = "Study",
@@ -68,11 +68,11 @@ tbl <- reactable(
     # ),
     group = colDef(
       name = "Group",
-      minWidth = 15
+      width = 125
     ),
     country = colDef(
       name = "Country",
-      minWidth = 10,
+      width = 100,
       filterInput = function(values, name) {
         tags$select(
           # Set to undefined to clear the filter
@@ -88,7 +88,7 @@ tbl <- reactable(
     owe_b = colDef(
       name = "Elasticity",
       format = colFormat(digits = 2),
-      minWidth = 15,
+      width = 100,
       filterable = FALSE,
       align = "center"
     ),
@@ -99,7 +99,7 @@ tbl <- reactable(
       # significantly increase the file size.
       cell = JS("renderMovie"),
       html = TRUE,
-      minWidth = 55
+      minWidth = 300
     ),
     journal = colDef(show = FALSE),
     title = colDef(show = FALSE),
