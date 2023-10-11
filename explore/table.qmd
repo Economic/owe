@@ -60,6 +60,7 @@ tbl <- reactable(
   highlight = TRUE,
   onClick = "expand",
   details = row_details,
+  resizable = TRUE, wrap = FALSE,
   columns = list(
     # study = colDef(
     #   name = "Study",
