@@ -5,87 +5,421 @@ execute:
   echo: false
   warning: false
 format: 
-  html:
-    page-layout: full
+  html
 ---
 
-```{r}
+```{r table}
 library(tidyverse)
 library(reactable)
+library(jsonlite)
 library(htmltools)
+library(crosstalk)
 
-read_csv("../mw_owe_database.csv", show_col_types = FALSE) %>% 
-  select(study, group, country, owe_b, owe_se) %>% 
-  reactable(
-    defaultPageSize = 20,
-    highlight = TRUE,
-    striped = TRUE,
-    filterable = TRUE,
-    columns = list(
-      study = colDef(
-        name = "Study",
-        minWidth = 120
-      ),
-      group = colDef(
-        name = "Group",
-        minWidth = 50,
-        # filterInput = function(values, name) {
-        #   tags$select(
-        #     # Set to undefined to clear the filter
-        #     onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
-        #     # "All" has an empty value to clear the filter, and is the default option
-        #     tags$option(value = "", "All"),
-        #     lapply(unique(values), tags$option),
-        #     "aria-label" = sprintf("Filter %s", name),
-        #     style = "width: 100%; height: 28px;"
-        #   )
-        # }
-      ),
-      country = colDef(
-        name = "Country",
-        minWidth = 30,
-        filterInput = function(values, name) {
-          tags$select(
-            # Set to undefined to clear the filter
-            onchange = sprintf("Reactable.setFilter('cars-select', '%s', event.target.value || undefined)", name),
-            # "All" has an empty value to clear the filter, and is the default option
-            tags$option(value = "", "All"),
-            lapply(unique(values), tags$option),
-            "aria-label" = sprintf("Filter %s", name),
-            style = "width: 100%; height: 28px;"
-          )
-        }
-      ),
-      owe_b = colDef(
-        name = "Elasticity",
-        format = colFormat(digits = 2),
-        minWidth = 40,
-        filterable = FALSE
-      ),
-      owe_se = colDef(
-        name = "Standard Error",
-        format = colFormat(digits = 2),
-        minWidth = 40,
-        filterable = FALSE
-      )
-    ),
-    elementId = "cars-select"
+all_data <- read_csv("../mw_owe_database.csv", show_col_types = FALSE) %>% 
+  mutate(year = ymd(paste(str_extract(study, "\\d{4}"), "1", "1"))) 
+
+tbl_data <- all_data %>% 
+  select(study, owe_b, group, country, owe_se, authors, title, journal, url)
+  # select(study, group, country, owe_b, owe_se)
+
+shared_data <- SharedData$new(tbl_data)
+
+shared_all_data <- SharedData$new(all_data, group = shared_data$groupName())
+
+row_details <- function(index) {
+  pkg <- all_data[index, ]
+
+  pkg_field <- function(name, ...) {
+    if (any(is.na(...))) NULL
+    else tagList(div(class = "detail-label", name), ...)
+  }
+  
+  owe_pretty <- paste0(
+    round(pkg$owe_b, 2), 
+    " (", 
+    round(pkg$owe_se, 2), 
+    ")"
   )
+
+  detail <- div(
+    class = "package-detail",
+    div(class = "detail-header", pkg$study, span(class = "detail-title", tags$a(href = pkg$url, pkg$journal))),
+    pkg_field("Authors", pkg$authors),
+    pkg_field("Title", pkg$title),
+    pkg_field("Own-wage elasticity estimate", owe_pretty),
+    pkg_field("Source of estimate", pkg$source)
+  )
+
+  detail
+}
+
+tbl <- reactable(
+  shared_data,
+  defaultColDef = colDef(vAlign = "center", headerClass = "header"),
+  defaultPageSize = 20,
+  highlight = TRUE,
+  onClick = "expand",
+  details = row_details,
+  columns = list(
+    # study = colDef(
+    #   name = "Study",
+    #   minWidth = 60
+    # ),
+    group = colDef(
+      name = "Group",
+      minWidth = 15
+    ),
+    country = colDef(
+      name = "Country",
+      minWidth = 10,
+      filterInput = function(values, name) {
+        tags$select(
+          # Set to undefined to clear the filter
+          onchange = sprintf("Reactable.setFilter('movies-tbl', '%s', event.target.value || undefined)", name),
+          # "All" has an empty value to clear the filter, and is the default option
+          tags$option(value = "", "All"),
+          lapply(unique(values), tags$option),
+          "aria-label" = sprintf("Filter %s", name),
+          style = "width: 100%; height: 28px;"
+        )
+      }
+    ),
+    owe_b = colDef(
+      name = "Elasticity",
+      format = colFormat(digits = 2),
+      minWidth = 15,
+      filterable = FALSE,
+      align = "center"
+    ),
+    study = colDef(
+      name = "Study",
+      # Since there are so many rows, we use a JS render function to keep the
+      # page size down. This would be much easier to code in R, but that would
+      # significantly increase the file size.
+      cell = JS("renderMovie"),
+      html = TRUE,
+      minWidth = 55
+    ),
+    journal = colDef(show = FALSE),
+    title = colDef(show = FALSE),
+    authors = colDef(show = FALSE),
+    owe_se = colDef(show = FALSE),
+    url = colDef(show = FALSE)
+    # owe_se = colDef(
+    #   name = "Standard Error",
+    #   format = colFormat(digits = 2),
+    #   minWidth = 40,
+    #   filterable = FALSE
+    # )
+  ),
+  rowStyle = list(cursor = "pointer"),
+  theme = reactableTheme(
+    highlightColor = "#f3fafb",
+    borderColor = "hsl(0, 0%, 93%)",
+    headerStyle = list(borderColor = "hsl(0, 0%, 90%)")
+  ),
+  class = "movies-tbl"
+)
 ```
 
-```{r}
-# data <- mtcars[1:5, c("mpg", "cyl")]
-# data$tooltipcell<-"<span title='your content'>this is a car</span>"
-# with_tooltip <- function(value, tooltip) {
-#   span(style = "text-decoration: underline; text-decoration-style: dotted;", title = tooltip, value)
-# }
-# 
-# reactable(
-#   data,
-#   columns = list(
-#     mpg = colDef(name="mpg"),
-#     cyl = colDef(header = with_tooltip("cyl", "Number of cylinders")),
-#     tooltipcell=colDef(html = TRUE)
-#   )
-# )
+```{js table_js}
+// Custom JavaScript cell renderer for the Movie column
+function renderMovie(cellInfo) {
+  let study = cellInfo.row['study']
+  let journal = cellInfo.row['journal']
+  
+  const details = `<div class="movie-info-details">${journal}</div>`
+  const text = `<div class="movie-info-text">${study}${details}</div>`
+  return `<div class="movie-info">${text}</div>`
+}
+
+
 ```
+
+```{r filters}
+# Custom Crosstalk select filter. This is a single-select input that works
+# on columns containing multiple values per row (list columns).
+select_filter <- function(id, label, shared_data, group, choices = NULL,
+                          width = "100%", class = "filter-input") {
+  values <- shared_data$data()[[group]]
+  keys <- shared_data$key()
+  if (is.list(values)) {
+    # Multiple values per row
+    flat_keys <- unlist(mapply(rep, keys, sapply(values, length)))
+    keys_by_value <- split(flat_keys, unlist(values), drop = TRUE)
+    choices <- if (is.null(choices)) sort(unique(unlist(values))) else choices
+  } else {
+    # Single value per row
+    keys_by_value <- split(seq_along(keys), values, drop = TRUE)
+    choices <- if (is.null(choices)) sort(unique(values)) else choices
+  }
+
+  script <- sprintf("
+    window['__ct__%s'] = (function() {
+      const handle = new window.crosstalk.FilterHandle('%s')
+      const keys = %s
+      return {
+        filter: function(value) {
+          if (!value) {
+            handle.clear()
+          } else {
+            handle.set(keys[value])
+          }
+        }
+      }
+    })()
+  ", id, shared_data$groupName(), toJSON(keys_by_value))
+
+  div(
+    class = class,
+    tags$label(`for` = id, label),
+    tags$select(
+      id = id,
+      onchange = sprintf("window['__ct__%s'].filter(this.value)", id),
+      style = sprintf("width: %s", validateCssUnit(width)),
+      tags$option(value = "", "All"),
+      lapply(choices, function(value) tags$option(value = value, value))
+    ),
+    tags$script(HTML(script))
+  )
+}
+
+# Custom Crosstalk search filter. This is a free-form text field that does
+# case-insensitive text searching on a single column.
+search_filter <- function(id, label, shared_data, group, width = "100%", class = "filter-input") {
+  values <- as.list(shared_data$data()[[group]])
+  values_by_key <- setNames(values, shared_data$key())
+  
+  script <- sprintf("
+    window['__ct__%s'] = (function() {
+      const handle = new window.crosstalk.FilterHandle('%s')
+      const valuesByKey = %s
+      return {
+        filter: function(value) {
+          if (!value) {
+            handle.clear()
+          } else {
+            // Escape special characters in the search value for regex matching
+            value = value.replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&')
+            const regex = new RegExp(value, 'i')
+            const filtered = Object.keys(valuesByKey).filter(function(key) {
+              const value = valuesByKey[key]
+              if (Array.isArray(value)) {
+                for (let i = 0; i < value.length; i++) {
+                  if (regex.test(value[i])) {
+                    return true
+                  }
+                }
+              } else {
+                return regex.test(value)
+              }
+            })
+            handle.set(filtered)
+          }
+        }
+      }
+    })()
+  ", id, shared_data$groupName(), toJSON(values_by_key))
+  
+  div(
+    class = class,
+    tags$label(`for` = id, label),
+    tags$input(
+      id = id,
+      type = "search",
+      oninput = sprintf("window['__ct__%s'].filter(this.value)", id),
+      style = sprintf("width: %s", validateCssUnit(width))
+    ),
+    tags$script(HTML(script))
+  )
+}
+```
+
+```{r output, echo=FALSE}
+div(
+  class = "movies",
+  div(
+    class = "filters",
+    search_filter("filter_study", "Search authors", shared_all_data, "study"),
+    search_filter("filter_group", "Search groups", shared_all_data, "group"),
+    select_filter("filter_country", "Country", shared_all_data, "country"),
+    # select_filter("filter_genres", "Genre", shared_movies, "genres"),
+    # select_filter("filter_year", "Year", shared_movies, "year",
+    #               choices = sort(unique(movies$year), decreasing = TRUE)),
+    # select_filter("filter_language", "Language", shared_movies, "original_language"),
+    # select_filter("filter_rating", "Rating", shared_movies, "certification",
+    #               choices = c("G", "PG", "PG-13", "R", "NC-17", "NR")),
+    #range_filter("filter_year", "Minimum Year", shared_all_data, "year"),
+    select_filter("filter_journal", "Journal", shared_all_data, "journal"),
+    filter_slider(
+      "filter_year", 
+      "Year published", 
+      shared_all_data, 
+      "year",
+      ticks = FALSE,
+      step = 366,
+      timeFormat = "%Y"
+    ),
+    filter_slider(
+      "filter_owe", 
+      "Elasticity range", 
+      shared_all_data, 
+      "owe_b",
+      ticks = FALSE,
+      step = 0.1,
+      round = 1
+    ),
+  ),
+  tags$hr(),
+  tbl
+)
+```
+
+```{css}
+.movies h2 {
+  font-weight: 600;
+}
+
+.movies a {
+  color: #007899;
+  text-decoration: none;
+}
+
+.movies a:hover,
+.movies a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+}
+
+.movies-tbl {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.header {
+  color: hsl(0, 0%, 45%);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.header:hover[aria-sort],
+.header[aria-sort='ascending'],
+.header[aria-sort='descending'] {
+  color: hsl(0, 0%, 5%);
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+}
+
+.movie-info-text {
+  margin-left: 0rem;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-info-details {
+  margin-top: 0.125rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: hsl(0, 0%, 40%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movie-poster {
+  width: 45px;
+  height: 68px;
+  box-shadow: 0 0 0 1px hsl(0, 0%, 95%);
+}
+
+.movie-runtime {
+  display: inline-block;
+}
+
+.movie-rating {
+  margin-right: 0.25rem;
+  padding: 0 0.25rem;
+  border: 1px solid hsl(0, 0%, 75%);
+  border-radius: 2px;
+}
+
+.user-score {
+  font-weight: 600;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-left: -32px;
+}
+
+.filter-input,
+.crosstalk-input-slider {
+  margin-top: 0.5rem;
+  margin-left: 32px;
+  flex: 1;
+  min-width: 250px;
+}
+
+.filter-input label,
+.crosstalk-input-slider label {
+  color: hsl(0, 0%, 45%);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
+
+.filter-input select,
+.filter-input input[type="search"] {
+  padding: 0 0.375rem;
+  height: 2rem;
+}
+
+.filter-input input[type="search"] {
+  /* Revert Bootstrap 5's Reboot styles, which change native search input styling */
+  -webkit-appearance: searchfield;
+  outline-offset: revert;
+  border-color: revert;
+}
+
+.package-title {
+  font-size: 0.875rem;
+}
+
+.package-detail {
+  padding: 24px;
+  box-shadow: inset 0 1px 3px #dbdbdb;
+  background: hsl(213, 20%, 99%);
+}
+
+.detail-label {
+  margin: 1.25rem 0 0.25rem;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.detail-header {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.detail-title {
+  margin-left: 1rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.detail-description {
+  font-size: 0.875rem;
+}
+```
+
