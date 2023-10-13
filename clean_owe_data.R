@@ -108,6 +108,7 @@ owe_data_refined <- owe_data_initial %>%
     owe_lb, 
     owe_ub,
     group,
+    overall,
     country,
     published,
     authors,

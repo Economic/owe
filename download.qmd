@@ -22,6 +22,7 @@ read_csv("mw_owe_database.csv") %>%
     owe_lb = "Lower bound of 95% confidence interval",
     owe_ub = "Upper bound of 95% confidence interval",
     group = "Group of workers",
+    overall = "Covers a very broad group of low-wage workers",
     country = "Country",
     published = "Published in a peer-review journal or equivalent",
     authors = "Full names of authors",
