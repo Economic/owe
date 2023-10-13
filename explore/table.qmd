@@ -56,7 +56,8 @@ row_details <- function(index) {
 tbl <- reactable(
   shared_data,
   defaultColDef = colDef(vAlign = "center", headerClass = "header"),
-  defaultPageSize = 20,
+  #defaultPageSize = 20,
+  pagination = FALSE,
   highlight = TRUE,
   onClick = "expand",
   details = row_details,

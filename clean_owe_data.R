@@ -99,7 +99,7 @@ owe_data_refined <- owe_data_initial %>%
     authors = str_replace_all(authors, ", NA", ""),
     authors = stringi::stri_replace_last_fixed(authors, ",", " and")
   ) %>% 
-  mutate(published = if_else(str_detect(study_id, "_wp$"), 1, 0)) %>% 
+  mutate(published = if_else(str_detect(study_id, "_wp$"), 0, 1)) %>% 
   select(
     study = author_id,
     journal,
