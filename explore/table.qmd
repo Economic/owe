@@ -90,7 +90,7 @@ tbl <- reactable(
     owe_b = colDef(
       name = "Elasticity",
       format = colFormat(digits = 2),
-      width = 100,
+      width = 110,
       filterable = FALSE,
       align = "center"
     ),

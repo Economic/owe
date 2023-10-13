@@ -17,49 +17,6 @@ calculate_owe <- function(.data, x) {
 # note when emp_b non zero, the above is equal to
 # emp_b^2 / wage_b^2 * (emp_se^2 / emp_b^2 + wage_se^2 / wage_b^2)
 
-# dube_original <- read_sheet(owe_sheet, "dube_original") %>% 
-#   rename_with(tolower) %>% 
-#   filter(!is.na(study)) %>% 
-#   rename(owe_b = coefficient, owe_se = `standard error`) %>% 
-#   select(study, owe_b, owe_se, country, group) %>% 
-#   mutate(source = "dube_original")
-# 
-# ns_review <- read_sheet(owe_sheet, "ns_included_excluded") %>% 
-#   rename_with(tolower) %>% 
-#   filter(admissible == "Y") %>% 
-#   mutate(study = paste(author, year)) %>% 
-#   calculate_owe(owe_new) %>% 
-#   mutate(
-#     owe_b = if_else(is.na(owe_b), owe_new_b, owe_b),
-#     owe_se = if_else(is.na(owe_se), owe_new_se, owe_se)
-#   ) %>% 
-#   select(study, owe_b, owe_se, country, group) %>% 
-#   mutate(source = "ns_review")
-# 
-# new_additions <- read_sheet(owe_sheet, "new_additions") %>% 
-#   rename_with(tolower) %>% 
-#   filter(admissible == "Y") %>% 
-#   mutate(study = paste(author, year)) %>% 
-#   calculate_owe(owe_new) %>% 
-#   mutate(
-#     owe_b = if_else(is.na(owe_b), owe_new_b, owe_b),
-#     owe_se = if_else(is.na(owe_se), owe_new_se, owe_se)
-#   ) %>% 
-#   select(study, owe_b, owe_se, country, group) %>% 
-#   mutate(source = "new_additions")
-# 
-# owe_database <- bind_rows(dube_original, ns_review, new_additions) %>% 
-#   mutate(
-#     owe_ub = owe_b + 1.96 * owe_se,
-#     owe_lb = owe_b - 1.96 * owe_se
-#   ) %>% 
-#   select(study, group, country, owe_b, owe_se, owe_lb, owe_ub) %>% 
-#   arrange(study)
-# 
-# write_csv(owe_database, "mw_owe_database.csv")
-
-
-# new data version
 # bibliography prep
 bib_data <- read_sheet(owe_sheet, "papers") %>% 
   select(
@@ -142,6 +99,7 @@ owe_data_refined <- owe_data_initial %>%
     authors = str_replace_all(authors, ", NA", ""),
     authors = stringi::stri_replace_last_fixed(authors, ",", " and")
   ) %>% 
+  mutate(published = if_else(str_detect(study_id, "_wp$"), 1, 0)) %>% 
   select(
     study = author_id,
     journal,
@@ -151,11 +109,13 @@ owe_data_refined <- owe_data_initial %>%
     owe_ub,
     group,
     country,
+    published,
     authors,
     title,
     url,
     source
-  ) 
+  ) %>% 
+  arrange(study)
 
 write_csv(owe_data_refined, "mw_owe_database.csv")
 
