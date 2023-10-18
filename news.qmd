@@ -1,0 +1,51 @@
+---
+title: "Changelog"
+---
+
+## Changelog
+
+[mw_owe_database.csv](mw_owe_database.csv)
+
+```{r}
+#| echo: false
+#| warning: false
+library(tidyverse)
+library(reactable)
+
+read_csv("mw_owe_database.csv") %>% 
+  filter(row_number() == 1) %>% 
+  transmute(
+    study = "Study name, abbreviated as author-year",
+    journal = "Journal",
+    owe_b = "Effect size",
+    owe_se = "Standard error",
+    owe_lb = "Lower bound of 95% confidence interval",
+    owe_ub = "Upper bound of 95% confidence interval",
+    group = "Group of workers",
+    overall = "Covers a very broad group of low-wage workers",
+    country = "Country",
+    published = "Published in a peer-review journal or equivalent",
+    authors = "Full names of authors",
+    title = "Title of study",
+    url = "URL of study",
+    source = "Description of how the OWE was calculated"
+  ) %>% 
+  pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
+  reactable(pagination = FALSE)
+```
+
+<br/> See the [documentation](documentation.html) for additional details.
+
+## References
+
+A complete list of the studies in a format convenient for bibliographies: [bibtex](mw_owe_studies.bib) [csv](mw_owe_studies.csv)
+
+## Citation and use of the data
+
+If you use the data or this site in your own work, please reference or cite it appropriately:
+
+::: callout-note
+## Source
+
+{{< var citation.full >}}
+:::

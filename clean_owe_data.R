@@ -68,9 +68,6 @@ bib_data %>%
   write_csv("mw_owe_studies.csv")
 
 owe_data_initial <- read_sheet(owe_sheet, "estimates") %>% 
-  # use primary, valid estimates only
-  mutate(primary = as.character(primary)) %>% 
-  filter(primary == "1") %>% 
   # calculate new owe
   calculate_owe(owe_new) %>% 
   # if owe b or se was originally missing, use new calculated owe

@@ -3,7 +3,7 @@ title: "Submit new studies or modifications"
 editor: source
 ---
 
-Do you know of a study we should add? Did we not select the most appropriate elasticities from a given paper?
+Do you know of a study we should add? Did we not select the most appropriate elasticity from a given paper?
 
 Please email [benzipperer@gmail.com](mailto:benzipperer@gmail.com?subject=Own-wage elasticity database) or file an issue at the underlying [Github repository](https://github.com/Economic/owe/issues).
 
