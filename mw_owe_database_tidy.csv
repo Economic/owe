@@ -1,0 +1,1081 @@
+study_id,name,value
+abc_2009_le,study,Addison Blackburn Cotti 2009
+abc_2009_le,journal,Labour Economics
+abc_2009_le,owe_b,0.452
+abc_2009_le,owe_se,0.436
+abc_2009_le,owe_lb,-0.402
+abc_2009_le,owe_ub,1.307
+abc_2009_le,group,Retail
+abc_2009_le,overall,0
+abc_2009_le,country,US
+abc_2009_le,published,1
+abc_2009_le,authors,"John T. Addison, McKinley L. Blackburn and Chad D. Cotti"
+abc_2009_le,title,Do Minimum Wages Raise Employment? Evidence from the U.S. Retail-trade Sector
+abc_2009_le,url,https://doi.org/10.1016/j.labeco.2008.12.007
+abc_2009_le,source,"Weighted average of wage and employment elasticities for three sectors with statistically positive wage effects: convenience stores; specialty food stores; beer, wine, and liquor stores. Elasticities from Table 4 (estimates with county-level trends). Weights are mean employment counts from Table 1."
+abc_2009_le,data_version,0.4.0
+abc_2012_bjir,study,Addison Blackburn Cotti 2012
+abc_2012_bjir,journal,British Journal of Industrial Relations
+abc_2012_bjir,owe_b,-0.035
+abc_2012_bjir,owe_se,0.193
+abc_2012_bjir,owe_lb,-0.414
+abc_2012_bjir,owe_ub,0.343
+abc_2012_bjir,group,Restaurants
+abc_2012_bjir,overall,0
+abc_2012_bjir,country,US
+abc_2012_bjir,published,1
+abc_2012_bjir,authors,"John T. Addison, McKinley L. Blackburn and Chad D. Cotti"
+abc_2012_bjir,title,The Effect of Minimum Wages on Labour Market Outcomes: County-Level Estimates from the Restaurant-and-Bar Sector
+abc_2012_bjir,url,https://doi.org/10.1111/j.1467-8543.2010.00819.x
+abc_2012_bjir,source,"Wage and employment elasticities from Table 3 (estimates with county-level trends). Authors write that ""specifications with trends are to be preferred"" (p.426)."
+abc_2012_bjir,data_version,0.4.0
+abc_2013_le,study,Addison Blackburn Cotti 2013
+abc_2013_le,journal,Labour Economics
+abc_2013_le,owe_b,-0.084
+abc_2013_le,owe_se,0.122
+abc_2013_le,owe_lb,-0.324
+abc_2013_le,owe_ub,0.156
+abc_2013_le,group,Restaurants
+abc_2013_le,overall,0
+abc_2013_le,country,US
+abc_2013_le,published,1
+abc_2013_le,authors,"John T. Addison, McKinley L. Blackburn and Chad D. Cotti"
+abc_2013_le,title,Minimum Wage Increases in a Recessionary Environment
+abc_2013_le,url,https://doi.org/10.1016/j.labeco.2013.02.004
+abc_2013_le,source,"Earnings and employment elasticities from Table 2, row 1 (food and drinking places), ""county trends"" specifications. Authors prefer this specification over ""basic"" and ""border county"": ""our preference is to direclty model county-specific trends, and with this approach the estimates are quite precise"" (p.35). No reported wage effects for analysis using CPS or ACS, or for unemployment heterogeneity analysis."
+abc_2013_le,data_version,0.4.0
+adr_2019_wp,study,Aitken Dolton Riley 2019
+adr_2019_wp,journal,NIESR Discussion Paper
+adr_2019_wp,owe_b,-0.254
+adr_2019_wp,owe_se,0.223
+adr_2019_wp,owe_lb,-0.69
+adr_2019_wp,owe_ub,0.182
+adr_2019_wp,group,Low wage incumbents
+adr_2019_wp,overall,1
+adr_2019_wp,country,UK
+adr_2019_wp,published,0
+adr_2019_wp,authors,"Andrew Aitken, Peter Dolton and Rebecca Riley"
+adr_2019_wp,title,"The Impact of the Introduction of the National Living Wage on Employment, Hours, and Wages"
+adr_2019_wp,url,https://www.niesr.ac.uk/wp-content/uploads/2021/10/DP501.pdf
+adr_2019_wp,source,"Percent wage change from Table 5, row 1, specification 1. To calculate the percent employment change, we take the percentage point employment change from Table 7, row 1, specification 1 and divide it by the 0.67 treated group mean in 2015. These are the ""2015 as treatment year"" estimates, estimating the effect of the 2016 increase, as opposed to the ""2016 as treatment year"" estimates, which focus on the 2017 uprating."
+adr_2019_wp,data_version,0.4.0
+adr_2011_ir,study,Allegretto Dube Reich 2011
+adr_2011_ir,journal,Industrial Relations
+adr_2011_ir,owe_b,0.315
+adr_2011_ir,owe_se,0.402
+adr_2011_ir,owe_lb,-0.472
+adr_2011_ir,owe_ub,1.103
+adr_2011_ir,group,Teens
+adr_2011_ir,overall,0
+adr_2011_ir,country,US
+adr_2011_ir,published,1
+adr_2011_ir,authors,"Sylvia A. Allegretto, Arindrajit Dube and Michael Reich"
+adr_2011_ir,title,Do Minimum Wages Really Reduce Teen Employment? Accounting for Heterogeneity and Selectivity in State Panel Data
+adr_2011_ir,url,https://doi.org/10.1111/j.1468-232X.2011.00634.x
+adr_2011_ir,source,"Wage and employment elasticities from Table 3, specification 4, row ""All teens"". Employment elasticity standard error calculated by scaling standard error of semi-elasticity by ratio of elasticity to semi-elasticity."
+adr_2011_ir,data_version,0.4.0
+adrz_2017_ilrr,study,Allegretto Dube Reich Zipperer 2017
+adrz_2017_ilrr,journal,ILR Review
+adrz_2017_ilrr,owe_b,0.043
+adrz_2017_ilrr,owe_se,0.188
+adrz_2017_ilrr,owe_lb,-0.325
+adrz_2017_ilrr,owe_ub,0.411
+adrz_2017_ilrr,group,Teens
+adrz_2017_ilrr,overall,0
+adrz_2017_ilrr,country,US
+adrz_2017_ilrr,published,1
+adrz_2017_ilrr,authors,"Sylvia Allegretto, Arindrajit Dube, Michael Reich and Ben Zipperer"
+adrz_2017_ilrr,title,Credible Research Designs for Minimum Wage Studies
+adrz_2017_ilrr,url,https://doi.org/10.1177/0019793917692788
+adrz_2017_ilrr,source,"Teen wage and employment elasticities from Table 1, specification 2 (linear trends), row ""Division-period FE""."
+adrz_2017_ilrr,data_version,0.4.0
+an_2015_ir,study,Allegretto and Nadler 2015
+an_2015_ir,journal,Industrial Relations
+an_2015_ir,owe_b,-0.024
+an_2015_ir,owe_se,0.662
+an_2015_ir,owe_lb,-1.322
+an_2015_ir,owe_ub,1.275
+an_2015_ir,group,Restaurants
+an_2015_ir,overall,0
+an_2015_ir,country,US
+an_2015_ir,published,1
+an_2015_ir,authors,Sylvia Allegretto and Carl Nadler
+an_2015_ir,title,Tipped Wage Effects on Earnings and Employment in Full-Service Restaurants
+an_2015_ir,url,https://doi.org/10.1111/irel.12108
+an_2015_ir,source,"Wage and employment elasticities from Table 2, Panel A (Full service Restaurants), specification 4 (Division-period effects and state-specific time trends), adding the tipped and headline minimum effects together. Standard errors assume no covariance between the tipped and headline minimum wage effect estimates."
+an_2015_ir,data_version,0.4.0
+ahvmtw_2023_restud,study,Azar Huet-Vaughn Marinescu Taska Wachter 2023
+ahvmtw_2023_restud,journal,The Review of Economic Studies
+ahvmtw_2023_restud,owe_b,0.088
+ahvmtw_2023_restud,owe_se,0.925
+ahvmtw_2023_restud,owe_lb,-1.725
+ahvmtw_2023_restud,owe_ub,1.9
+ahvmtw_2023_restud,group,Retail
+ahvmtw_2023_restud,overall,0
+ahvmtw_2023_restud,country,US
+ahvmtw_2023_restud,published,1
+ahvmtw_2023_restud,authors,"José Azar, Emiliano Huet-Vaughn, Ioana Elena Marinescu, Bledi Taska and Till Von Wachter"
+ahvmtw_2023_restud,title,Minimum Wage Employment Effects and Labor Market Concentration
+ahvmtw_2023_restud,url,https://doi.org/10.1093/restud/rdad091
+ahvmtw_2023_restud,source,"Weighted average of elasticities and their variances for the three mid-HHI occupation OWEs presented in Figure 7 (Stock Clerks, Retail Sales, and Cashiers), where the weights are the sample sizes from Table 3. Authors emailed the three OWEs coefficients and standard errors used in Figure 7."
+ahvmtw_2023_restud,data_version,0.4.0
+bds_2021_jole,study,Bailey DiNardo Stuart 2021
+bds_2021_jole,journal,Journal of Labor Economics
+bds_2021_jole,owe_b,-0.135
+bds_2021_jole,owe_se,0.077
+bds_2021_jole,owe_lb,-0.286
+bds_2021_jole,owe_ub,0.016
+bds_2021_jole,group,"Men, Ages 16-64"
+bds_2021_jole,overall,1
+bds_2021_jole,country,US
+bds_2021_jole,published,1
+bds_2021_jole,authors,"Martha J. Bailey, John DiNardo and Bryan A. Stuart"
+bds_2021_jole,title,The Economic Impact of a High National Minimum Wage: Evidence from the 1966 Fair Labor Standards Act
+bds_2021_jole,url,https://doi.org/10.1086/712554
+bds_2021_jole,source,"Own-wage elasticity reported in Table 3, panel A (Employed during year), specification 3. Authors use specification 3 in Figure 6."
+bds_2021_jole,data_version,0.4.0
+bc_2020_ilrr,study,Borgshulte and Cho 2020
+bc_2020_ilrr,journal,ILR Review
+bc_2020_ilrr,owe_b,0.419
+bc_2020_ilrr,owe_se,0.301
+bc_2020_ilrr,owe_lb,-0.171
+bc_2020_ilrr,owe_ub,1.008
+bc_2020_ilrr,group,Ages 62-70
+bc_2020_ilrr,overall,0
+bc_2020_ilrr,country,US
+bc_2020_ilrr,published,1
+bc_2020_ilrr,authors,Mark Borgshulte and Heepyung Cho
+bc_2020_ilrr,title,Minimum Wages and Retirement
+bc_2020_ilrr,url,https://doi.org/10.1177/0019793919845861
+bc_2020_ilrr,source,"The statistically significant earnings elasticity estimate is from Table 3, specification 5, Panel E. The analogous employment elasticity estimate is Table 3, specification 5, panel A."
+bc_2020_ilrr,data_version,0.4.0
+bg_2020_ilrr,study,Bossler and Gerner 2020
+bg_2020_ilrr,journal,ILR Review
+bg_2020_ilrr,owe_b,-0.278
+bg_2020_ilrr,owe_se,0.212
+bg_2020_ilrr,owe_lb,-0.694
+bg_2020_ilrr,owe_ub,0.138
+bg_2020_ilrr,group,Low-wage establishments
+bg_2020_ilrr,overall,1
+bg_2020_ilrr,country,Germany
+bg_2020_ilrr,published,1
+bg_2020_ilrr,authors,Mario Bossler and Hans-Dieter Gerner
+bg_2020_ilrr,title,Employment Effects of the new German Minimum Wage: Evidence from Establishment-level Microdata
+bg_2020_ilrr,url,https://doi.org/10.1177/0019793919889635
+bg_2020_ilrr,source,"Own-wage elasticity reported in Table 2, specification 3 (Derived labor demand elasticity), Panel B (Intensive treatment definition). Authors emailed to select this specification."
+bg_2020_ilrr,data_version,0.4.0
+bh_2023_wp,study,Brown and Herbst 2023
+bh_2023_wp,journal,IZA Discussion Paper
+bh_2023_wp,owe_b,0.841
+bh_2023_wp,owe_se,0.855
+bh_2023_wp,owe_lb,-0.834
+bh_2023_wp,owe_ub,2.516
+bh_2023_wp,group,Child care workers
+bh_2023_wp,overall,0
+bh_2023_wp,country,US
+bh_2023_wp,published,0
+bh_2023_wp,authors,Jessica H. Brown and Chris M. Herbst
+bh_2023_wp,title,"Minimum Wage, Worker Quality, and Consumer Well-Being: Evidence from the Child Care Market"
+bh_2023_wp,url,https://docs.iza.org/dp16257.pdf
+bh_2023_wp,source,Earnings and employment elasticities reported in specification 1 (All) of Table 1.
+bh_2023_wp,data_version,0.4.0
+bcw_2000_jole,study,Burkhauser Couch Wittenburg 2000
+bcw_2000_jole,journal,Journal of Labor Economics
+bcw_2000_jole,owe_b,-0.604
+bcw_2000_jole,owe_se,0.184
+bcw_2000_jole,owe_lb,-0.965
+bcw_2000_jole,owe_ub,-0.242
+bcw_2000_jole,group,Teens
+bcw_2000_jole,overall,0
+bcw_2000_jole,country,US
+bcw_2000_jole,published,1
+bcw_2000_jole,authors,"Richard V. Burkhauser, Kenneth A. Couch and David C. Wittenburg"
+bcw_2000_jole,title,A Reassessment of the New Economics of the Minimum Wage Literature with Monthly Data from the Current Population Survey
+bcw_2000_jole,url,https://doi.org/10.1086/209972
+bcw_2000_jole,source,"Wage elasticity from Table 2, specification 1 (1979-1992, seasonal, state, and year effects). Employment elasticity from the ""controls for state-level autocorrelation and heteroskedasticity correction"" elasticity reported in Table 7, specification Table 3 (4) (1979-1992, seasonal, state, and year effects), where the semi-elasticity standard error is scaled by the ratio of the elasticity to semi-elasticity. Authors prefer models without year effects but our review is restricted to DD-style estimators as opposed to repeated time series, so we chose the year fixed effect estimate in paper that had statistically significant wage effects and a similar employment effect specification that seem to be preferred by author."
+bcw_2000_jole,data_version,0.4.0
+bd_2023_lpc,study,Butcher and Dickens 2023
+bd_2023_lpc,journal,Low Pay Commission
+bd_2023_lpc,owe_b,0.476
+bd_2023_lpc,owe_se,0.395
+bd_2023_lpc,owe_lb,-0.298
+bd_2023_lpc,owe_ub,1.25
+bd_2023_lpc,group,All workers
+bd_2023_lpc,overall,1
+bd_2023_lpc,country,UK
+bd_2023_lpc,published,1
+bd_2023_lpc,authors,Tim Butcher and Richard Dickens
+bd_2023_lpc,title,"Impact of the National Living Wage using Geographic, Age and Gender Wage Variation"
+bd_2023_lpc,url,https://www.gov.uk/government/publications/national-living-wage-impacts-by-geography-age-and-gender
+bd_2023_lpc,source,"Wage percent change from Table 3, column 4. Employment percent change is the percentage point change in employment from Table 4, column 4, divided by the overall employment rate of 0.65 (see footnote 65)."
+bd_2023_lpc,data_version,0.4.0
+cgr_2006_ir,study,Campolieti Gunderson Riddell 2006
+cgr_2006_ir,journal,Industrial Relations
+cgr_2006_ir,owe_b,-0.548
+cgr_2006_ir,owe_se,0.359
+cgr_2006_ir,owe_lb,-1.252
+cgr_2006_ir,owe_ub,0.156
+cgr_2006_ir,group,Ages 16-24
+cgr_2006_ir,overall,0
+cgr_2006_ir,country,Canada
+cgr_2006_ir,published,1
+cgr_2006_ir,authors,"Michele Campolieti, Morley Gunderson and Chris Riddell"
+cgr_2006_ir,title,Minimum Wage Impacts from a Prespecified Research Design: Canada 1981-1997
+cgr_2006_ir,url,https://doi.org/10.1111/j.1468-232X.2006.00424.x
+cgr_2006_ir,source,"Own-wage elasticity reported in Table 4, panel ""Including prime-age skilled employment rate"", specification ""Youths 16-24 combined""."
+cgr_2006_ir,data_version,0.4.0
+card_1992_ilrr_ca,study,Card 1992a
+card_1992_ilrr_ca,journal,ILR Review
+card_1992_ilrr_ca,owe_b,1.333
+card_1992_ilrr_ca,owe_se,0.609
+card_1992_ilrr_ca,owe_lb,0.14
+card_1992_ilrr_ca,owe_ub,2.527
+card_1992_ilrr_ca,group,Teens
+card_1992_ilrr_ca,overall,0
+card_1992_ilrr_ca,country,US
+card_1992_ilrr_ca,published,1
+card_1992_ilrr_ca,authors,David Card
+card_1992_ilrr_ca,title,"Do Minimum Wages Reduce Employment? A Case Study of California, 1987-89"
+card_1992_ilrr_ca,url,https://doi.org/10.1177/001979399204600104
+card_1992_ilrr_ca,source,"Estimates from ""Difference in Differences"" column of Table 4. Wage elasticity from row ""Mean Log Wage"". Employment semi-elasticity and standard error from row ""Employment rate (%)"" are divided by 42, the mean employment rate reported in the column California Teens, 1987."
+card_1992_ilrr_ca,data_version,0.4.0
+card_1992_ilrr_regional,study,Card 1992b
+card_1992_ilrr_regional,journal,ILR Review
+card_1992_ilrr_regional,owe_b,0.352
+card_1992_ilrr_regional,owe_se,0.616
+card_1992_ilrr_regional,owe_lb,-0.855
+card_1992_ilrr_regional,owe_ub,1.559
+card_1992_ilrr_regional,group,Teens
+card_1992_ilrr_regional,overall,0
+card_1992_ilrr_regional,country,US
+card_1992_ilrr_regional,published,1
+card_1992_ilrr_regional,authors,David Card
+card_1992_ilrr_regional,title,Using Regional Variation in Wages to Measure the Effects of the Federal Minimum Wage
+card_1992_ilrr_regional,url,https://doi.org/10.1177/001979399204600103
+card_1992_ilrr_regional,source,"Own-wage semi-elasticity reported in Table 4, specification 5, scaled by the mean of teen employment rates in 1989 across all groups (0.455)."
+card_1992_ilrr_regional,data_version,0.4.0
+ckk_1994_ilrr,study,Card Katz Krueger 1994
+ckk_1994_ilrr,journal,ILR Review
+ckk_1994_ilrr,owe_b,-0.043
+ckk_1994_ilrr,owe_se,0.15
+ckk_1994_ilrr,owe_lb,-0.337
+ckk_1994_ilrr,owe_ub,0.252
+ckk_1994_ilrr,group,Teens
+ckk_1994_ilrr,overall,0
+ckk_1994_ilrr,country,US
+ckk_1994_ilrr,published,1
+ckk_1994_ilrr,authors,"David Card, Lawrence F. Katz and Alan B. Krueger"
+ckk_1994_ilrr,title,"Comment on David Neumark and William Wascher, ""Employment Effects of Minimum and Subminimum Wages: Panel Data on State Minimum Wage Laws"""
+ckk_1994_ilrr,url,https://doi.org/10.1177/001979399404700308
+ckk_1994_ilrr,source,"Own-wage semi-elasticity reported in Table 2, row 5, specification 2, divided by unweighted teen epop mean in footnote b (0.466)."
+ckk_1994_ilrr,data_version,0.4.0
+cdlzm_2022_jole,study,Cengiz Dube Lindner Zentler-Munro 2022
+cdlzm_2022_jole,journal,Journal of Labor Economics
+cdlzm_2022_jole,owe_b,0.114
+cdlzm_2022_jole,owe_se,0.216
+cdlzm_2022_jole,owe_lb,-0.309
+cdlzm_2022_jole,owe_ub,0.537
+cdlzm_2022_jole,group,High recall
+cdlzm_2022_jole,overall,1
+cdlzm_2022_jole,country,US
+cdlzm_2022_jole,published,1
+cdlzm_2022_jole,authors,"Doruk Cengiz, Arindrajit Dube, Attila Lindner and David Zentler-Munro"
+cdlzm_2022_jole,title,Seeing beyond the Trees: Using Machine Learning to Estimate the Impact of Minimum Wages on Labor Market Outcomes
+cdlzm_2022_jole,url,https://doi.org/10.1086/718497
+cdlzm_2022_jole,source,"Own-wage elasticity reported in Table 2, specification 3 , row ""Employment elasticity with respect to wage"" (High recall, Boosted tree)"
+cdlzm_2022_jole,data_version,0.4.0
+cdlz_2019_qje,study,Cengiz Dube Lindner Zipperer 2019
+cdlz_2019_qje,journal,Quarterly Journal of Economics
+cdlz_2019_qje,owe_b,0.411
+cdlz_2019_qje,owe_se,0.43
+cdlz_2019_qje,owe_lb,-0.432
+cdlz_2019_qje,owe_ub,1.254
+cdlz_2019_qje,group,Low wage jobs
+cdlz_2019_qje,overall,1
+cdlz_2019_qje,country,US
+cdlz_2019_qje,published,1
+cdlz_2019_qje,authors,"Doruk Cengiz, Arindrajit Dube, Attila Lindner and Ben Zipperer"
+cdlz_2019_qje,title,The Effect of Minimum Wages on Low-Wage Jobs
+cdlz_2019_qje,url,https://doi.org/10.1093/qje/qjz014
+cdlz_2019_qje,source,"Own-wage elasticity reported in Table 1, specification 1, row ""Emp. elasticity w.r.t affected wage"""
+cdlz_2019_qje,data_version,0.4.0
+cs_2021_wp,study,Clemens and Strain 2021
+cs_2021_wp,journal,NBER Working Paper
+cs_2021_wp,owe_b,-0.245
+cs_2021_wp,owe_se,NA
+cs_2021_wp,owe_lb,NA
+cs_2021_wp,owe_ub,NA
+cs_2021_wp,group,"Ages 16-25, Less than High School, Ages 16-21"
+cs_2021_wp,overall,0
+cs_2021_wp,country,US
+cs_2021_wp,published,0
+cs_2021_wp,authors,Jeffrey Clemens and Michael R. Strain
+cs_2021_wp,title,The Heterogeneous Effects of Large and Small Minimum Wage Changes: Evidence over the Short and Medium Run Using a Pre-Analysis Plan
+cs_2021_wp,url,https://www.nber.org/system/files/working_papers/w29264/w29264.pdf
+cs_2021_wp,source,"Authors suggested simple average of own-wage elasticities reported in Table 10, specifications 1 (Low-Skill, All Changers) and 5 (Young, All Changers)."
+cs_2021_wp,data_version,0.4.0
+cdp_2022_jpe,study,Coviello Deserranno Persico 2022
+cdp_2022_jpe,journal,Journal of Political Economy
+cdp_2022_jpe,owe_b,-0.219
+cdp_2022_jpe,owe_se,NA
+cdp_2022_jpe,owe_lb,NA
+cdp_2022_jpe,owe_ub,NA
+cdp_2022_jpe,group,Retail
+cdp_2022_jpe,overall,0
+cdp_2022_jpe,country,US
+cdp_2022_jpe,published,1
+cdp_2022_jpe,authors,"Decio Coviello, Erika Deserranno and Nicola Persico"
+cdp_2022_jpe,title,Minimum Wage and Individual Worker Productivity: Evidence from a Large US Retailer
+cdp_2022_jpe,url,https://doi.org/10.1086/720397
+cdp_2022_jpe,source,Own-wage elasticity reported on p. 2352 and footnote 43.
+cdp_2022_jpe,data_version,0.4.0
+cf_1996_jhr,study,Currie and Fallick 1996
+cf_1996_jhr,journal,The Journal of Human Resources
+cf_1996_jhr,owe_b,-0.891
+cf_1996_jhr,owe_se,0.327
+cf_1996_jhr,owe_lb,-1.532
+cf_1996_jhr,owe_ub,-0.249
+cf_1996_jhr,group,Young incumbents
+cf_1996_jhr,overall,0
+cf_1996_jhr,country,US
+cf_1996_jhr,published,1
+cf_1996_jhr,authors,Janet Currie and Bruce C. Fallick
+cf_1996_jhr,title,The Minimum Wage and the Employment of Youth Evidence from the NLSY
+cf_1996_jhr,url,https://doi.org/10.2307/146069
+cf_1996_jhr,source,"Employment elasticity uses semi-elasticity from table 2, specification 4 (Fixed Effects), divided by 0.97, the proportion employed in next year, 1987, from Table 1. Wage elasticity from Table 4, Panel B, specification 2 (Fixed Effects)."
+cf_1996_jhr,data_version,0.4.0
+dm_2021_qje,study,Derenoncourt and Montialoux 2021
+dm_2021_qje,journal,Quarterly Journal of Economics
+dm_2021_qje,owe_b,0.06
+dm_2021_qje,owe_se,0.16
+dm_2021_qje,owe_lb,-0.254
+dm_2021_qje,owe_ub,0.374
+dm_2021_qje,group,Overall
+dm_2021_qje,overall,1
+dm_2021_qje,country,US
+dm_2021_qje,published,1
+dm_2021_qje,authors,Ellora Derenoncourt and Claire Montialoux
+dm_2021_qje,title,Minimum Wages and Racial Inequality
+dm_2021_qje,url,https://doi.org/10.1093/qje/qjaa031
+dm_2021_qje,source,"Own-wage elasticity reported in Table 6, first column (All) of ""Baseline cross-state design"" specification, row ""Emp. vs (unemp/nilf) elast."". This row is referred to in authors' comparison of own-wage elasticities across specifications in Section V.A.5."
+dm_2021_qje,data_version,0.4.0
+drw_2015_economica,study,Dickens Riley Wilkinson 2015
+drw_2015_economica,journal,Economica
+drw_2015_economica,owe_b,-0.596
+drw_2015_economica,owe_se,0.482
+drw_2015_economica,owe_lb,-1.54
+drw_2015_economica,owe_ub,0.348
+drw_2015_economica,group,"Female, full-time; Males, full-time, Females, part-time"
+drw_2015_economica,overall,0
+drw_2015_economica,country,UK
+drw_2015_economica,published,1
+drw_2015_economica,authors,"Richard Dickens, Rebecca Riley and David Wilkinson"
+drw_2015_economica,title,A Re-examination of the Impact of the UK National Minimum Wage on Employmen
+drw_2015_economica,url,https://doi.org/10.1111/ecca.12158
+drw_2015_economica,source,"Weighted average of wage and employment elasticities across three groups: female full-time, female part-time, and male full-time. Weights from Table 2 pre-treatment observation counts. Wage elasticities from Table 3, line 1998. Employment semi-elasticity from Table 5, line 1998, scaled by pre-period treatment group-specific employment inferred from Figure 2."
+drw_2015_economica,data_version,0.4.0
+dglr_2020_jhe,study,Dow Godøy Lowenstein Reich 2020
+dglr_2020_jhe,journal,Journal of Health Economics
+dglr_2020_jhe,owe_b,0.414
+dglr_2020_jhe,owe_se,0.465
+dglr_2020_jhe,owe_lb,-0.497
+dglr_2020_jhe,owe_ub,1.325
+dglr_2020_jhe,group,"Women, High school or less"
+dglr_2020_jhe,overall,0
+dglr_2020_jhe,country,US
+dglr_2020_jhe,published,1
+dglr_2020_jhe,authors,"William H. Dow, Anna Godøy, Christopher A. Lowenstein and Michael Reich"
+dglr_2020_jhe,title,Can Economic Policies Reduce Deaths of Despair?
+dglr_2020_jhe,url,https://doi.org/10.1016/j.jhealeco.2020.102372
+dglr_2020_jhe,source,Table A1
+dglr_2020_jhe,data_version,0.4.0
+dmvr_2011_aeja,study,Draca Machin Reenan 2011
+dmvr_2011_aeja,journal,American Economic Journal: Applied Economics
+dmvr_2011_aeja,owe_b,0.484
+dmvr_2011_aeja,owe_se,1.401
+dmvr_2011_aeja,owe_lb,-2.262
+dmvr_2011_aeja,owe_ub,3.23
+dmvr_2011_aeja,group,Overall
+dmvr_2011_aeja,overall,1
+dmvr_2011_aeja,country,UK
+dmvr_2011_aeja,published,1
+dmvr_2011_aeja,authors,"Mirko Draca, Stephen Machin and John Van Reenan"
+dmvr_2011_aeja,title,Minimum Wages and Firm Profitability
+dmvr_2011_aeja,url,https://doi.org/10.1257/app.3.1.129
+dmvr_2011_aeja,source,Simple average from Table 5 of the high-market power and low-market power wage (panel A) and employment elasticities (panel C).
+dmvr_2011_aeja,data_version,0.4.0
+dube_2019_hmt_us,study,Dube 2019
+dube_2019_hmt_us,journal,Her Majesty's Treasury
+dube_2019_hmt_us,owe_b,0.32
+dube_2019_hmt_us,owe_se,0.37
+dube_2019_hmt_us,owe_lb,-0.405
+dube_2019_hmt_us,owe_ub,1.045
+dube_2019_hmt_us,group,Overall
+dube_2019_hmt_us,overall,1
+dube_2019_hmt_us,country,US
+dube_2019_hmt_us,published,1
+dube_2019_hmt_us,authors,Arindrajit Dube
+dube_2019_hmt_us,title,Impacts of minimum wages: review of the international evidence
+dube_2019_hmt_us,url,https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/844350/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf
+dube_2019_hmt_us,source,Own-wage elasticity reported in text at top of page 33.
+dube_2019_hmt_us,data_version,0.4.0
+dlr_2010_restat,study,Dube Lester Reich 2010
+dlr_2010_restat,journal,The Review of Economics and Statistics
+dlr_2010_restat,owe_b,0.079
+dlr_2010_restat,owe_se,0.286
+dlr_2010_restat,owe_lb,-0.482
+dlr_2010_restat,owe_ub,0.64
+dlr_2010_restat,group,Restaurants
+dlr_2010_restat,overall,0
+dlr_2010_restat,country,US
+dlr_2010_restat,published,1
+dlr_2010_restat,authors,"Arindrajit Dube, T. William Lester and Michael Reich"
+dlr_2010_restat,title,Minimum Wage Effects Across State Borders: Estimates Using Contiguous Counties
+dlr_2010_restat,url,https://doi.org/10.1162/REST_a_00039
+dlr_2010_restat,source,"Own-wage elasticity reported in Table 2, specification 6, row ""Labor demand elasticity""."
+dlr_2010_restat,data_version,0.4.0
+dlr_2016_jole,study,Dube Lester Reich 2016
+dlr_2016_jole,journal,Journal of Labor Economics
+dlr_2016_jole,owe_b,-0.266
+dlr_2016_jole,owe_se,0.383
+dlr_2016_jole,owe_lb,-1.016
+dlr_2016_jole,owe_ub,0.484
+dlr_2016_jole,group,Teens
+dlr_2016_jole,overall,0
+dlr_2016_jole,country,US
+dlr_2016_jole,published,1
+dlr_2016_jole,authors,"Arindrajit Dube, T. William Lester and Michael Reich"
+dlr_2016_jole,title,"Minimum Wage Shocks, Employment Flows, and Labor Market Frictions"
+dlr_2016_jole,url,https://doi.org/10.1086/685449
+dlr_2016_jole,source,"Wage and employment elasticities from Table 3, specification 2. Authors communicated that teens is the preferred group."
+dlr_2016_jole,data_version,0.4.0
+dnr_2007_ilrr,study,Dube Naidu Reich 2007
+dnr_2007_ilrr,journal,ILR Review
+dnr_2007_ilrr,owe_b,0.296
+dnr_2007_ilrr,owe_se,0.622
+dnr_2007_ilrr,owe_lb,-0.924
+dnr_2007_ilrr,owe_ub,1.516
+dnr_2007_ilrr,group,Restaurants
+dnr_2007_ilrr,overall,0
+dnr_2007_ilrr,country,US
+dnr_2007_ilrr,published,1
+dnr_2007_ilrr,authors,"Arindrajit Dube, Suresh Naidu and Michael Reich"
+dnr_2007_ilrr,title,The Economic Effects of a Citywide Minimum Wage
+dnr_2007_ilrr,url,https://doi.org/10.1177/001979390706000404
+dnr_2007_ilrr,source,"Employment log change from Table 7, panel ""Ln(employment)"", specification 1 (""Full sample""). Wage effect from Table 2, specification 1 (""Full sample""), divided by 10.22, the Table 1, Wave 1, Treatment Group, Average Wage."
+dnr_2007_ilrr,data_version,0.4.0
+dl_2021_jep,study,Dube and Lindner 2021
+dl_2021_jep,journal,Journal of Economic Perspectives
+dl_2021_jep,owe_b,-0.12
+dl_2021_jep,owe_se,0.38
+dl_2021_jep,owe_lb,-0.865
+dl_2021_jep,owe_ub,0.625
+dl_2021_jep,group,Low wage jobs
+dl_2021_jep,overall,1
+dl_2021_jep,country,US
+dl_2021_jep,published,1
+dl_2021_jep,authors,Arindrajit Dube and Attila Lindner
+dl_2021_jep,title,City Limits: What Do Local-Area Minimum Wages Do?
+dl_2021_jep,url,https://doi.org/10.1257/jep.35.1.27
+dl_2021_jep,source,"Own-wage elasticity reported in Figure 3, Panel B."
+dl_2021_jep,data_version,0.4.0
+dz_2015_wp,study,Dube and Zipperer 2015
+dz_2015_wp,journal,IZA Discussion Paper
+dz_2015_wp,owe_b,-0.135
+dz_2015_wp,owe_se,0.249
+dz_2015_wp,owe_lb,-0.622
+dz_2015_wp,owe_ub,0.352
+dz_2015_wp,group,Teens
+dz_2015_wp,overall,0
+dz_2015_wp,country,US
+dz_2015_wp,published,0
+dz_2015_wp,authors,Arindrajit Dube and Ben Zipperer
+dz_2015_wp,title,Pooling Multiple Case Studies Using Synthetic Controls: An Application to Minimum Wage Policies
+dz_2015_wp,url,https://docs.iza.org/dp8944.pdf
+dz_2015_wp,source,"Employment and wage elasticities from Table 6, Hodges-Lehmann estimate, with standard errors interpolated from the confidence interval."
+dz_2015_wp,data_version,0.4.0
+dlsub_2022_qje,study,Dustmann Lindner Schönberg Umkehrer Berge 2022
+dlsub_2022_qje,journal,Quarterly Journal of Economics
+dlsub_2022_qje,owe_b,0.03
+dlsub_2022_qje,owe_se,0.12
+dlsub_2022_qje,owe_lb,-0.205
+dlsub_2022_qje,owe_ub,0.265
+dlsub_2022_qje,group,"Overall, ages 18-60"
+dlsub_2022_qje,overall,1
+dlsub_2022_qje,country,Germany
+dlsub_2022_qje,published,1
+dlsub_2022_qje,authors,"Christian Dustmann, Attila Lindner, Uta Schönberg, Matthias Umkehrer and Philipp vom Berge"
+dlsub_2022_qje,title,Reallocation Effects of the Minimum Wage
+dlsub_2022_qje,url,https://doi.org/10.1093/qje/qjab028
+dlsub_2022_qje,source,Own-wage elasticity reported in footnote 27 on page 316.
+dlsub_2022_qje,data_version,0.4.0
+em_2014_sej,study,Even and Macpherson 2014
+em_2014_sej,journal,Southern Economic Journal
+em_2014_sej,owe_b,-2.267
+em_2014_sej,owe_se,0.868
+em_2014_sej,owe_lb,-3.967
+em_2014_sej,owe_ub,-0.566
+em_2014_sej,group,Restaurants
+em_2014_sej,overall,0
+em_2014_sej,country,US
+em_2014_sej,published,1
+em_2014_sej,authors,William E. Even and David A. Macpherson
+em_2014_sej,title,The Effect of the Tipped Minimum Wage on Employees in the U.S. Restaurant Industry
+em_2014_sej,url,https://doi.org/10.4284/0038-4038-2012.283
+em_2014_sej,source,"Wage elasticity from Table 1 and employment elasticity from Table 2, using specification 1 (Full service, 1990:1 to 2011:4, no state-specific time trends), row ""Log of Tipped Minimum Wage"".  Standard errors calculated from t-statistics assuming normal distribution. Used tipped minimum wage only because that is the focus of the paper."
+em_2014_sej,data_version,0.4.0
+gs_2016_ilrr,study,Gittings and Schmutte 2016
+gs_2016_ilrr,journal,ILR Review
+gs_2016_ilrr,owe_b,0
+gs_2016_ilrr,owe_se,0.75
+gs_2016_ilrr,owe_lb,-1.47
+gs_2016_ilrr,owe_ub,1.47
+gs_2016_ilrr,group,Teens
+gs_2016_ilrr,overall,0
+gs_2016_ilrr,country,US
+gs_2016_ilrr,published,1
+gs_2016_ilrr,authors,R. Kaj Gittings and Ian M. Schmutte
+gs_2016_ilrr,title,"Getting Handcuffs on an Octopus: Minimum Wages, Employment, and Turnover"
+gs_2016_ilrr,url,https://doi.org/10.1177/0019793915623519
+gs_2016_ilrr,source,"Earnings elasticity from Table 4, Panel A, specification ""Log (earnings)"". Employment semi-elasticity from Table 4, Panel A, specification ""Employment / Population"", divided by 0.28, the mean QWI Teen end-of-quarter EPOP from Table 1."
+gs_2016_ilrr,data_version,0.4.0
+giuliano_2013_jole,study,Giuliano 2013
+giuliano_2013_jole,journal,Journal of Labor Economics
+giuliano_2013_jole,owe_b,-0.59
+giuliano_2013_jole,owe_se,0.613
+giuliano_2013_jole,owe_lb,-1.791
+giuliano_2013_jole,owe_ub,0.611
+giuliano_2013_jole,group,"Teens, Retail"
+giuliano_2013_jole,overall,0
+giuliano_2013_jole,country,US
+giuliano_2013_jole,published,1
+giuliano_2013_jole,authors,Laura Giuliano
+giuliano_2013_jole,title,"Minimum Wage Effects on Employment, Substitution, and the Teenage Labor Supply: Evidence from Personnel Data"
+giuliano_2013_jole,url,https://doi.org/10.1086/666921
+giuliano_2013_jole,source,"Own-wage elasticity reported in Table 4, column 6. Standard error calculated using our usual approximation, dividing Table 4 employment effect by Table 1, All stores FTE mean."
+giuliano_2013_jole,data_version,0.4.0
+gjlwwx_2024_jole,study,Giupponi Joyce Lindner Waters Wernham Xu 2024
+gjlwwx_2024_jole,journal,Journal of Labor Economics
+gjlwwx_2024_jole,owe_b,-0.2
+gjlwwx_2024_jole,owe_se,0.32
+gjlwwx_2024_jole,owe_lb,-0.827
+gjlwwx_2024_jole,owe_ub,0.427
+gjlwwx_2024_jole,group,Overall
+gjlwwx_2024_jole,overall,1
+gjlwwx_2024_jole,country,UK
+gjlwwx_2024_jole,published,1
+gjlwwx_2024_jole,authors,"Giulia Giupponi, Robert Joyce, Attila Lindner, Tom Waters, Thomas Wernham and Xiaowei Xu"
+gjlwwx_2024_jole,title,The Employment and Distributional Impacts of Nationwide Minimum Wage Changes
+gjlwwx_2024_jole,url,https://www.dropbox.com/s/esmr58nm6mbs0zu/JOLE_NLW.pdf
+gjlwwx_2024_jole,source,"Own-wage elasticity reported in Table 2, Panel A."
+gjlwwx_2024_jole,data_version,0.4.0
+gr_2021_ir,study,Godoey and Reich 2021
+gr_2021_ir,journal,Industrial Relations
+gr_2021_ir,owe_b,0.124
+gr_2021_ir,owe_se,NA
+gr_2021_ir,owe_lb,NA
+gr_2021_ir,owe_ub,NA
+gr_2021_ir,group,High school or less
+gr_2021_ir,overall,1
+gr_2021_ir,country,US
+gr_2021_ir,published,1
+gr_2021_ir,authors,Anna Godoey and Michael Reich
+gr_2021_ir,title,Are Minimum Wage Effects Greater in Low-Wage Areas?
+gr_2021_ir,url,https://doi.org/10.1111/irel.12267
+gr_2021_ir,source,"Own-wage elasticity reported in Table A2, sample: High school or less, specification 1 (All)."
+gr_2021_ir,data_version,0.4.0
+grwa_2024_jhr,study,Godøy Reich Wursten Allegretto 2024
+grwa_2024_jhr,journal,The Journal of Human Resources
+grwa_2024_jhr,owe_b,0.09
+grwa_2024_jhr,owe_se,0.41
+grwa_2024_jhr,owe_lb,-0.714
+grwa_2024_jhr,owe_ub,0.894
+grwa_2024_jhr,group,Low wage jobs
+grwa_2024_jhr,overall,1
+grwa_2024_jhr,country,US
+grwa_2024_jhr,published,1
+grwa_2024_jhr,authors,"Anna Godøy, Michael Reich, Jesse Wursten and Sylvia Allegretto"
+grwa_2024_jhr,title,Parental Labor Supply: Evidence from Minimum Wage Changes
+grwa_2024_jhr,url,https://doi.org/10.3368/jhr.1119-10540R2
+grwa_2024_jhr,source,"Own-wage elasticity reported in Table 2, column ""Any, Any""."
+grwa_2024_jhr,data_version,0.4.0
+ghks_2021_jole,study,Gopalan Hamilton Kalda Sovich 2021
+ghks_2021_jole,journal,Journal of Labor Economics
+ghks_2021_jole,owe_b,-0.38
+ghks_2021_jole,owe_se,NA
+ghks_2021_jole,owe_lb,NA
+ghks_2021_jole,owe_ub,NA
+ghks_2021_jole,group,Overall
+ghks_2021_jole,overall,1
+ghks_2021_jole,country,US
+ghks_2021_jole,published,1
+ghks_2021_jole,authors,"Radhakrishnan Gopalan, Barton H. Hamilton, Ankit Kalda and David Sovich"
+ghks_2021_jole,title,"State Minimum Wages, Employment, and Wage Spillovers: Evidence from Administrative Payroll Data"
+ghks_2021_jole,url,https://doi.org/10.1086/711355
+ghks_2021_jole,source,owe calculated by authors on p.696 for total employment NOTE THAT THIS IS BROADEST
+ghks_2021_jole,data_version,0.4.0
+ht_2023_jpubeco,study,Hampton and Totty 2023
+ht_2023_jpubeco,journal,Journal of Public Economics
+ht_2023_jpubeco,owe_b,0.072
+ht_2023_jpubeco,owe_se,0.038
+ht_2023_jpubeco,owe_lb,-0.003
+ht_2023_jpubeco,owe_ub,0.146
+ht_2023_jpubeco,group,Low wage workers
+ht_2023_jpubeco,overall,1
+ht_2023_jpubeco,country,US
+ht_2023_jpubeco,published,1
+ht_2023_jpubeco,authors,Matt Hampton and Evan Totty
+ht_2023_jpubeco,title,"Minimum wages, retirement timing, and labor supply"
+ht_2023_jpubeco,url,https://doi.org/10.1016/j.jpubeco.2023.104924
+ht_2023_jpubeco,source,"Weighted average of the own-wage elasticities reported in Table 7, where the weights are the sample sizes in Panel A. Standard errors for each group are calculated from the confidence interval span divided by 2 times 1.96"
+ht_2023_jpubeco,data_version,0.4.0
+hkz_2015_ir,study,Hirsch Kaufman Zelenska 2015
+hkz_2015_ir,journal,Industrial Relations
+hkz_2015_ir,owe_b,0.392
+hkz_2015_ir,owe_se,0.328
+hkz_2015_ir,owe_lb,-0.251
+hkz_2015_ir,owe_ub,1.035
+hkz_2015_ir,group,Restaurants
+hkz_2015_ir,overall,0
+hkz_2015_ir,country,US
+hkz_2015_ir,published,1
+hkz_2015_ir,authors,"Barry T. Hirsch, Bruce E. Kaufman and Tetyana Zelenska"
+hkz_2015_ir,title,Minimum Wage Channels of Adjustment
+hkz_2015_ir,url,https://doi.org/10.1111/irel.12091
+hkz_2015_ir,source,"Own-wage elasticity reported in Table 5, specification 7 (IV, Store FE), which authors refer to as their ""preferred employment elasticity"" on page 218."
+hkz_2015_ir,data_version,0.4.0
+jlpivw_2022_aejep,study,Jardim Long Plotnick Inwegen Vigdor Wething 2022
+jlpivw_2022_aejep,journal,American Economic Journal: Economic Policy
+jlpivw_2022_aejep,owe_b,-1.75
+jlpivw_2022_aejep,owe_se,NA
+jlpivw_2022_aejep,owe_lb,NA
+jlpivw_2022_aejep,owe_ub,NA
+jlpivw_2022_aejep,group,Low wage jobs
+jlpivw_2022_aejep,overall,1
+jlpivw_2022_aejep,country,US
+jlpivw_2022_aejep,published,1
+jlpivw_2022_aejep,authors,"Ekaterina Jardim, Mark C. Long, Robert Plotnick, Emma van Inwegen, Jacob Vigdor and Hilary Wething"
+jlpivw_2022_aejep,title,Minimum-Wage Increases and Low-Wage Employment: Evidence from Seattle
+jlpivw_2022_aejep,url,https://doi.org/10.1257/pol.20180578
+jlpivw_2022_aejep,source,"Wage elasticity from Table 6a, specification ""SC levels"", row ""2016:III"". Employment elasticity from Table 6c, specification ""SC levels"", row ""2016:III"". Communication with authors suggests synthetic control ""levels"" specification."
+jlpivw_2022_aejep,data_version,0.4.0
+jnrl_2022_wp,study,Jha Neumark Rodriguez-Lopez 2022
+jnrl_2022_wp,journal,IZA Discussion Paper
+jnrl_2022_wp,owe_b,-1.485
+jnrl_2022_wp,owe_se,0.89
+jnrl_2022_wp,owe_lb,-3.23
+jnrl_2022_wp,owe_ub,0.261
+jnrl_2022_wp,group,Restaurants
+jnrl_2022_wp,overall,0
+jnrl_2022_wp,country,US
+jnrl_2022_wp,published,0
+jnrl_2022_wp,authors,"Priyaranjan Jha, David Neumark and Antonio Rodriguez-Lopez"
+jnrl_2022_wp,title,What’s across the Border? Re-Evaluating the Cross-Border Evidence on Minimum Wage Effects
+jnrl_2022_wp,url,https://docs.iza.org/dp15282.pdf
+jnrl_2022_wp,source,"Wage and employment elasticities from Table 3, specification 1."
+jnrl_2022_wp,data_version,0.4.0
+kln_2023_wp,study,Karabarbounis Lise Nath 2023
+kln_2023_wp,journal,NBER Working Paper
+kln_2023_wp,owe_b,-1.103
+kln_2023_wp,owe_se,NA
+kln_2023_wp,owe_lb,NA
+kln_2023_wp,owe_ub,NA
+kln_2023_wp,group,Low-wage establishments
+kln_2023_wp,overall,1
+kln_2023_wp,country,US
+kln_2023_wp,published,0
+kln_2023_wp,authors,"Loukas Karabarbounis, Jeremy Lise and Anusha Nath"
+kln_2023_wp,title,Minimum Wages and Labor Markets in the Twin Cities
+kln_2023_wp,url,https://www.nber.org/system/files/working_papers/w30239/w30239.pdf
+kln_2023_wp,source,"Simple average of Minneapolis and St. Paul elasticities from Table 2, Baseline panel, 2021 values. Wage elasticities from ""Wage"" columns and employment elasticities from ""Jobs"" columns. Authors refer to Table 2 estimates in a discussion of own-wage elasticities in Section 5.3."
+kln_2023_wp,data_version,0.4.0
+kk_1992_ilrr,study,Katz and Krueger 1992
+kk_1992_ilrr,journal,ILR Review
+kk_1992_ilrr,owe_b,1.734
+kk_1992_ilrr,owe_se,0.934
+kk_1992_ilrr,owe_lb,-0.097
+kk_1992_ilrr,owe_ub,3.565
+kk_1992_ilrr,group,Restaurants
+kk_1992_ilrr,overall,0
+kk_1992_ilrr,country,US
+kk_1992_ilrr,published,1
+kk_1992_ilrr,authors,Lawrence F. Katz and Alan B. Krueger
+kk_1992_ilrr,title,The Effect of Minimum Wages on the Fast-Food Industry
+kk_1992_ilrr,url,https://doi.org/10.1177/001979399204600102
+kk_1992_ilrr,source,"Own-wage elasticity reported in Table 5, specification 2."
+kk_1992_ilrr,data_version,0.4.0
+kt_1995_jbes,study,Kim and Taylor 1995
+kt_1995_jbes,journal,Journal of Business & Economic Statistics
+kt_1995_jbes,owe_b,-0.879
+kt_1995_jbes,owe_se,0.133
+kt_1995_jbes,owe_lb,-1.14
+kt_1995_jbes,owe_ub,-0.618
+kt_1995_jbes,group,Retail
+kt_1995_jbes,overall,0
+kt_1995_jbes,country,US
+kt_1995_jbes,published,1
+kt_1995_jbes,authors,Taeil Kim and Lowell J. Taylor
+kt_1995_jbes,title,The Employment Effect in Retail Trade of California’s 1988 Minimum Wage Increase
+kt_1995_jbes,url,https://doi.org/10.1080/07350015.1995.10524591
+kt_1995_jbes,source,"Own-wage elasticity reported in Table 4, specification 8 (IV)."
+kt_1995_jbes,data_version,0.4.0
+leung_2021_restat,study,Leung 2021
+leung_2021_restat,journal,The Review of Economics and Statistics
+leung_2021_restat,owe_b,0.034
+leung_2021_restat,owe_se,0.654
+leung_2021_restat,owe_lb,-1.249
+leung_2021_restat,owe_ub,1.316
+leung_2021_restat,group,Groceries
+leung_2021_restat,overall,0
+leung_2021_restat,country,US
+leung_2021_restat,published,1
+leung_2021_restat,authors,Justin H. Leung
+leung_2021_restat,title,Minimum Wage and Real Wage Inequality: Evidence from Pass-Through to Retail Prices
+leung_2021_restat,url,https://doi.org/10.1162/rest_a_00915
+leung_2021_restat,source,"Earnings and employment elasticities from Table 4, specification 2 (Grocery). Paper includes results for other sectors, but the main focus appears to be grocery stores where price effects are clear."
+leung_2021_restat,data_version,0.4.0
+lhr_2016_labour,study,Liu Hyclack Regmi 2016
+lhr_2016_labour,journal,Labour
+lhr_2016_labour,owe_b,-0.828
+lhr_2016_labour,owe_se,0.254
+lhr_2016_labour,owe_lb,-1.326
+lhr_2016_labour,owe_ub,-0.329
+lhr_2016_labour,group,Teens
+lhr_2016_labour,overall,0
+lhr_2016_labour,country,US
+lhr_2016_labour,published,1
+lhr_2016_labour,authors,"Shanshan Liu, Thomas J. Hyclack and Krishna Regmi"
+lhr_2016_labour,title,Impact of the Minimum Wage on Youth Labor Markets
+lhr_2016_labour,url,https://doi.org/10.1111/labr.12071
+lhr_2016_labour,source,"Employment and wage elasticities from Table 2, specifications ""14-18"", Panel B."
+lhr_2016_labour,data_version,0.4.0
+mmr_2003_jeea,study,Machin Manning Rahman 2003
+mmr_2003_jeea,journal,Journal of the European Economic Association
+mmr_2003_jeea,owe_b,-0.453
+mmr_2003_jeea,owe_se,0.251
+mmr_2003_jeea,owe_lb,-0.945
+mmr_2003_jeea,owe_ub,0.039
+mmr_2003_jeea,group,Nursing homes
+mmr_2003_jeea,overall,0
+mmr_2003_jeea,country,UK
+mmr_2003_jeea,published,1
+mmr_2003_jeea,authors,"Stephen Machin, Alan Manning and Lupin Rahman"
+mmr_2003_jeea,title,Where the Minimum Wage Bites Hard: Introduction of Minimum Wages to a Low Wage Sector
+mmr_2003_jeea,url,https://doi.org/10.1162/154247603322256792
+mmr_2003_jeea,source,"Simple average of own-wage elasticities reported in Table 6, specifications 7 and 8, panel ""Change in log number employed""."
+mmr_2003_jeea,data_version,0.4.0
+monras_2019_jole,study,Monras 2019
+monras_2019_jole,journal,Journal of Labor Economics
+monras_2019_jole,owe_b,-0.667
+monras_2019_jole,owe_se,NA
+monras_2019_jole,owe_lb,NA
+monras_2019_jole,owe_ub,NA
+monras_2019_jole,group,High school or less
+monras_2019_jole,overall,1
+monras_2019_jole,country,US
+monras_2019_jole,published,1
+monras_2019_jole,authors,Joan Monras
+monras_2019_jole,title,Minimum Wages and Spatial Equilibrium: Theory and Evidence
+monras_2019_jole,url,https://doi.org/10.1086/702650
+monras_2019_jole,source,"Own-wage elasticity reported in Table 3, specification ""Model 4"", row ""Implied local labor demand elasticity, FTE"". Specification confirmed with author by email."
+monras_2019_jole,data_version,0.4.0
+nagr_2019_wp,study,Nadler Allegretto Godoey Reich 2019
+nagr_2019_wp,journal,IRLE Working Paper
+nagr_2019_wp,owe_b,0.21
+nagr_2019_wp,owe_se,0.201
+nagr_2019_wp,owe_lb,-0.184
+nagr_2019_wp,owe_ub,0.604
+nagr_2019_wp,group,Restaurants
+nagr_2019_wp,overall,0
+nagr_2019_wp,country,US
+nagr_2019_wp,published,0
+nagr_2019_wp,authors,"Carl Nadler, Sylvia Allegretto, Anna Godoey and Michael Reich"
+nagr_2019_wp,title,Are Local Minimum Wages Too High and How Could We Even Know?
+nagr_2019_wp,url,http://irle.berkeley.edu/files/2019/04/Are-Local-Minimum-Wages-Too-High.pdf
+nagr_2019_wp,source,"Earnings elasticity from Table 3, specification 2, panel B. Employment elasticity from Table 3, specification 4, panel B."
+nagr_2019_wp,data_version,0.4.0
+nsw_2004_jhr,study,Neumark Schweitzer Wascher 2004
+nsw_2004_jhr,journal,The Journal of Human Resources
+nsw_2004_jhr,owe_b,-0.227
+nsw_2004_jhr,owe_se,0.152
+nsw_2004_jhr,owe_lb,-0.525
+nsw_2004_jhr,owe_ub,0.071
+nsw_2004_jhr,group,Low wage incumbents
+nsw_2004_jhr,overall,1
+nsw_2004_jhr,country,US
+nsw_2004_jhr,published,1
+nsw_2004_jhr,authors,"David Neumark, Mark Schweitzer and William Wascher"
+nsw_2004_jhr,title,Minimum Wage Effects throughout the Distribution
+nsw_2004_jhr,url,https://doi.org/10.3368/jhr.XXXIX.2.425
+nsw_2004_jhr,source,NA
+nsw_2004_jhr,data_version,0.4.0
+nn_2007_jhr,study,Neumark and Nizalova 2007
+nn_2007_jhr,journal,The Journal of Human Resources
+nn_2007_jhr,owe_b,-0.913
+nn_2007_jhr,owe_se,0.579
+nn_2007_jhr,owe_lb,-2.048
+nn_2007_jhr,owe_ub,0.222
+nn_2007_jhr,group,Teens
+nn_2007_jhr,overall,0
+nn_2007_jhr,country,US
+nn_2007_jhr,published,1
+nn_2007_jhr,authors,David Neumark and Olena Nizalova
+nn_2007_jhr,title,Minimum Wage Effects in the Longer Run
+nn_2007_jhr,url,https://doi.org/10.3368/jhr.XLII.2.435
+nn_2007_jhr,source,"Wage elasticity from Table 2, specification 1, panel ""16-19"". Employment semi-elasticity from Table 2, specification 2, panel ""16-19"", divided by 46.45, the mean employment from Table 1, specification ""16-19-year olds"", ""Whole sample""."
+nn_2007_jhr,data_version,0.4.0
+oz_2008_ilrr,study,Orrenius and Zavodny 2008
+oz_2008_ilrr,journal,ILR Review
+oz_2008_ilrr,owe_b,-0.4
+oz_2008_ilrr,owe_se,0.401
+oz_2008_ilrr,owe_lb,-1.186
+oz_2008_ilrr,owe_ub,0.386
+oz_2008_ilrr,group,"Less than High School, Immigrants, ages 20-54"
+oz_2008_ilrr,overall,0
+oz_2008_ilrr,country,US
+oz_2008_ilrr,published,1
+oz_2008_ilrr,authors,Pia M. Orrenius and Madeline Zavodny
+oz_2008_ilrr,title,The Effect of Minimum Wages on Immigrants' Employment and Earnings
+oz_2008_ilrr,url,https://doi.org/10.1177/001979390806100406
+oz_2008_ilrr,source,"Wages: Table 3, column 2; Emp: Table 4, column 2"
+oz_2008_ilrr,data_version,0.4.0
+rms_2022_restat,study,Renkin Montialoux Siegenthaler 2022
+rms_2022_restat,journal,The Review of Economics and Statistics
+rms_2022_restat,owe_b,-0.093
+rms_2022_restat,owe_se,0.446
+rms_2022_restat,owe_lb,-0.967
+rms_2022_restat,owe_ub,0.782
+rms_2022_restat,group,Groceries
+rms_2022_restat,overall,0
+rms_2022_restat,country,US
+rms_2022_restat,published,1
+rms_2022_restat,authors,"Tobias Renkin, Claire Montialoux and Michael Siegenthaler"
+rms_2022_restat,title,The Pass-Through of Minimum Wages into U.S. Retail Prices: Evidence from Supermarket Scanner Data
+rms_2022_restat,url,https://doi.org/10.1162/rest_a_00981
+rms_2022_restat,source,"Table 4: Grocery, baseline"
+rms_2022_restat,data_version,0.4.0
+ruffini_2022_restat,study,Ruffini 2022
+ruffini_2022_restat,journal,The Review of Economics and Statistics
+ruffini_2022_restat,owe_b,0.261
+ruffini_2022_restat,owe_se,0.202
+ruffini_2022_restat,owe_lb,-0.134
+ruffini_2022_restat,owe_ub,0.656
+ruffini_2022_restat,group,"Nursing homes, High school or less"
+ruffini_2022_restat,overall,0
+ruffini_2022_restat,country,US
+ruffini_2022_restat,published,1
+ruffini_2022_restat,authors,Krista Ruffini
+ruffini_2022_restat,title,"Worker Earnings, Service Quality, and Firm Profitability: Evidence from Nursing Homes and Minimum Wage Reforms"
+ruffini_2022_restat,url,https://doi.org/10.1162/rest_a_01271
+ruffini_2022_restat,source,"wage: table 2, column 3; emp: table 3, column 5"
+ruffini_2022_restat,data_version,0.4.0
+sabia_2008_jpam,study,Sabia 2008
+sabia_2008_jpam,journal,Journal of Policy Analysis and Management
+sabia_2008_jpam,owe_b,-0.888
+sabia_2008_jpam,owe_se,NA
+sabia_2008_jpam,owe_lb,NA
+sabia_2008_jpam,owe_ub,NA
+sabia_2008_jpam,group,"Single Mothers, Less than High School"
+sabia_2008_jpam,overall,0
+sabia_2008_jpam,country,US
+sabia_2008_jpam,published,1
+sabia_2008_jpam,authors,Joseph J. Sabia
+sabia_2008_jpam,title,Minimum Wages and the Economic Well-Being of Single Mothers
+sabia_2008_jpam,url,https://doi.org/10.1002/pam.20379
+sabia_2008_jpam,source,"wage: table 4 middle elasticity, emp: table 5, column 1 middle elasticity"
+sabia_2008_jpam,data_version,0.4.0
+sabia_2009_ir,study,Sabia 2009
+sabia_2009_ir,journal,Industrial Relations
+sabia_2009_ir,owe_b,-1.874
+sabia_2009_ir,owe_se,0.517
+sabia_2009_ir,owe_lb,-2.888
+sabia_2009_ir,owe_ub,-0.86
+sabia_2009_ir,group,Teens
+sabia_2009_ir,overall,0
+sabia_2009_ir,country,US
+sabia_2009_ir,published,1
+sabia_2009_ir,authors,Joseph J. Sabia
+sabia_2009_ir,title,Identifying Minimum Wage Effects: New Evidence from Monthly CPS Data
+sabia_2009_ir,url,https://doi.org/10.1111/j.1468-232X.2009.00559.x
+sabia_2009_ir,source,"Wage elasticity from Table 3, specification 6 (1979-2004, Year effects). Employment elasticity from Table 4, specification 6 (1979-2004, Year effects), with standard error from semi-elasticity scaled by the ratio of the elastiticy to semi-elasticity."
+sabia_2009_ir,data_version,0.4.0
+sbh_2012_ilrr,study,Sabia Burkhauser Hansen 2012
+sbh_2012_ilrr,journal,ILR Review
+sbh_2012_ilrr,owe_b,-2.213
+sbh_2012_ilrr,owe_se,1.275
+sbh_2012_ilrr,owe_lb,-4.712
+sbh_2012_ilrr,owe_ub,0.286
+sbh_2012_ilrr,group,"Ages 16-29, Less than High School"
+sbh_2012_ilrr,overall,0
+sbh_2012_ilrr,country,US
+sbh_2012_ilrr,published,1
+sbh_2012_ilrr,authors,"Joseph J. Sabia, Richard V. Burkhauser and Benjamin Hansen"
+sbh_2012_ilrr,title,Are the Effects of Minimum Wage Increases Always Small? New Evidence from a Case Study of New York State
+sbh_2012_ilrr,url,https://doi.org/10.1177/001979391206500207
+sbh_2012_ilrr,source,wage: Table 2 column 5; emp: Table 3 column 5
+sbh_2012_ilrr,data_version,0.4.0
+slichter_2023_jae,study,Slichter 2023
+slichter_2023_jae,journal,Journal of Applied Econometrics
+slichter_2023_jae,owe_b,-0.174
+slichter_2023_jae,owe_se,0.182
+slichter_2023_jae,owe_lb,-0.531
+slichter_2023_jae,owe_ub,0.183
+slichter_2023_jae,group,Teens
+slichter_2023_jae,overall,0
+slichter_2023_jae,country,US
+slichter_2023_jae,published,1
+slichter_2023_jae,authors,David Slichter
+slichter_2023_jae,title,The employment effects of the minimum wage: A selection ratio approach to measuring treatment effects
+slichter_2023_jae,url,https://doi.org/10.1002/jae.2954
+slichter_2023_jae,source,"Simple average of earnings and employment changes across five time period specifications, ""t"" through ""t+4"". Earnings effects from Appendix Table 6 and employment effects from Panel A of Table 2."
+slichter_2023_jae,data_version,0.4.0
+stewart_2004_jeea,study,Stewart 2004
+stewart_2004_jeea,journal,Journal of the European Economic Association
+stewart_2004_jeea,owe_b,0.262
+stewart_2004_jeea,owe_se,0.516
+stewart_2004_jeea,owe_lb,-0.749
+stewart_2004_jeea,owe_ub,1.273
+stewart_2004_jeea,group,Adults
+stewart_2004_jeea,overall,1
+stewart_2004_jeea,country,UK
+stewart_2004_jeea,published,1
+stewart_2004_jeea,authors,Mark B. Stewart
+stewart_2004_jeea,title,The Impact of the Introduction of the U.K. Minimum Wage on the Employment Probabilities of Low-Wage Workers
+stewart_2004_jeea,url,https://doi.org/10.1162/154247604323015481
+stewart_2004_jeea,source,"Wage elasticity from Table 1, LFS actual hours, Full set of time dummies added. Employment elasticity from dividing the retentation rate percentage point change by an estimate of the average retention rate. Percentage point change in the retention rate is the simple average of Adult men and Adult women Table 2 raw linear difference-in-difference estimates, wage based on actual hours. Average retention rate of 81.4% estimated from dividing the total wage sample size in notes of Table 1 (44076) by the total employment sample size in notes of Table 2 (54165)."
+stewart_2004_jeea,data_version,0.4.0
+thompson_2009_ilrr,study,Thompson 2009
+thompson_2009_ilrr,journal,ILR Review
+thompson_2009_ilrr,owe_b,-0.392
+thompson_2009_ilrr,owe_se,0.161
+thompson_2009_ilrr,owe_lb,-0.709
+thompson_2009_ilrr,owe_ub,-0.076
+thompson_2009_ilrr,group,Teens
+thompson_2009_ilrr,overall,0
+thompson_2009_ilrr,country,US
+thompson_2009_ilrr,published,1
+thompson_2009_ilrr,authors,Jeffrey P. Thompson
+thompson_2009_ilrr,title,Using Local Labor Market Data to Re-examine the Employment Effects of the Minimum Wage
+thompson_2009_ilrr,url,https://doi.org/10.1177/001979390906200305
+thompson_2009_ilrr,source,"Wage: Table 6, column 1 row 1; Emp: Table 5, column 1 row 1"
+thompson_2009_ilrr,data_version,0.4.0
+totty_2017_ei,study,Totty 2017
+totty_2017_ei,journal,Economic Inquiry
+totty_2017_ei,owe_b,-0.155
+totty_2017_ei,owe_se,0.109
+totty_2017_ei,owe_lb,-0.369
+totty_2017_ei,owe_ub,0.058
+totty_2017_ei,group,Restaurants
+totty_2017_ei,overall,0
+totty_2017_ei,country,US
+totty_2017_ei,published,1
+totty_2017_ei,authors,Evan Totty
+totty_2017_ei,title,The Effect of Minimum Wages on Employment: A Factor Model Approach
+totty_2017_ei,url,https://doi.org/10.1111/ecin.12472
+totty_2017_ei,source,"Wage: Table 9, IFE; Emp: Table 3, IFE"
+totty_2017_ei,data_version,0.4.0
+vergara_2023_wp,study,Vergara 2023
+vergara_2023_wp,journal,Working Paper
+vergara_2023_wp,owe_b,0.446
+vergara_2023_wp,owe_se,NA
+vergara_2023_wp,owe_lb,NA
+vergara_2023_wp,owe_ub,NA
+vergara_2023_wp,group,No college degree
+vergara_2023_wp,overall,1
+vergara_2023_wp,country,US
+vergara_2023_wp,published,0
+vergara_2023_wp,authors,Damián Vergara
+vergara_2023_wp,title,Minimum Wages and Optimal Redistribution
+vergara_2023_wp,url,https://dvergarad.github.io/files/JMP_DV.pdf
+vergara_2023_wp,source,Table CII: wage elasticity (col 3) of .083 and employment elasticity (col 6) of .037
+vergara_2023_wp,data_version,0.4.0
+wmr_2023_wp,study,Wiltshire McPherson Reich 2023
+wmr_2023_wp,journal,IRLE Working Paper
+wmr_2023_wp,owe_b,1.2
+wmr_2023_wp,owe_se,0.383
+wmr_2023_wp,owe_lb,0.45
+wmr_2023_wp,owe_ub,1.95
+wmr_2023_wp,group,Restaurants
+wmr_2023_wp,overall,0
+wmr_2023_wp,country,US
+wmr_2023_wp,published,0
+wmr_2023_wp,authors,"Justin C. Wiltshire, Carl McPherson and Michael Reich"
+wmr_2023_wp,title,Minimum Wage Effects and Monopsony Explanations
+wmr_2023_wp,url,https://irle.berkeley.edu/wp-content/uploads/2023/09/Minimum-Wage-Effects-and-Monopsony-Explanations.pdf
+wmr_2023_wp,source,"Table 2, Fast Food Workers, panel B"
+wmr_2023_wp,data_version,0.4.0
+wursten_2020_wp,study,Wursten 2020
+wursten_2020_wp,journal,Working Paper
+wursten_2020_wp,owe_b,-0.221
+wursten_2020_wp,owe_se,0.15
+wursten_2020_wp,owe_lb,-0.515
+wursten_2020_wp,owe_ub,0.074
+wursten_2020_wp,group,Restaurants
+wursten_2020_wp,overall,0
+wursten_2020_wp,country,US
+wursten_2020_wp,published,0
+wursten_2020_wp,authors,Jesse Wursten
+wursten_2020_wp,title,Is Politics the Missing Piece of the Minimum Wage Puzzle?
+wursten_2020_wp,url,http://dx.doi.org/10.13140/RG.2.2.14177.20329
+wursten_2020_wp,source,"wage = Table 5, panel A, column 5; emp = table 2, panel B, column 1"
+wursten_2020_wp,data_version,0.4.0
+wursten_2021_wp,study,Wursten 2021
+wursten_2021_wp,journal,Working Paper
+wursten_2021_wp,owe_b,-0.269
+wursten_2021_wp,owe_se,0.162
+wursten_2021_wp,owe_lb,-0.587
+wursten_2021_wp,owe_ub,0.049
+wursten_2021_wp,group,Restaurants
+wursten_2021_wp,overall,0
+wursten_2021_wp,country,US
+wursten_2021_wp,published,0
+wursten_2021_wp,authors,Jesse Wursten
+wursten_2021_wp,title,Estimating the earnings and employment effects of the minimum wage through differences in exposure across US counties
+wursten_2021_wp,url,https://www.dropbox.com/s/2f5j0mjyama8q0p/CAMWE_draft36.pdf?dl=0
+wursten_2021_wp,source,"wage & emp = p.21, standard errors from author by email"
+wursten_2021_wp,data_version,0.4.0
+wr_2023_le,study,Wursten and Reich 2023a
+wr_2023_le,journal,Labour Economics
+wr_2023_le,owe_b,0.003
+wr_2023_le,owe_se,0.01
+wr_2023_le,owe_lb,-0.016
+wr_2023_le,owe_ub,0.022
+wr_2023_le,group,Overall
+wr_2023_le,overall,1
+wr_2023_le,country,US
+wr_2023_le,published,1
+wr_2023_le,authors,Jesse Wursten and Michael Reich
+wr_2023_le,title,Racial inequality in frictional labor markets: Evidence from minimum wages
+wr_2023_le,url,https://doi.org/10.1016/j.labeco.2023.102344
+wr_2023_le,source,Weighted average of HSOL < $20 OWEs in Table E4 using shares in Table 2
+wr_2023_le,data_version,0.4.0
+wr_2023_wp,study,Wursten and Reich 2023b
+wr_2023_wp,journal,ILRE Working Paper
+wr_2023_wp,owe_b,-0.312
+wr_2023_wp,owe_se,0.262
+wr_2023_wp,owe_lb,-0.826
+wr_2023_wp,owe_ub,0.201
+wr_2023_wp,group,"Restaurants, Teens, ages 19-21, Groceries"
+wr_2023_wp,overall,0
+wr_2023_wp,country,US
+wr_2023_wp,published,0
+wr_2023_wp,authors,Jesse Wursten and Michael Reich
+wr_2023_wp,title,Small Business and the Minimum Wage
+wr_2023_wp,url,https://irle.berkeley.edu/wp-content/uploads/2023/03/Small-Businesses-and-the-Minimum-Wage-3-14-23.pdf
+wr_2023_wp,source,"Simple average of four wage and employment elasticities from Tables 3-6: the ""All"" column for Restaurants, General merchanidise/grocery stores, Teens 14-18, and Young adults 19-21."
+wr_2023_wp,data_version,0.4.0
+zavodny_2000_le,study,Zavodny 2000
+zavodny_2000_le,journal,Labour Economics
+zavodny_2000_le,owe_b,-0.174
+zavodny_2000_le,owe_se,0.896
+zavodny_2000_le,owe_lb,-1.93
+zavodny_2000_le,owe_ub,1.582
+zavodny_2000_le,group,Teens
+zavodny_2000_le,overall,0
+zavodny_2000_le,country,US
+zavodny_2000_le,published,1
+zavodny_2000_le,authors,Madeline Zavodny
+zavodny_2000_le,title,The Effect of the Minimum Wage on Employment and Hours
+zavodny_2000_le,url,https://doi.org/10.1016/S0927-5371(00)00021-X
+zavodny_2000_le,source,"Employment elasticity from Table 1, specification 1, row ""Log of real minimum wage"". Hourly wage semi-elasticity estimate and standard error from Table 1, specification 7, row ""Log of real minimum wage"", divided by 5.68, reported in Table 2 for the Total sample as the ""Average real hourly wage in the first year""."
+zavodny_2000_le,data_version,0.4.0

@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
   resources: mw_owe_database.csv, mw_owe_studies.csv, mw_owe_studies.bib
   
 website:
@@ -13,14 +13,12 @@ website:
       - text: Overview
         href: index.qmd
       - text: Explore
-        menu: 
-          - text: "Subgroup figure"
-            href: explore/subgroup_figure.qmd
-          - text: "Table of studies"
-            href: explore/table.qmd
+        href: table.qmd
       - text: Download
         href: download.qmd
       - href: documentation.qmd
+      - text: What's New
+        href: news.qmd
       - text: Submit
         href: submit.qmd
     right:
@@ -33,7 +31,7 @@ format:
   html:
     theme: 
       light: [cosmo, theme.scss]
-    css: styles.css
+    # css: styles.css
     toc: false
 
 editor: visual

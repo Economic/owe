@@ -1,7 +1,18 @@
 ---
 title: "Download the latest data"
 editor: source
+execute:
+  echo: false
 ---
+
+```{r}
+make_md_link <- function(name, url) {
+  paste0("[", name, "](", url, ")")  
+}
+
+```
+
+`r make_md_link(targets::tar_read(owe_csv_file), targets::tar_read(owe_csv_file))`
 
 ## Table of elasticities
 [mw_owe_database.csv](mw_owe_database.csv)
@@ -12,7 +23,7 @@ editor: source
 library(tidyverse)
 library(reactable)
 
-read_csv("mw_owe_database.csv") %>% 
+targets::tar_read(owe_data) %>% 
   filter(row_number() == 1) %>% 
   transmute(
     study = "Study name, abbreviated as author-year",
@@ -28,7 +39,8 @@ read_csv("mw_owe_database.csv") %>%
     authors = "Full names of authors",
     title = "Title of study",
     url = "URL of study",
-    source = "Description of how the OWE was calculated"
+    source = "Description of how the OWE was calculated",
+    data_version = "Minimum wage OWE database version"
   ) %>% 
   pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
   reactable(pagination = FALSE)
@@ -40,9 +52,12 @@ See the [documentation](documentation.html) for additional details.
 A complete list of the studies in a format convenient for bibliographies: [bibtex](mw_owe_studies.bib) [csv](mw_owe_studies.csv) 
 
 ## Citation and use of the data
-If you use the data or this site in your own work, please reference or cite it appropriately:
+If you use the data or this site in your own work, please reference or cite it:
 
 ::: {.callout-note}
 ## Source
-{{< var citation.full >}}
+```{r}
+#| output: asis
+cat(targets::tar_read(citation_full_md))
+```
 :::
