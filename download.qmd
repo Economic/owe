@@ -1,5 +1,5 @@
 ---
-title: "Download the latest data"
+title: "Data files"
 editor: source
 execute:
   echo: false
@@ -12,10 +12,8 @@ make_md_link <- function(name, url) {
 
 ```
 
-`r make_md_link(targets::tar_read(owe_csv_file), targets::tar_read(owe_csv_file))`
-
-## Table of elasticities
-[mw_owe_database.csv](mw_owe_database.csv)
+## OWE database
+Download the latest version of the data: `r make_md_link("csv", targets::tar_read(owe_csv_file))`
 
 ```{r}
 #| echo: false
@@ -26,7 +24,8 @@ library(reactable)
 targets::tar_read(owe_data) %>% 
   filter(row_number() == 1) %>% 
   transmute(
-    study = "Study name, abbreviated as author-year",
+    study = "Study name, as author-year",
+    study_id = "Study name, abbreviated",
     journal = "Journal",
     owe_b = "Effect size",
     owe_se = "Standard error",
@@ -49,7 +48,7 @@ targets::tar_read(owe_data) %>%
 See the [documentation](documentation.html) for additional details.
 
 ## References
-A complete list of the studies in a format convenient for bibliographies: [bibtex](mw_owe_studies.bib) [csv](mw_owe_studies.csv) 
+A complete list of the studies in formats convenient for bibliographies: `r make_md_link("bibtex", targets::tar_read(bib_bibtex_file))` `r make_md_link("csv", targets::tar_read(bib_csv_file))`
 
 ## Citation and use of the data
 If you use the data or this site in your own work, please reference or cite it:
@@ -61,3 +60,6 @@ If you use the data or this site in your own work, please reference or cite it:
 cat(targets::tar_read(citation_full_md))
 ```
 :::
+
+## Older versions of the data
+Previous releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).

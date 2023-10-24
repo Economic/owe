@@ -18,9 +18,10 @@ tar_plan(
     citation_year,
     citation_title,
     citation_url,
-    data_version),
+    data_version
+  ),
 
-  bib_data = make_bib(owe_sheet),
+  bib_data = make_bib(owe_sheet, data_version),
   owe_data = make_owe_data(owe_sheet, bib_data, data_version),
 
   tar_file(bib_bibtex_file, make_bib_bibtex(bib_data)),
@@ -28,7 +29,7 @@ tar_plan(
   tar_file(owe_csv_file, make_owe_csv(owe_data)),
   tar_file(owe_csv_tidy_file, make_owe_csv_tidy(owe_data)),
 
-  tar_quarto(website)
+  tar_quarto(website, execute_params = list(data_version = data_version))
 )
 
 

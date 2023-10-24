@@ -15,12 +15,11 @@ library(jsonlite)
 library(htmltools)
 library(crosstalk)
 
-all_data <- read_csv("mw_owe_database.csv", show_col_types = FALSE) %>% 
+all_data <- targets::tar_read(owe_data) %>% 
   mutate(year = ymd(paste(str_extract(study, "\\d{4}"), "1", "1"))) 
 
 tbl_data <- all_data %>% 
   select(study, owe_b, group, country, owe_se, authors, title, journal, url)
-  # select(study, group, country, owe_b, owe_se)
 
 shared_data <- SharedData$new(tbl_data)
 

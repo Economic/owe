@@ -23,30 +23,37 @@
   {
     "objectID": "download.html",
     "href": "download.html",
-    "title": "Download the latest data",
+    "title": "Data files",
     "section": "",
-    "text": "mw_owe_database.csv"
+    "text": "Download the latest version of the data: csv\n\n\n\n\n\n\n\n See the documentation for additional details."
   },
   {
-    "objectID": "download.html#table-of-elasticities",
-    "href": "download.html#table-of-elasticities",
-    "title": "Download the latest data",
-    "section": "Table of elasticities",
-    "text": "Table of elasticities\nmw_owe_database.csv\n\n\n\n\n\n\n\n See the documentation for additional details."
+    "objectID": "download.html#owe-database",
+    "href": "download.html#owe-database",
+    "title": "Data files",
+    "section": "",
+    "text": "Download the latest version of the data: csv\n\n\n\n\n\n\n\n See the documentation for additional details."
   },
   {
     "objectID": "download.html#references",
     "href": "download.html#references",
-    "title": "Download the latest data",
+    "title": "Data files",
     "section": "References",
-    "text": "References\nA complete list of the studies in a format convenient for bibliographies: bibtex csv"
+    "text": "References\nA complete list of the studies in formats convenient for bibliographies: bibtex csv"
   },
   {
     "objectID": "download.html#citation-and-use-of-the-data",
     "href": "download.html#citation-and-use-of-the-data",
-    "title": "Download the latest data",
+    "title": "Data files",
     "section": "Citation and use of the data",
     "text": "Citation and use of the data\nIf you use the data or this site in your own work, please reference or cite it:\n\n\n\n\n\n\nSource\n\n\n\nArindrajit Dube and Ben Zipperer. 2023. Minimum wage own-wage elasticity database, Version 0.4.0. https://economic.github.io/owe"
+  },
+  {
+    "objectID": "download.html#older-versions-of-the-data",
+    "href": "download.html#older-versions-of-the-data",
+    "title": "Data files",
+    "section": "Older versions of the data",
+    "text": "Older versions of the data\nPrevious releases of the data, and the code used to generate them, are available on Github."
   },
   {
     "objectID": "news.html",

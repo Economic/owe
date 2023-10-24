@@ -11,7 +11,7 @@ calculate_owe <- function(.data, x) {
 }
 
 # grab papers
-make_bib <- function(owe_sheet) {
+make_bib <- function(owe_sheet, data_version) {
   gs4_deauth()
   read_sheet(owe_sheet, "papers") %>% 
     select(
