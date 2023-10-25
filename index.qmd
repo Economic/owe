@@ -13,10 +13,12 @@ execute:
 ```{ojs}
 //| panel: input
 //| layout-ncol: 1
-viewof country = Inputs.radio(
-  new Map([["Any country", null], ["United States", "US"]]), 
-  {value: null, label: "Region"}
-)
+viewof country = {
+  const input = Inputs.radio(new Map([["Any country", null], ["United States", "US"]]), 
+  {value: null, label: "Region"});
+  d3.select(input).select("label").style("text-transform", "uppercase");
+  return input;
+}
 viewof group = Inputs.radio(
   new Map([["Any group", null], ["Teens", "teens"], ["Restaurants or retail", "rest_retail"], ["Overall workforce", "overall"]]), 
   {value: null, label: "Group"}

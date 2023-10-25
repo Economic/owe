@@ -7,3 +7,10 @@
   justify-content: flex-end;
   margin-top: 1rem;
 }
+form > label {
+  /*color: hsl(0, 0%, 45%);*/
+  font-weight: 700;
+  font-size: 0.9125rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+}
