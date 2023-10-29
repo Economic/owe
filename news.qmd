@@ -2,6 +2,9 @@
 title: "Changelog"
 editor: source
 ---
+## Version 0.5.0
+- Corrected employment elasticity of Dow Godøy Lowenstein Reich 2020
+- Added "averaged" and "owe_reported" columns to data
 
 ## Version 0.4.0
 - Added Brown and Herbst 2023

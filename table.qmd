@@ -1,11 +1,12 @@
 ---
-title: "Table of studies"
+title: Explore the studies in the OWE database
 editor: source
 execute:
   echo: false
   warning: false
 format: 
   html
+title-block-style: none
 ---
 
 ```{r table}
@@ -14,12 +15,13 @@ library(reactable)
 library(jsonlite)
 library(htmltools)
 library(crosstalk)
+library(summarywidget)
 
 all_data <- targets::tar_read(owe_data) %>% 
   mutate(year = ymd(paste(str_extract(study, "\\d{4}"), "1", "1"))) 
 
 tbl_data <- all_data %>% 
-  select(study, owe_b, group, country, owe_se, authors, title, journal, url)
+  select(study, owe_b, group, country, owe_se, authors, title, journal, url, averaged, owe_reported)
 
 shared_data <- SharedData$new(tbl_data)
 
@@ -39,7 +41,13 @@ row_details <- function(index) {
     round(pkg$owe_se, 3), 
     ")"
   )
-
+  if (pkg$averaged == 1) {
+    owe_pretty <- tagList(owe_pretty, tags$span(class = "movie-rating", "Averaged"))
+  }
+  if (pkg$owe_reported == 1) {
+    owe_pretty <- tagList(owe_pretty, tags$span(class = "movie-rating", "Reported"))
+  }
+  
   detail <- div(
     class = "package-detail",
     div(class = "detail-header", pkg$study, span(class = "detail-title", tags$a(href = pkg$url, pkg$journal))),
@@ -47,8 +55,8 @@ row_details <- function(index) {
     pkg_field("Title", pkg$title),
     pkg_field("Own-wage elasticity estimate", owe_pretty),
     pkg_field("Source of estimate", pkg$source)
+    #span(class = "movie-rating", averaged)
   )
-
   detail
 }
 
@@ -107,7 +115,9 @@ tbl <- reactable(
     title = colDef(show = FALSE),
     authors = colDef(show = FALSE),
     owe_se = colDef(show = FALSE),
-    url = colDef(show = FALSE)
+    url = colDef(show = FALSE),
+    averaged = colDef(show = FALSE),
+    owe_reported = colDef(show = FALSE)
     # owe_se = colDef(
     #   name = "Standard Error",
     #   format = colFormat(digits = 2),
@@ -135,8 +145,6 @@ function renderMovie(cellInfo) {
   const text = `<div class="movie-info-text">${study}${details}</div>`
   return `<div class="movie-info">${text}</div>`
 }
-
-
 ```
 
 ```{r filters}
@@ -345,10 +353,17 @@ div(
 }
 
 .movie-rating {
+  margin-left: 0.5rem;
   margin-right: 0.25rem;
   padding: 0 0.25rem;
   border: 1px solid hsl(0, 0%, 75%);
-  border-radius: 2px;
+  border-radius: 5px;
+  background: var(--bs-gray-300);
+  color: hsl(0, 0%, 45%);
+  font-weight: 700;
+  font-size: 0.8125rem;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
 }
 
 .user-score {

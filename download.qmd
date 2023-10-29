@@ -34,6 +34,8 @@ targets::tar_read(owe_data) %>%
     group = "Group of workers",
     overall = "Covers a very broad group of low-wage workers",
     country = "Country",
+    averaged = "Multiple estimates from the study were averaged",
+    owe_reported = "Authors report own-wage elasticities",
     published = "Published in a peer-review journal or equivalent",
     authors = "Full names of authors",
     title = "Title of study",

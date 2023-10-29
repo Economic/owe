@@ -13,20 +13,29 @@ execute:
 ```{ojs}
 //| panel: input
 //| layout-ncol: 1
-viewof country = {
-  const input = Inputs.radio(new Map([["Any country", null], ["United States", "US"]]), 
-  {value: null, label: "Region"});
-  d3.select(input).select("label").style("text-transform", "uppercase");
+viewof group = {
+  const input = Inputs.radio(
+    new Map([["Any group", null], ["Teens", "teens"], ["Restaurants or retail", "rest_retail"], ["Overall workforce", "overall"]]), 
+    {value: null, label: "Group of workers"}
+  );
+  d3.select(input).select("label").style("width", "160px");
+  d3.select(input).select("label").style("padding-bottom", "px");
   return input;
 }
-viewof group = Inputs.radio(
-  new Map([["Any group", null], ["Teens", "teens"], ["Restaurants or retail", "rest_retail"], ["Overall workforce", "overall"]]), 
-  {value: null, label: "Group"}
-)
-viewof published = Inputs.radio(
-  [null, "Published"], 
-  {value: null, format: x => x ?? "All studies", label: "Publication status"}
-)
+viewof country = {
+  const input = Inputs.radio(new Map([["Any country", null], ["United States", "US"]]), 
+  {value: null, label: "Country"});
+  d3.select(input).select("label").style("width", "160px");
+  return input;
+}
+viewof published = {
+  const input = Inputs.radio(
+    [null, "Published"], 
+    {value: null, format: x => x ?? "All studies", label: "Publication status"}
+  );
+  d3.select(input).select("label").style("width", "160px");
+  return input;
+}
 ```
 
 ## Distribution of estimates from \${count_studies} minimum wage research studies

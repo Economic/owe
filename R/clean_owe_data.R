@@ -119,6 +119,8 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
       group,
       overall,
       country,
+      averaged,
+      owe_reported,
       published,
       authors,
       title,
