@@ -111,7 +111,6 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
     select(
       study = author_id,
       study_id,
-      journal,
       owe_b, 
       owe_se, 
       owe_lb, 
@@ -123,7 +122,9 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
       owe_reported,
       published,
       authors,
+      year,
       title,
+      journal,
       url,
       source,
       data_version

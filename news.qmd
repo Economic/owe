@@ -2,8 +2,14 @@
 title: "Changelog"
 editor: source
 ---
+
+## Version 0.6.0
+- Added "year" column to data
+- Used weighted average for elasticities from Reich and Wursten 2023, small business paper.
+- Corrected elasticities from Even and Macpherson 2014.
+
 ## Version 0.5.0
-- Corrected employment elasticity of Dow Godøy Lowenstein Reich 2020
+- Corrected employment elasticity from Dow Godøy Lowenstein Reich 2020
 - Added "averaged" and "owe_reported" columns to data
 
 ## Version 0.4.0

@@ -1,0 +1,73 @@
+study,owe_b,owe_lb,owe_ub,group,overall,country,published,teens,rest_retail,bin,bin_type
+Addison Blackburn Cotti 2009,0.452,-0.402,1.307,retail,0,US,1,FALSE,TRUE,0.6,"Small negative, or positive"
+Addison Blackburn Cotti 2012,-0.035,-0.414,0.343,restaurants,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Addison Blackburn Cotti 2013,-0.084,-0.324,0.156,restaurants,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Aitken Dolton Riley 2019,-0.254,-0.69,0.182,low wage incumbents,1,UK,0,FALSE,FALSE,-0.2,"Small negative, or positive"
+Allegretto Dube Reich 2011,0.315,-0.472,1.103,teens,0,US,1,TRUE,FALSE,0.2,"Small negative, or positive"
+Allegretto Dube Reich Zipperer 2017,0.043,-0.325,0.411,teens,0,US,1,TRUE,FALSE,0.2,"Small negative, or positive"
+Allegretto and Nadler 2015,-0.024,-1.322,1.275,restaurants,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Azar Huet-Vaughn Marinescu Taska Wachter 2023,0.088,-1.725,1.9,retail,0,US,1,FALSE,TRUE,0.2,"Small negative, or positive"
+Bailey DiNardo Stuart 2021,-0.135,-0.286,0.016,"men, ages 16-64",1,US,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Borgshulte and Cho 2020,0.419,-0.171,1.008,ages 62-70,0,US,1,FALSE,FALSE,0.6,"Small negative, or positive"
+Bossler and Gerner 2020,-0.278,-0.694,0.138,low-wage establishments,1,Germany,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Brown and Herbst 2023,0.841,-0.834,2.516,child care workers,0,US,0,FALSE,FALSE,1,"Small negative, or positive"
+Burkhauser Couch Wittenburg 2000,-0.604,-0.965,-0.242,teens,0,US,1,TRUE,FALSE,-0.6,Medium negative
+Butcher and Dickens 2023,0.476,-0.298,1.25,all workers,1,UK,1,FALSE,FALSE,0.6,"Small negative, or positive"
+Campolieti Gunderson Riddell 2006,-0.548,-1.252,0.156,ages 16-24,0,Canada,1,FALSE,FALSE,-0.6,Medium negative
+Card 1992a,1.333,0.14,2.527,teens,0,US,1,TRUE,FALSE,1.4,"Small negative, or positive"
+Card 1992b,0.352,-0.855,1.559,teens,0,US,1,TRUE,FALSE,0.2,"Small negative, or positive"
+Card Katz Krueger 1994,-0.043,-0.337,0.252,teens,0,US,1,TRUE,FALSE,-0.2,"Small negative, or positive"
+Cengiz Dube Lindner Zentler-Munro 2022,0.114,-0.309,0.537,high recall,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Cengiz Dube Lindner Zipperer 2019,0.411,-0.432,1.254,low wage jobs,1,US,1,FALSE,FALSE,0.6,"Small negative, or positive"
+Clemens and Strain 2021,-0.245,NA,NA,"ages 16-25, less than high school, ages 16-21",0,US,0,FALSE,FALSE,-0.2,"Small negative, or positive"
+Coviello Deserranno Persico 2022,-0.219,NA,NA,retail,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Currie and Fallick 1996,-0.891,-1.532,-0.249,young incumbents,0,US,1,FALSE,FALSE,-1,Large negative
+Derenoncourt and Montialoux 2021,0.06,-0.254,0.374,overall,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Dickens Riley Wilkinson 2015,-0.596,-1.54,0.348,"female, full-time; males, full-time, females, part-time",0,UK,1,FALSE,FALSE,-0.6,Medium negative
+Dow Godøy Lowenstein Reich 2020,0.733,-0.879,2.346,"women, high school or less",0,US,1,FALSE,FALSE,0.6,"Small negative, or positive"
+Draca Machin Reenan 2011,0.484,-2.262,3,overall,1,UK,1,FALSE,FALSE,0.6,"Small negative, or positive"
+Dube 2019,0.32,-0.405,1.045,overall,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Dube Lester Reich 2010,0.079,-0.482,0.64,restaurants,0,US,1,FALSE,TRUE,0.2,"Small negative, or positive"
+Dube Lester Reich 2016,-0.266,-1.016,0.484,teens,0,US,1,TRUE,FALSE,-0.2,"Small negative, or positive"
+Dube Naidu Reich 2007,0.296,-0.924,1.516,restaurants,0,US,1,FALSE,TRUE,0.2,"Small negative, or positive"
+Dube and Lindner 2021,-0.12,-0.865,0.625,low wage jobs,1,US,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Dube and Zipperer 2015,-0.135,-0.622,0.352,teens,0,US,0,TRUE,FALSE,-0.2,"Small negative, or positive"
+Dustmann Lindner Schönberg Umkehrer Berge 2022,0.03,-0.205,0.265,"overall, ages 18-60",1,Germany,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Even and Macpherson 2014,-0.782,-1.346,-0.217,restaurants,0,US,1,FALSE,TRUE,-0.6,Medium negative
+Gittings and Schmutte 2016,0,-1.47,1.47,teens,0,US,1,TRUE,FALSE,0.2,"Small negative, or positive"
+Giuliano 2013,-0.59,-1.791,0.611,"teens, retail",0,US,1,TRUE,TRUE,-0.6,Medium negative
+Giupponi Joyce Lindner Waters Wernham Xu 2024,-0.2,-0.827,0.427,overall,1,UK,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Godoey and Reich 2021,0.124,NA,NA,high school or less,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Godøy Reich Wursten Allegretto 2024,0.09,-0.714,0.894,low wage jobs,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Gopalan Hamilton Kalda Sovich 2021,-0.38,NA,NA,overall,1,US,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Hampton and Totty 2023,0.072,-0.003,0.146,low wage workers,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Hirsch Kaufman Zelenska 2015,0.392,-0.251,1.035,restaurants,0,US,1,FALSE,TRUE,0.2,"Small negative, or positive"
+Jardim Long Plotnick Inwegen Vigdor Wething 2022,-1.75,NA,NA,low wage jobs,1,US,1,FALSE,FALSE,-1.4,Large negative
+Jha Neumark Rodriguez-Lopez 2022,-1.485,-3,0.261,restaurants,0,US,0,FALSE,TRUE,-1.4,Large negative
+Karabarbounis Lise Nath 2023,-1.103,NA,NA,low-wage establishments,1,US,0,FALSE,FALSE,-1,Large negative
+Katz and Krueger 1992,1.734,-0.097,3,restaurants,0,US,1,FALSE,TRUE,1.4,"Small negative, or positive"
+Kim and Taylor 1995,-0.879,-1.14,-0.618,retail,0,US,1,FALSE,TRUE,-1,Large negative
+Leung 2021,0.034,-1.249,1.316,groceries,0,US,1,FALSE,TRUE,0.2,"Small negative, or positive"
+Liu Hyclack Regmi 2016,-0.828,-1.326,-0.329,teens,0,US,1,TRUE,FALSE,-1,Large negative
+Machin Manning Rahman 2003,-0.453,-0.945,0.039,nursing homes,0,UK,1,FALSE,FALSE,-0.6,Medium negative
+Monras 2019,-0.667,NA,NA,high school or less,1,US,1,FALSE,FALSE,-0.6,Medium negative
+Nadler Allegretto Godoey Reich 2019,0.21,-0.184,0.604,restaurants,0,US,0,FALSE,TRUE,0.2,"Small negative, or positive"
+Neumark Schweitzer Wascher 2004,-0.227,-0.742,0.288,low wage incumbents,1,US,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Neumark and Nizalova 2007,-0.913,-2.048,0.222,teens,0,US,1,TRUE,FALSE,-1,Large negative
+Orrenius and Zavodny 2008,-0.4,-1.186,0.386,"less than high school, immigrants, ages 20-54",0,US,1,FALSE,FALSE,-0.2,"Small negative, or positive"
+Renkin Montialoux Siegenthaler 2022,-0.093,-0.967,0.782,groceries,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Ruffini 2022,0.261,-0.134,0.656,"nursing homes, high school or less",0,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Sabia 2008,-0.888,NA,NA,"single mothers, less than high school",0,US,1,FALSE,FALSE,-1,Large negative
+Sabia 2009,-1.874,-2.888,-0.86,teens,0,US,1,TRUE,FALSE,-1.4,Large negative
+Sabia Burkhauser Hansen 2012,-2.213,-3,0.286,"ages 16-29, less than high school",0,US,1,FALSE,FALSE,-1.4,Large negative
+Slichter 2023,-0.174,-0.531,0.183,teens,0,US,1,TRUE,FALSE,-0.2,"Small negative, or positive"
+Stewart 2004,0.262,-0.749,1.273,adults,1,UK,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Thompson 2009,-0.392,-0.709,-0.076,teens,0,US,1,TRUE,FALSE,-0.2,"Small negative, or positive"
+Totty 2017,-0.155,-0.369,0.058,restaurants,0,US,1,FALSE,TRUE,-0.2,"Small negative, or positive"
+Vergara 2023,0.446,NA,NA,no college degree,1,US,0,FALSE,FALSE,0.6,"Small negative, or positive"
+Wiltshire McPherson Reich 2023,1.2,0.45,1.95,restaurants,0,US,0,FALSE,TRUE,1.4,"Small negative, or positive"
+Wursten 2020,-0.221,-0.515,0.074,restaurants,0,US,0,FALSE,TRUE,-0.2,"Small negative, or positive"
+Wursten 2021,-0.269,-0.587,0.049,restaurants,0,US,0,FALSE,TRUE,-0.2,"Small negative, or positive"
+Wursten and Reich 2023a,0.003,-0.016,0.022,overall,1,US,1,FALSE,FALSE,0.2,"Small negative, or positive"
+Wursten and Reich 2023b,-0.241,-0.598,0.116,"restaurants, teens, ages 19-21, groceries",0,US,0,TRUE,TRUE,-0.2,"Small negative, or positive"
+Zavodny 2000,-0.174,-1.93,1.582,teens,0,US,1,TRUE,FALSE,-0.2,"Small negative, or positive"

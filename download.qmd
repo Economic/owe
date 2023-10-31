@@ -26,7 +26,6 @@ targets::tar_read(owe_data) %>%
   transmute(
     study = "Study name, as author-year",
     study_id = "Study name, abbreviated",
-    journal = "Journal",
     owe_b = "Effect size",
     owe_se = "Standard error",
     owe_lb = "Lower bound of 95% confidence interval",
@@ -38,7 +37,9 @@ targets::tar_read(owe_data) %>%
     owe_reported = "Authors report own-wage elasticities",
     published = "Published in a peer-review journal or equivalent",
     authors = "Full names of authors",
+    year = "Year of study",
     title = "Title of study",
+    journal = "Journal",
     url = "URL of study",
     source = "Description of how the OWE was calculated",
     data_version = "Minimum wage OWE database version"

@@ -144,7 +144,8 @@ cat(targets::tar_read(citation_full_md))
 :::
 
 ```{ojs}
-data = transpose(mw_owe_database)
+
+data = FileAttachment("web_assets/index_data.csv").csv({typed: true})
 
 country_filtered_data = data.filter(d => d.country == country || country == null)
 group_filtered_data = {
@@ -180,7 +181,7 @@ truncate <- function(x) {
   case_when(x > 3 ~ 3, x < -3 ~ -3, TRUE ~ x)
 }
 
-data <- targets::tar_read(owe_data) %>% 
+targets::tar_read(owe_data) %>% 
     mutate(bin = case_when(
     owe_b < -1.2 ~ -1.4,
     owe_b >= -1.2 & owe_b < -0.8 ~ -1.0,
@@ -215,7 +216,6 @@ data <- targets::tar_read(owe_data) %>%
     rest_retail,
     bin,
     bin_type
-  ) 
-
-ojs_define(mw_owe_database = data)
+  ) %>% 
+  write_csv("web_assets/index_data.csv")
 ```
