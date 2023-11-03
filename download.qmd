@@ -48,7 +48,7 @@ targets::tar_read(owe_data) %>%
     data_version = "Minimum wage OWE database version"
   ) %>% 
   pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
-  reactable(pagination = FALSE)
+  reactable(pagination = FALSE, elementId = "database_columns")
 ```
 <br/>
 See the [documentation](documentation.html) for additional details.

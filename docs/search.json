@@ -60,35 +60,42 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Added teens and restaurants_retail columns to data\nAdded owe_magnitude column to data\n\n\n\n\nAdded “year” column to data\nUsed weighted average for elasticities from Reich and Wursten 2023, small business paper.\nCorrected elasticities from Even and Macpherson 2014.\n\n\n\n\n\nCorrected employment elasticity from Dow Godøy Lowenstein Reich 2020\nAdded “averaged” and “owe_reported” columns to data\n\n\n\n\n\nAdded Brown and Herbst 2023\nCorrected country of Bossler and Gerner 2020\n\n\n\n\n\nFinally added changelog"
+    "text": "Added teens and restaurants_retail columns to data\nAdded owe_magnitude column to data"
+  },
+  {
+    "objectID": "news.html#version-0.6.1",
+    "href": "news.html#version-0.6.1",
+    "title": "Changelog",
+    "section": "",
+    "text": "Added teens and restaurants_retail columns to data\nAdded owe_magnitude column to data"
   },
   {
     "objectID": "news.html#version-0.6.0",
     "href": "news.html#version-0.6.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Added “year” column to data\nUsed weighted average for elasticities from Reich and Wursten 2023, small business paper.\nCorrected elasticities from Even and Macpherson 2014."
+    "section": "Version 0.6.0",
+    "text": "Version 0.6.0\n\nAdded “year” column to data\nUsed weighted average for elasticities from Reich and Wursten 2023, small business paper.\nCorrected elasticities from Even and Macpherson 2014."
   },
   {
     "objectID": "news.html#version-0.5.0",
     "href": "news.html#version-0.5.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Corrected employment elasticity from Dow Godøy Lowenstein Reich 2020\nAdded “averaged” and “owe_reported” columns to data"
+    "section": "Version 0.5.0",
+    "text": "Version 0.5.0\n\nCorrected employment elasticity from Dow Godøy Lowenstein Reich 2020\nAdded “averaged” and “owe_reported” columns to data"
   },
   {
     "objectID": "news.html#version-0.4.0",
     "href": "news.html#version-0.4.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Added Brown and Herbst 2023\nCorrected country of Bossler and Gerner 2020"
+    "section": "Version 0.4.0",
+    "text": "Version 0.4.0\n\nAdded Brown and Herbst 2023\nCorrected country of Bossler and Gerner 2020"
   },
   {
     "objectID": "news.html#version-0.3.0",
     "href": "news.html#version-0.3.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Finally added changelog"
+    "section": "Version 0.3.0",
+    "text": "Version 0.3.0\n\nFinally added changelog"
   },
   {
     "objectID": "documentation.html",
