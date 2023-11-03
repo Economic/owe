@@ -2,7 +2,7 @@
 title: "Changelog"
 editor: source
 ---
-# Version 0.6.1
+## Version 0.6.1
 - Added teens and restaurants_retail columns to data
 - Added owe_magnitude column to data
 
