@@ -108,6 +108,18 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
     mutate(published = if_else(str_detect(study_id, "_wp$"), 0, 1)) %>% 
     mutate(data_version = data_version) %>% 
     mutate(across(starts_with("owe_"), ~ round(.x, digits = 3))) %>% 
+    mutate(owe_magnitude = case_when(
+      owe_b < -0.8 ~ 'Large negative',
+      owe_b >= -0.8 & owe_b < -0.4 ~ 'Medium negative',
+      owe_b >= -0.4 & owe_b < 0 ~ 'Small negative',
+      owe_b >= 0 ~ 'Positive'
+    )) %>% 
+    mutate(
+      group = str_to_lower(group),
+      teens = str_detect(group, "teens"),
+      restaurants_retail = str_detect(group, "restaurant|retail|grocer")
+    ) %>% 
+    mutate(across(where(is.logical), as.integer)) %>% 
     select(
       study = author_id,
       study_id,
@@ -115,8 +127,11 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
       owe_se, 
       owe_lb, 
       owe_ub,
+      owe_magnitude,
       group,
       overall,
+      teens,
+      restaurants_retail,
       country,
       averaged,
       owe_reported,
