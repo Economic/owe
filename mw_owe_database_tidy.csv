@@ -5,7 +5,7 @@ abc_2009_le,owe_se,0.436
 abc_2009_le,owe_lb,-0.402
 abc_2009_le,owe_ub,1.307
 abc_2009_le,owe_magnitude,Positive
-abc_2009_le,group,retail
+abc_2009_le,group,Retail
 abc_2009_le,overall,0
 abc_2009_le,teens,0
 abc_2009_le,restaurants_retail,1
@@ -26,7 +26,7 @@ abc_2012_bjir,owe_se,0.193
 abc_2012_bjir,owe_lb,-0.414
 abc_2012_bjir,owe_ub,0.343
 abc_2012_bjir,owe_magnitude,Small negative
-abc_2012_bjir,group,restaurants
+abc_2012_bjir,group,Restaurants
 abc_2012_bjir,overall,0
 abc_2012_bjir,teens,0
 abc_2012_bjir,restaurants_retail,1
@@ -47,7 +47,7 @@ abc_2013_le,owe_se,0.122
 abc_2013_le,owe_lb,-0.324
 abc_2013_le,owe_ub,0.156
 abc_2013_le,owe_magnitude,Small negative
-abc_2013_le,group,restaurants
+abc_2013_le,group,Restaurants
 abc_2013_le,overall,0
 abc_2013_le,teens,0
 abc_2013_le,restaurants_retail,1
@@ -68,7 +68,7 @@ adr_2019_wp,owe_se,0.223
 adr_2019_wp,owe_lb,-0.69
 adr_2019_wp,owe_ub,0.182
 adr_2019_wp,owe_magnitude,Small negative
-adr_2019_wp,group,low wage incumbents
+adr_2019_wp,group,Low wage incumbents
 adr_2019_wp,overall,1
 adr_2019_wp,teens,0
 adr_2019_wp,restaurants_retail,0
@@ -89,7 +89,7 @@ adr_2011_ir,owe_se,0.402
 adr_2011_ir,owe_lb,-0.472
 adr_2011_ir,owe_ub,1.103
 adr_2011_ir,owe_magnitude,Positive
-adr_2011_ir,group,teens
+adr_2011_ir,group,Teens
 adr_2011_ir,overall,0
 adr_2011_ir,teens,1
 adr_2011_ir,restaurants_retail,0
@@ -110,7 +110,7 @@ adrz_2017_ilrr,owe_se,0.188
 adrz_2017_ilrr,owe_lb,-0.325
 adrz_2017_ilrr,owe_ub,0.411
 adrz_2017_ilrr,owe_magnitude,Positive
-adrz_2017_ilrr,group,teens
+adrz_2017_ilrr,group,Teens
 adrz_2017_ilrr,overall,0
 adrz_2017_ilrr,teens,1
 adrz_2017_ilrr,restaurants_retail,0
@@ -131,7 +131,7 @@ an_2015_ir,owe_se,0.662
 an_2015_ir,owe_lb,-1.322
 an_2015_ir,owe_ub,1.275
 an_2015_ir,owe_magnitude,Small negative
-an_2015_ir,group,restaurants
+an_2015_ir,group,Restaurants
 an_2015_ir,overall,0
 an_2015_ir,teens,0
 an_2015_ir,restaurants_retail,1
@@ -152,7 +152,7 @@ ahvmtw_2023_restud,owe_se,0.925
 ahvmtw_2023_restud,owe_lb,-1.725
 ahvmtw_2023_restud,owe_ub,1.9
 ahvmtw_2023_restud,owe_magnitude,Positive
-ahvmtw_2023_restud,group,retail
+ahvmtw_2023_restud,group,Retail
 ahvmtw_2023_restud,overall,0
 ahvmtw_2023_restud,teens,0
 ahvmtw_2023_restud,restaurants_retail,1
@@ -173,7 +173,7 @@ bds_2021_jole,owe_se,0.077
 bds_2021_jole,owe_lb,-0.286
 bds_2021_jole,owe_ub,0.016
 bds_2021_jole,owe_magnitude,Small negative
-bds_2021_jole,group,"men, ages 16-64"
+bds_2021_jole,group,"Men, Ages 16-64"
 bds_2021_jole,overall,1
 bds_2021_jole,teens,0
 bds_2021_jole,restaurants_retail,0
@@ -194,7 +194,7 @@ bc_2020_ilrr,owe_se,0.301
 bc_2020_ilrr,owe_lb,-0.171
 bc_2020_ilrr,owe_ub,1.008
 bc_2020_ilrr,owe_magnitude,Positive
-bc_2020_ilrr,group,ages 62-70
+bc_2020_ilrr,group,Ages 62-70
 bc_2020_ilrr,overall,0
 bc_2020_ilrr,teens,0
 bc_2020_ilrr,restaurants_retail,0
@@ -215,7 +215,7 @@ bg_2020_ilrr,owe_se,0.212
 bg_2020_ilrr,owe_lb,-0.694
 bg_2020_ilrr,owe_ub,0.138
 bg_2020_ilrr,owe_magnitude,Small negative
-bg_2020_ilrr,group,low-wage establishments
+bg_2020_ilrr,group,Low-wage establishments
 bg_2020_ilrr,overall,1
 bg_2020_ilrr,teens,0
 bg_2020_ilrr,restaurants_retail,0
@@ -236,7 +236,7 @@ bh_2023_wp,owe_se,0.855
 bh_2023_wp,owe_lb,-0.834
 bh_2023_wp,owe_ub,2.516
 bh_2023_wp,owe_magnitude,Positive
-bh_2023_wp,group,child care workers
+bh_2023_wp,group,Child care workers
 bh_2023_wp,overall,0
 bh_2023_wp,teens,0
 bh_2023_wp,restaurants_retail,0
@@ -257,7 +257,7 @@ bcw_2000_jole,owe_se,0.184
 bcw_2000_jole,owe_lb,-0.965
 bcw_2000_jole,owe_ub,-0.242
 bcw_2000_jole,owe_magnitude,Medium negative
-bcw_2000_jole,group,teens
+bcw_2000_jole,group,Teens
 bcw_2000_jole,overall,0
 bcw_2000_jole,teens,1
 bcw_2000_jole,restaurants_retail,0
@@ -278,7 +278,7 @@ bd_2023_lpc,owe_se,0.395
 bd_2023_lpc,owe_lb,-0.298
 bd_2023_lpc,owe_ub,1.25
 bd_2023_lpc,owe_magnitude,Positive
-bd_2023_lpc,group,all workers
+bd_2023_lpc,group,All workers
 bd_2023_lpc,overall,1
 bd_2023_lpc,teens,0
 bd_2023_lpc,restaurants_retail,0
@@ -299,7 +299,7 @@ cgr_2006_ir,owe_se,0.359
 cgr_2006_ir,owe_lb,-1.252
 cgr_2006_ir,owe_ub,0.156
 cgr_2006_ir,owe_magnitude,Medium negative
-cgr_2006_ir,group,ages 16-24
+cgr_2006_ir,group,Ages 16-24
 cgr_2006_ir,overall,0
 cgr_2006_ir,teens,0
 cgr_2006_ir,restaurants_retail,0
@@ -320,7 +320,7 @@ card_1992_ilrr_ca,owe_se,0.609
 card_1992_ilrr_ca,owe_lb,0.14
 card_1992_ilrr_ca,owe_ub,2.527
 card_1992_ilrr_ca,owe_magnitude,Positive
-card_1992_ilrr_ca,group,teens
+card_1992_ilrr_ca,group,Teens
 card_1992_ilrr_ca,overall,0
 card_1992_ilrr_ca,teens,1
 card_1992_ilrr_ca,restaurants_retail,0
@@ -341,7 +341,7 @@ card_1992_ilrr_regional,owe_se,0.616
 card_1992_ilrr_regional,owe_lb,-0.855
 card_1992_ilrr_regional,owe_ub,1.559
 card_1992_ilrr_regional,owe_magnitude,Positive
-card_1992_ilrr_regional,group,teens
+card_1992_ilrr_regional,group,Teens
 card_1992_ilrr_regional,overall,0
 card_1992_ilrr_regional,teens,1
 card_1992_ilrr_regional,restaurants_retail,0
@@ -362,7 +362,7 @@ ckk_1994_ilrr,owe_se,0.15
 ckk_1994_ilrr,owe_lb,-0.337
 ckk_1994_ilrr,owe_ub,0.252
 ckk_1994_ilrr,owe_magnitude,Small negative
-ckk_1994_ilrr,group,teens
+ckk_1994_ilrr,group,Teens
 ckk_1994_ilrr,overall,0
 ckk_1994_ilrr,teens,1
 ckk_1994_ilrr,restaurants_retail,0
@@ -383,7 +383,7 @@ cdlzm_2022_jole,owe_se,0.216
 cdlzm_2022_jole,owe_lb,-0.309
 cdlzm_2022_jole,owe_ub,0.537
 cdlzm_2022_jole,owe_magnitude,Positive
-cdlzm_2022_jole,group,high recall
+cdlzm_2022_jole,group,High recall
 cdlzm_2022_jole,overall,1
 cdlzm_2022_jole,teens,0
 cdlzm_2022_jole,restaurants_retail,0
@@ -404,7 +404,7 @@ cdlz_2019_qje,owe_se,0.43
 cdlz_2019_qje,owe_lb,-0.432
 cdlz_2019_qje,owe_ub,1.254
 cdlz_2019_qje,owe_magnitude,Positive
-cdlz_2019_qje,group,low wage jobs
+cdlz_2019_qje,group,Low wage jobs
 cdlz_2019_qje,overall,1
 cdlz_2019_qje,teens,0
 cdlz_2019_qje,restaurants_retail,0
@@ -425,7 +425,7 @@ cs_2021_wp,owe_se,NA
 cs_2021_wp,owe_lb,NA
 cs_2021_wp,owe_ub,NA
 cs_2021_wp,owe_magnitude,Small negative
-cs_2021_wp,group,"ages 16-25, less than high school, ages 16-21"
+cs_2021_wp,group,"Ages 16-25, Less than High School, Ages 16-21"
 cs_2021_wp,overall,0
 cs_2021_wp,teens,0
 cs_2021_wp,restaurants_retail,0
@@ -446,7 +446,7 @@ cdp_2022_jpe,owe_se,NA
 cdp_2022_jpe,owe_lb,NA
 cdp_2022_jpe,owe_ub,NA
 cdp_2022_jpe,owe_magnitude,Small negative
-cdp_2022_jpe,group,retail
+cdp_2022_jpe,group,Retail
 cdp_2022_jpe,overall,0
 cdp_2022_jpe,teens,0
 cdp_2022_jpe,restaurants_retail,1
@@ -467,7 +467,7 @@ cf_1996_jhr,owe_se,0.327
 cf_1996_jhr,owe_lb,-1.532
 cf_1996_jhr,owe_ub,-0.249
 cf_1996_jhr,owe_magnitude,Large negative
-cf_1996_jhr,group,young incumbents
+cf_1996_jhr,group,Young incumbents
 cf_1996_jhr,overall,0
 cf_1996_jhr,teens,0
 cf_1996_jhr,restaurants_retail,0
@@ -488,7 +488,7 @@ dm_2021_qje,owe_se,0.16
 dm_2021_qje,owe_lb,-0.254
 dm_2021_qje,owe_ub,0.374
 dm_2021_qje,owe_magnitude,Positive
-dm_2021_qje,group,overall
+dm_2021_qje,group,Overall
 dm_2021_qje,overall,1
 dm_2021_qje,teens,0
 dm_2021_qje,restaurants_retail,0
@@ -509,7 +509,7 @@ drw_2015_economica,owe_se,0.482
 drw_2015_economica,owe_lb,-1.54
 drw_2015_economica,owe_ub,0.348
 drw_2015_economica,owe_magnitude,Medium negative
-drw_2015_economica,group,"female, full-time; males, full-time, females, part-time"
+drw_2015_economica,group,"Female, full-time; Males, full-time, Females, part-time"
 drw_2015_economica,overall,0
 drw_2015_economica,teens,0
 drw_2015_economica,restaurants_retail,0
@@ -530,7 +530,7 @@ dglr_2020_jhe,owe_se,0.823
 dglr_2020_jhe,owe_lb,-0.879
 dglr_2020_jhe,owe_ub,2.346
 dglr_2020_jhe,owe_magnitude,Positive
-dglr_2020_jhe,group,"women, high school or less"
+dglr_2020_jhe,group,"Women, High school or less"
 dglr_2020_jhe,overall,0
 dglr_2020_jhe,teens,0
 dglr_2020_jhe,restaurants_retail,0
@@ -551,7 +551,7 @@ dmvr_2011_aeja,owe_se,1.401
 dmvr_2011_aeja,owe_lb,-2.262
 dmvr_2011_aeja,owe_ub,3.23
 dmvr_2011_aeja,owe_magnitude,Positive
-dmvr_2011_aeja,group,overall
+dmvr_2011_aeja,group,Overall
 dmvr_2011_aeja,overall,1
 dmvr_2011_aeja,teens,0
 dmvr_2011_aeja,restaurants_retail,0
@@ -572,7 +572,7 @@ dube_2019_hmt_us,owe_se,0.37
 dube_2019_hmt_us,owe_lb,-0.405
 dube_2019_hmt_us,owe_ub,1.045
 dube_2019_hmt_us,owe_magnitude,Positive
-dube_2019_hmt_us,group,overall
+dube_2019_hmt_us,group,Overall
 dube_2019_hmt_us,overall,1
 dube_2019_hmt_us,teens,0
 dube_2019_hmt_us,restaurants_retail,0
@@ -593,7 +593,7 @@ dlr_2010_restat,owe_se,0.286
 dlr_2010_restat,owe_lb,-0.482
 dlr_2010_restat,owe_ub,0.64
 dlr_2010_restat,owe_magnitude,Positive
-dlr_2010_restat,group,restaurants
+dlr_2010_restat,group,Restaurants
 dlr_2010_restat,overall,0
 dlr_2010_restat,teens,0
 dlr_2010_restat,restaurants_retail,1
@@ -614,7 +614,7 @@ dlr_2016_jole,owe_se,0.383
 dlr_2016_jole,owe_lb,-1.016
 dlr_2016_jole,owe_ub,0.484
 dlr_2016_jole,owe_magnitude,Small negative
-dlr_2016_jole,group,teens
+dlr_2016_jole,group,Teens
 dlr_2016_jole,overall,0
 dlr_2016_jole,teens,1
 dlr_2016_jole,restaurants_retail,0
@@ -635,7 +635,7 @@ dnr_2007_ilrr,owe_se,0.622
 dnr_2007_ilrr,owe_lb,-0.924
 dnr_2007_ilrr,owe_ub,1.516
 dnr_2007_ilrr,owe_magnitude,Positive
-dnr_2007_ilrr,group,restaurants
+dnr_2007_ilrr,group,Restaurants
 dnr_2007_ilrr,overall,0
 dnr_2007_ilrr,teens,0
 dnr_2007_ilrr,restaurants_retail,1
@@ -656,7 +656,7 @@ dl_2021_jep,owe_se,0.38
 dl_2021_jep,owe_lb,-0.865
 dl_2021_jep,owe_ub,0.625
 dl_2021_jep,owe_magnitude,Small negative
-dl_2021_jep,group,low wage jobs
+dl_2021_jep,group,Low wage jobs
 dl_2021_jep,overall,1
 dl_2021_jep,teens,0
 dl_2021_jep,restaurants_retail,0
@@ -677,7 +677,7 @@ dz_2015_wp,owe_se,0.249
 dz_2015_wp,owe_lb,-0.622
 dz_2015_wp,owe_ub,0.352
 dz_2015_wp,owe_magnitude,Small negative
-dz_2015_wp,group,teens
+dz_2015_wp,group,Teens
 dz_2015_wp,overall,0
 dz_2015_wp,teens,1
 dz_2015_wp,restaurants_retail,0
@@ -698,7 +698,7 @@ dlsub_2022_qje,owe_se,0.12
 dlsub_2022_qje,owe_lb,-0.205
 dlsub_2022_qje,owe_ub,0.265
 dlsub_2022_qje,owe_magnitude,Positive
-dlsub_2022_qje,group,"overall, ages 18-60"
+dlsub_2022_qje,group,"Overall, ages 18-60"
 dlsub_2022_qje,overall,1
 dlsub_2022_qje,teens,0
 dlsub_2022_qje,restaurants_retail,0
@@ -719,7 +719,7 @@ em_2014_sej,owe_se,0.288
 em_2014_sej,owe_lb,-1.346
 em_2014_sej,owe_ub,-0.217
 em_2014_sej,owe_magnitude,Medium negative
-em_2014_sej,group,restaurants
+em_2014_sej,group,Restaurants
 em_2014_sej,overall,0
 em_2014_sej,teens,0
 em_2014_sej,restaurants_retail,1
@@ -740,7 +740,7 @@ gs_2016_ilrr,owe_se,0.75
 gs_2016_ilrr,owe_lb,-1.47
 gs_2016_ilrr,owe_ub,1.47
 gs_2016_ilrr,owe_magnitude,Positive
-gs_2016_ilrr,group,teens
+gs_2016_ilrr,group,Teens
 gs_2016_ilrr,overall,0
 gs_2016_ilrr,teens,1
 gs_2016_ilrr,restaurants_retail,0
@@ -761,7 +761,7 @@ giuliano_2013_jole,owe_se,0.613
 giuliano_2013_jole,owe_lb,-1.791
 giuliano_2013_jole,owe_ub,0.611
 giuliano_2013_jole,owe_magnitude,Medium negative
-giuliano_2013_jole,group,"teens, retail"
+giuliano_2013_jole,group,"Teens, Retail"
 giuliano_2013_jole,overall,0
 giuliano_2013_jole,teens,1
 giuliano_2013_jole,restaurants_retail,1
@@ -782,7 +782,7 @@ gjlwwx_2024_jole,owe_se,0.32
 gjlwwx_2024_jole,owe_lb,-0.827
 gjlwwx_2024_jole,owe_ub,0.427
 gjlwwx_2024_jole,owe_magnitude,Small negative
-gjlwwx_2024_jole,group,overall
+gjlwwx_2024_jole,group,Overall
 gjlwwx_2024_jole,overall,1
 gjlwwx_2024_jole,teens,0
 gjlwwx_2024_jole,restaurants_retail,0
@@ -803,7 +803,7 @@ gr_2021_ir,owe_se,NA
 gr_2021_ir,owe_lb,NA
 gr_2021_ir,owe_ub,NA
 gr_2021_ir,owe_magnitude,Positive
-gr_2021_ir,group,high school or less
+gr_2021_ir,group,High school or less
 gr_2021_ir,overall,1
 gr_2021_ir,teens,0
 gr_2021_ir,restaurants_retail,0
@@ -824,7 +824,7 @@ grwa_2024_jhr,owe_se,0.41
 grwa_2024_jhr,owe_lb,-0.714
 grwa_2024_jhr,owe_ub,0.894
 grwa_2024_jhr,owe_magnitude,Positive
-grwa_2024_jhr,group,low wage jobs
+grwa_2024_jhr,group,Low wage jobs
 grwa_2024_jhr,overall,1
 grwa_2024_jhr,teens,0
 grwa_2024_jhr,restaurants_retail,0
@@ -845,7 +845,7 @@ ghks_2021_jole,owe_se,NA
 ghks_2021_jole,owe_lb,NA
 ghks_2021_jole,owe_ub,NA
 ghks_2021_jole,owe_magnitude,Small negative
-ghks_2021_jole,group,overall
+ghks_2021_jole,group,Overall
 ghks_2021_jole,overall,1
 ghks_2021_jole,teens,0
 ghks_2021_jole,restaurants_retail,0
@@ -866,7 +866,7 @@ ht_2023_jpubeco,owe_se,0.038
 ht_2023_jpubeco,owe_lb,-0.003
 ht_2023_jpubeco,owe_ub,0.146
 ht_2023_jpubeco,owe_magnitude,Positive
-ht_2023_jpubeco,group,low wage workers
+ht_2023_jpubeco,group,Low wage workers
 ht_2023_jpubeco,overall,1
 ht_2023_jpubeco,teens,0
 ht_2023_jpubeco,restaurants_retail,0
@@ -887,7 +887,7 @@ hkz_2015_ir,owe_se,0.328
 hkz_2015_ir,owe_lb,-0.251
 hkz_2015_ir,owe_ub,1.035
 hkz_2015_ir,owe_magnitude,Positive
-hkz_2015_ir,group,restaurants
+hkz_2015_ir,group,Restaurants
 hkz_2015_ir,overall,0
 hkz_2015_ir,teens,0
 hkz_2015_ir,restaurants_retail,1
@@ -908,7 +908,7 @@ jlpivw_2022_aejep,owe_se,NA
 jlpivw_2022_aejep,owe_lb,NA
 jlpivw_2022_aejep,owe_ub,NA
 jlpivw_2022_aejep,owe_magnitude,Large negative
-jlpivw_2022_aejep,group,low wage jobs
+jlpivw_2022_aejep,group,Low wage jobs
 jlpivw_2022_aejep,overall,1
 jlpivw_2022_aejep,teens,0
 jlpivw_2022_aejep,restaurants_retail,0
@@ -929,7 +929,7 @@ jnrl_2022_wp,owe_se,0.89
 jnrl_2022_wp,owe_lb,-3.23
 jnrl_2022_wp,owe_ub,0.261
 jnrl_2022_wp,owe_magnitude,Large negative
-jnrl_2022_wp,group,restaurants
+jnrl_2022_wp,group,Restaurants
 jnrl_2022_wp,overall,0
 jnrl_2022_wp,teens,0
 jnrl_2022_wp,restaurants_retail,1
@@ -950,7 +950,7 @@ kln_2023_wp,owe_se,NA
 kln_2023_wp,owe_lb,NA
 kln_2023_wp,owe_ub,NA
 kln_2023_wp,owe_magnitude,Large negative
-kln_2023_wp,group,low-wage establishments
+kln_2023_wp,group,Low-wage establishments
 kln_2023_wp,overall,1
 kln_2023_wp,teens,0
 kln_2023_wp,restaurants_retail,0
@@ -971,7 +971,7 @@ kk_1992_ilrr,owe_se,0.934
 kk_1992_ilrr,owe_lb,-0.097
 kk_1992_ilrr,owe_ub,3.565
 kk_1992_ilrr,owe_magnitude,Positive
-kk_1992_ilrr,group,restaurants
+kk_1992_ilrr,group,Restaurants
 kk_1992_ilrr,overall,0
 kk_1992_ilrr,teens,0
 kk_1992_ilrr,restaurants_retail,1
@@ -992,7 +992,7 @@ kt_1995_jbes,owe_se,0.133
 kt_1995_jbes,owe_lb,-1.14
 kt_1995_jbes,owe_ub,-0.618
 kt_1995_jbes,owe_magnitude,Large negative
-kt_1995_jbes,group,retail
+kt_1995_jbes,group,Retail
 kt_1995_jbes,overall,0
 kt_1995_jbes,teens,0
 kt_1995_jbes,restaurants_retail,1
@@ -1013,7 +1013,7 @@ leung_2021_restat,owe_se,0.654
 leung_2021_restat,owe_lb,-1.249
 leung_2021_restat,owe_ub,1.316
 leung_2021_restat,owe_magnitude,Positive
-leung_2021_restat,group,groceries
+leung_2021_restat,group,Groceries
 leung_2021_restat,overall,0
 leung_2021_restat,teens,0
 leung_2021_restat,restaurants_retail,1
@@ -1034,7 +1034,7 @@ lhr_2016_labour,owe_se,0.254
 lhr_2016_labour,owe_lb,-1.326
 lhr_2016_labour,owe_ub,-0.329
 lhr_2016_labour,owe_magnitude,Large negative
-lhr_2016_labour,group,teens
+lhr_2016_labour,group,Teens
 lhr_2016_labour,overall,0
 lhr_2016_labour,teens,1
 lhr_2016_labour,restaurants_retail,0
@@ -1055,7 +1055,7 @@ mmr_2003_jeea,owe_se,0.251
 mmr_2003_jeea,owe_lb,-0.945
 mmr_2003_jeea,owe_ub,0.039
 mmr_2003_jeea,owe_magnitude,Medium negative
-mmr_2003_jeea,group,nursing homes
+mmr_2003_jeea,group,Nursing homes
 mmr_2003_jeea,overall,0
 mmr_2003_jeea,teens,0
 mmr_2003_jeea,restaurants_retail,0
@@ -1076,7 +1076,7 @@ monras_2019_jole,owe_se,NA
 monras_2019_jole,owe_lb,NA
 monras_2019_jole,owe_ub,NA
 monras_2019_jole,owe_magnitude,Medium negative
-monras_2019_jole,group,high school or less
+monras_2019_jole,group,High school or less
 monras_2019_jole,overall,1
 monras_2019_jole,teens,0
 monras_2019_jole,restaurants_retail,0
@@ -1097,7 +1097,7 @@ nagr_2019_wp,owe_se,0.201
 nagr_2019_wp,owe_lb,-0.184
 nagr_2019_wp,owe_ub,0.604
 nagr_2019_wp,owe_magnitude,Positive
-nagr_2019_wp,group,restaurants
+nagr_2019_wp,group,Restaurants
 nagr_2019_wp,overall,0
 nagr_2019_wp,teens,0
 nagr_2019_wp,restaurants_retail,1
@@ -1118,7 +1118,7 @@ nsw_2004_jhr,owe_se,0.263
 nsw_2004_jhr,owe_lb,-0.742
 nsw_2004_jhr,owe_ub,0.288
 nsw_2004_jhr,owe_magnitude,Small negative
-nsw_2004_jhr,group,low wage incumbents
+nsw_2004_jhr,group,Low wage incumbents
 nsw_2004_jhr,overall,1
 nsw_2004_jhr,teens,0
 nsw_2004_jhr,restaurants_retail,0
@@ -1139,7 +1139,7 @@ nn_2007_jhr,owe_se,0.579
 nn_2007_jhr,owe_lb,-2.048
 nn_2007_jhr,owe_ub,0.222
 nn_2007_jhr,owe_magnitude,Large negative
-nn_2007_jhr,group,teens
+nn_2007_jhr,group,Teens
 nn_2007_jhr,overall,0
 nn_2007_jhr,teens,1
 nn_2007_jhr,restaurants_retail,0
@@ -1160,7 +1160,7 @@ oz_2008_ilrr,owe_se,0.401
 oz_2008_ilrr,owe_lb,-1.186
 oz_2008_ilrr,owe_ub,0.386
 oz_2008_ilrr,owe_magnitude,Small negative
-oz_2008_ilrr,group,"less than high school, immigrants, ages 20-54"
+oz_2008_ilrr,group,"Less than High School, Immigrants, ages 20-54"
 oz_2008_ilrr,overall,0
 oz_2008_ilrr,teens,0
 oz_2008_ilrr,restaurants_retail,0
@@ -1181,7 +1181,7 @@ rms_2022_restat,owe_se,0.446
 rms_2022_restat,owe_lb,-0.967
 rms_2022_restat,owe_ub,0.782
 rms_2022_restat,owe_magnitude,Small negative
-rms_2022_restat,group,groceries
+rms_2022_restat,group,Groceries
 rms_2022_restat,overall,0
 rms_2022_restat,teens,0
 rms_2022_restat,restaurants_retail,1
@@ -1202,7 +1202,7 @@ ruffini_2022_restat,owe_se,0.202
 ruffini_2022_restat,owe_lb,-0.134
 ruffini_2022_restat,owe_ub,0.656
 ruffini_2022_restat,owe_magnitude,Positive
-ruffini_2022_restat,group,"nursing homes, high school or less"
+ruffini_2022_restat,group,"Nursing homes, High school or less"
 ruffini_2022_restat,overall,0
 ruffini_2022_restat,teens,0
 ruffini_2022_restat,restaurants_retail,0
@@ -1223,7 +1223,7 @@ sabia_2008_jpam,owe_se,NA
 sabia_2008_jpam,owe_lb,NA
 sabia_2008_jpam,owe_ub,NA
 sabia_2008_jpam,owe_magnitude,Large negative
-sabia_2008_jpam,group,"single mothers, less than high school"
+sabia_2008_jpam,group,"Single Mothers, Less than High School"
 sabia_2008_jpam,overall,0
 sabia_2008_jpam,teens,0
 sabia_2008_jpam,restaurants_retail,0
@@ -1244,7 +1244,7 @@ sabia_2009_ir,owe_se,0.517
 sabia_2009_ir,owe_lb,-2.888
 sabia_2009_ir,owe_ub,-0.86
 sabia_2009_ir,owe_magnitude,Large negative
-sabia_2009_ir,group,teens
+sabia_2009_ir,group,Teens
 sabia_2009_ir,overall,0
 sabia_2009_ir,teens,1
 sabia_2009_ir,restaurants_retail,0
@@ -1265,7 +1265,7 @@ sbh_2012_ilrr,owe_se,1.275
 sbh_2012_ilrr,owe_lb,-4.712
 sbh_2012_ilrr,owe_ub,0.286
 sbh_2012_ilrr,owe_magnitude,Large negative
-sbh_2012_ilrr,group,"ages 16-29, less than high school"
+sbh_2012_ilrr,group,"Ages 16-29, Less than High School"
 sbh_2012_ilrr,overall,0
 sbh_2012_ilrr,teens,0
 sbh_2012_ilrr,restaurants_retail,0
@@ -1286,7 +1286,7 @@ slichter_2023_jae,owe_se,0.182
 slichter_2023_jae,owe_lb,-0.531
 slichter_2023_jae,owe_ub,0.183
 slichter_2023_jae,owe_magnitude,Small negative
-slichter_2023_jae,group,teens
+slichter_2023_jae,group,Teens
 slichter_2023_jae,overall,0
 slichter_2023_jae,teens,1
 slichter_2023_jae,restaurants_retail,0
@@ -1307,7 +1307,7 @@ stewart_2004_jeea,owe_se,0.516
 stewart_2004_jeea,owe_lb,-0.749
 stewart_2004_jeea,owe_ub,1.273
 stewart_2004_jeea,owe_magnitude,Positive
-stewart_2004_jeea,group,adults
+stewart_2004_jeea,group,Adults
 stewart_2004_jeea,overall,1
 stewart_2004_jeea,teens,0
 stewart_2004_jeea,restaurants_retail,0
@@ -1328,7 +1328,7 @@ thompson_2009_ilrr,owe_se,0.161
 thompson_2009_ilrr,owe_lb,-0.709
 thompson_2009_ilrr,owe_ub,-0.076
 thompson_2009_ilrr,owe_magnitude,Small negative
-thompson_2009_ilrr,group,teens
+thompson_2009_ilrr,group,Teens
 thompson_2009_ilrr,overall,0
 thompson_2009_ilrr,teens,1
 thompson_2009_ilrr,restaurants_retail,0
@@ -1349,7 +1349,7 @@ totty_2017_ei,owe_se,0.109
 totty_2017_ei,owe_lb,-0.369
 totty_2017_ei,owe_ub,0.058
 totty_2017_ei,owe_magnitude,Small negative
-totty_2017_ei,group,restaurants
+totty_2017_ei,group,Restaurants
 totty_2017_ei,overall,0
 totty_2017_ei,teens,0
 totty_2017_ei,restaurants_retail,1
@@ -1370,7 +1370,7 @@ vergara_2023_wp,owe_se,NA
 vergara_2023_wp,owe_lb,NA
 vergara_2023_wp,owe_ub,NA
 vergara_2023_wp,owe_magnitude,Positive
-vergara_2023_wp,group,no college degree
+vergara_2023_wp,group,No college degree
 vergara_2023_wp,overall,1
 vergara_2023_wp,teens,0
 vergara_2023_wp,restaurants_retail,0
@@ -1391,7 +1391,7 @@ wmr_2023_wp,owe_se,0.383
 wmr_2023_wp,owe_lb,0.45
 wmr_2023_wp,owe_ub,1.95
 wmr_2023_wp,owe_magnitude,Positive
-wmr_2023_wp,group,restaurants
+wmr_2023_wp,group,Restaurants
 wmr_2023_wp,overall,0
 wmr_2023_wp,teens,0
 wmr_2023_wp,restaurants_retail,1
@@ -1412,7 +1412,7 @@ wursten_2020_wp,owe_se,0.15
 wursten_2020_wp,owe_lb,-0.515
 wursten_2020_wp,owe_ub,0.074
 wursten_2020_wp,owe_magnitude,Small negative
-wursten_2020_wp,group,restaurants
+wursten_2020_wp,group,Restaurants
 wursten_2020_wp,overall,0
 wursten_2020_wp,teens,0
 wursten_2020_wp,restaurants_retail,1
@@ -1433,7 +1433,7 @@ wursten_2021_wp,owe_se,0.162
 wursten_2021_wp,owe_lb,-0.587
 wursten_2021_wp,owe_ub,0.049
 wursten_2021_wp,owe_magnitude,Small negative
-wursten_2021_wp,group,restaurants
+wursten_2021_wp,group,Restaurants
 wursten_2021_wp,overall,0
 wursten_2021_wp,teens,0
 wursten_2021_wp,restaurants_retail,1
@@ -1454,7 +1454,7 @@ wr_2023_le,owe_se,0.01
 wr_2023_le,owe_lb,-0.016
 wr_2023_le,owe_ub,0.022
 wr_2023_le,owe_magnitude,Positive
-wr_2023_le,group,overall
+wr_2023_le,group,Overall
 wr_2023_le,overall,1
 wr_2023_le,teens,0
 wr_2023_le,restaurants_retail,0
@@ -1475,7 +1475,7 @@ wr_2023_wp,owe_se,0.182
 wr_2023_wp,owe_lb,-0.598
 wr_2023_wp,owe_ub,0.116
 wr_2023_wp,owe_magnitude,Small negative
-wr_2023_wp,group,"restaurants, teens, ages 19-21, groceries"
+wr_2023_wp,group,"Restaurants, Teens, ages 19-21, Groceries"
 wr_2023_wp,overall,0
 wr_2023_wp,teens,1
 wr_2023_wp,restaurants_retail,1
@@ -1496,7 +1496,7 @@ zavodny_2000_le,owe_se,0.896
 zavodny_2000_le,owe_lb,-1.93
 zavodny_2000_le,owe_ub,1.582
 zavodny_2000_le,owe_magnitude,Small negative
-zavodny_2000_le,group,teens
+zavodny_2000_le,group,Teens
 zavodny_2000_le,overall,0
 zavodny_2000_le,teens,1
 zavodny_2000_le,restaurants_retail,0

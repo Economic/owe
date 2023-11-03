@@ -115,9 +115,9 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
       owe_b >= 0 ~ 'Positive'
     )) %>% 
     mutate(
-      group = str_to_lower(group),
-      teens = str_detect(group, "teens"),
-      restaurants_retail = str_detect(group, "restaurant|retail|grocer")
+      group_lower = str_to_lower(group),
+      teens = str_detect(group_lower, "teens"),
+      restaurants_retail = str_detect(group_lower, "restaurant|retail|grocer")
     ) %>% 
     mutate(across(where(is.logical), as.integer)) %>% 
     select(
