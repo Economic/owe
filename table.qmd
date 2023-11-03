@@ -23,7 +23,7 @@ all_data <- targets::tar_read(owe_data) %>%
 tbl_data <- all_data %>% 
   select(study, owe_b, group, country, owe_se, authors, title, journal, url, averaged, owe_reported)
 
-shared_data <- SharedData$new(tbl_data)
+shared_data <- SharedData$new(tbl_data, group = "shared_data_group")
 
 shared_all_data <- SharedData$new(all_data, group = shared_data$groupName())
 
