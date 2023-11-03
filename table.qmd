@@ -131,7 +131,8 @@ tbl <- reactable(
     borderColor = "hsl(0, 0%, 93%)",
     headerStyle = list(borderColor = "hsl(0, 0%, 90%)")
   ),
-  class = "movies-tbl"
+  class = "movies-tbl",
+  elementId = "database_explore"
 )
 ```
 
