@@ -15,7 +15,7 @@ execute:
 //| layout-ncol: 1
 viewof group = {
   const input = Inputs.radio(
-    new Map([["Any group", null], ["Teens", "teens"], ["Restaurants or retail", "rest_retail"], ["Overall workforce", "overall"]]), 
+    new Map([["Any group", null], ["Teens", "teens"], ["Restaurants or retail", "restaurants_retail"], ["Overall workforce", "overall"]]), 
     {value: null, label: "Group of workers"}
   );
   d3.select(input).select("label").style("width", "160px");
@@ -155,7 +155,7 @@ group_filtered_data = {
   } else if (group == "teens") {
     return country_filtered_data.filter(d => d.teens == 1)
   } else if (group == "restaurants_retail") {
-    return country_filtered_data.filter(d => d.rest_retail == 1)
+    return country_filtered_data.filter(d => d.restaurants_retail == 1)
   } else {
     return country_filtered_data
   }
