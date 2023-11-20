@@ -44,7 +44,7 @@ Hampton and Totty 2023,0.072,-0.003,0.146,Low wage workers,1,US,1,0,0,0.2,Positi
 Hirsch Kaufman Zelenska 2015,0.392,-0.251,1.035,Restaurants,0,US,1,0,1,0.2,Positive
 Jardim Long Plotnick Inwegen Vigdor Wething 2022,-1.75,NA,NA,Low wage jobs,1,US,1,0,0,-1.4,Large negative
 Jha Neumark Rodriguez-Lopez 2022,-1.485,-3,0.261,Restaurants,0,US,0,0,1,-1.4,Large negative
-Karabarbounis Lise Nath 2023,-1.103,NA,NA,Low-wage establishments,1,US,0,0,0,-1,Large negative
+Karabarbounis Lise Nath 2023,-1.103,NA,NA,Low wage establishments,1,US,0,0,0,-1,Large negative
 Katz and Krueger 1992,1.734,-0.097,3,Restaurants,0,US,1,0,1,1.4,Positive
 Kim and Taylor 1995,-0.879,-1.14,-0.618,Retail,0,US,1,0,1,-1,Large negative
 Leung 2021,0.034,-1.249,1.316,Groceries,0,US,1,0,1,0.2,Positive
@@ -56,6 +56,7 @@ Neumark Schweitzer Wascher 2004,-0.227,-0.742,0.288,Low wage incumbents,1,US,1,0
 Neumark and Nizalova 2007,-0.913,-2.048,0.222,Teens,0,US,1,1,0,-1,Large negative
 Orrenius and Zavodny 2008,-0.4,-1.186,0.386,"Less than High School, Immigrants, ages 20-54",0,US,1,0,0,-0.2,Small negative
 Renkin Montialoux Siegenthaler 2022,-0.093,-0.967,0.782,Groceries,0,US,1,0,1,-0.2,Small negative
+Riley and Bondibene 2017,0.064,-1.063,1.19,Low wage establishments,1,UK,1,0,0,0.2,Positive
 Ruffini 2022,0.261,-0.134,0.656,"Nursing homes, High school or less",0,US,1,0,0,0.2,Positive
 Sabia 2008,-0.888,NA,NA,"Single Mothers, Less than High School",0,US,1,0,0,-1,Large negative
 Sabia 2009,-1.874,-2.888,-0.86,Teens,0,US,1,1,0,-1.4,Large negative
