@@ -18,7 +18,8 @@ library(crosstalk)
 library(summarywidget)
 
 all_data <- targets::tar_read(owe_data) %>% 
-  mutate(year = ymd(paste(str_extract(study, "\\d{4}"), "1", "1"))) 
+  # mutate(year = ymd(paste(str_extract(study, "\\d{4}"), "1", "1"))) 
+  mutate(year = as.numeric(str_extract(study, "\\d{4}"), "1", "1")) 
 
 tbl_data <- all_data %>% 
   select(study, owe_b, group, country, owe_se, authors, title, journal, url, averaged, owe_reported)
@@ -36,9 +37,11 @@ row_details <- function(index) {
   }
   
   owe_pretty <- paste0(
-    round(pkg$owe_b, 3), 
+    # round(pkg$owe_b, 3), 
+    scales::label_number(accuracy = 0.001)(pkg$owe_b),
     " (", 
-    round(pkg$owe_se, 3), 
+    # round(pkg$owe_se, 3), 
+    scales::label_number(accuracy = 0.001)(pkg$owe_se),
     ")"
   )
   if (pkg$averaged == 1) {
@@ -268,9 +271,9 @@ div(
       "Year published", 
       shared_all_data, 
       "year",
+      round = TRUE,
       ticks = FALSE,
-      step = 366,
-      timeFormat = "%Y"
+      step = 1
     ),
     filter_slider(
       "filter_owe", 

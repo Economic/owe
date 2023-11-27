@@ -18,6 +18,8 @@ make_bib <- function(owe_sheet, data_version) {
       study_id, matches("author_"), year, 
       title, journal, volume, number, pages, url, country
     ) %>% 
+    # create published indicator
+    mutate(published = if_else(str_detect(study_id, "_wp$"), 0, 1)) %>% 
     # identify author last names
     mutate(across(
       matches("author_"), 
@@ -54,10 +56,14 @@ make_bib_bibtex <- function(bib_data) {
       author = str_split(author, ",")
     ) %>% 
     select(-matches("author_")) %>% 
-    mutate(category = "ARTICLE") %>% 
+    mutate(category = if_else(published == 1, "ARTICLE", "TECHREPORT")) %>%
+    mutate(type = if_else(published == 0, journal, NA)) %>% 
     rename(CATEGORY = category, BIBTEXKEY = study_id) %>% 
-    rename_with(toupper, author|year|title|journal|volume|number|pages|url) %>% 
-    select(-country) %>% 
+    rename_with(
+      toupper, 
+      author|year|title|journal|volume|number|pages|url|type
+    ) %>% 
+    select(-country, -published) %>% 
     df2bib(file)
   
   file
@@ -105,7 +111,6 @@ make_owe_data <- function(owe_sheet, bib_data, data_version) {
       authors = str_replace_all(authors, ", NA", ""),
       authors = stringi::stri_replace_last_fixed(authors, ",", " and")
     ) %>% 
-    mutate(published = if_else(str_detect(study_id, "_wp$"), 0, 1)) %>% 
     mutate(data_version = data_version) %>% 
     mutate(across(starts_with("owe_"), ~ round(.x, digits = 3))) %>% 
     mutate(owe_magnitude = case_when(
