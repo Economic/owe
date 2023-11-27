@@ -60,14 +60,21 @@
     "href": "news.html",
     "title": "Changelog",
     "section": "",
-    "text": "Added Riley and Bondibene 2017"
+    "text": "refine working paper bibliographic entries in mw_owe_studies.bib output"
+  },
+  {
+    "objectID": "news.html#version-0.7.1",
+    "href": "news.html#version-0.7.1",
+    "title": "Changelog",
+    "section": "",
+    "text": "refine working paper bibliographic entries in mw_owe_studies.bib output"
   },
   {
     "objectID": "news.html#version-0.7.0",
     "href": "news.html#version-0.7.0",
     "title": "Changelog",
-    "section": "",
-    "text": "Added Riley and Bondibene 2017"
+    "section": "Version 0.7.0",
+    "text": "Version 0.7.0\n\nAdded Riley and Bondibene 2017"
   },
   {
     "objectID": "news.html#version-0.6.1",

@@ -2,6 +2,9 @@
 title: "Changelog"
 editor: source
 ---
+## Version 0.7.1
+- refine working paper bibliographic entries in mw_owe_studies.bib output
+
 ## Version 0.7.0
 - Added Riley and Bondibene 2017
 
