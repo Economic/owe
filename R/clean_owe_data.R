@@ -58,10 +58,11 @@ make_bib_bibtex <- function(bib_data) {
     select(-matches("author_")) %>% 
     mutate(category = if_else(published == 1, "ARTICLE", "TECHREPORT")) %>%
     mutate(type = if_else(published == 0, journal, NA)) %>% 
+    mutate(institution = if_else(published == 0, journal, NA)) %>% 
     rename(CATEGORY = category, BIBTEXKEY = study_id) %>% 
     rename_with(
       toupper, 
-      author|year|title|journal|volume|number|pages|url|type
+      author|year|title|journal|volume|number|pages|url|type|institution
     ) %>% 
     select(-country, -published) %>% 
     df2bib(file)
