@@ -47,7 +47,6 @@ my_plot = Plot.plot({
     type: "categorical",
     domain: ['Large negative', 'Medium negative', 'Small negative', 'Positive'],
     range: ["#440154FF", "#3B528BFF", "#21908CFF", "#5DC863FF"]
-    <!-- range: ["#1F78B4", "#A6CEE3", "#B2DF8A", "#33A02C"] -->
   },
   y: {reverse:true, padding: 0},
   marginLeft: 160,
@@ -84,9 +83,11 @@ my_plot = Plot.plot({
   ]
 })
 
-test = my_plot.legend("color", {className: "legend"})
+test = my_plot.legend("color", {
+  className: "legend",
+  tickFormat: (d) => d + ": " + d3.rollup(final_data, v => v.length, d => d.owe_magnitude).get(d) + " studies " + "(" + d3.format(".0%")([d3.rollup(final_data, v => v.length, d => d.owe_magnitude).get(d) / count_studies]) + ")"
+})
 ```
-
 
 ## Estimates and confidence intervals from \${count_studies} studies
 ```{ojs}
