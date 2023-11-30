@@ -2,8 +2,14 @@
 title: "Changelog"
 editor: source
 ---
+Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
+
+## Version 0.8.0
+- Corrected standard error from Wursten 2021
+- Refined journal names
+
 ## Version 0.7.1
-- refine working paper bibliographic entries in mw_owe_studies.bib output
+- Refined working paper bibliographic entries in mw_owe_studies.bib output
 
 ## Version 0.7.0
 - Added Riley and Bondibene 2017
