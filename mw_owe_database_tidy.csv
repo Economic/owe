@@ -1488,7 +1488,7 @@ wr_2023_le,year,2023
 wr_2023_le,title,Racial inequality in frictional labor markets: Evidence from minimum wages
 wr_2023_le,journal,Labour Economics
 wr_2023_le,url,https://doi.org/10.1016/j.labeco.2023.102344
-wr_2023_le,source,Weighted average of HSOL < $20 OWEs in Table E4 using shares in Table 2
+wr_2023_le,source,"Weighted average of HSOL < $20 OWEs in Table E4 using shares in Table 2. OWE estimates (and standard errors) are Black 0.04 (0.04); White 0.00 (0.01); and Hispanic -0.01 (0.03). Sample shares are Black 0.11, White 0.71, and Hispanic 0.12."
 wr_2023_le,data_version,0.9.0
 wr_2023_wp,study,Wursten and Reich 2023b
 wr_2023_wp,owe_b,-0.241
