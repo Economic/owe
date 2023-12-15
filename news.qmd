@@ -4,6 +4,9 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 0.9.0
+- Corrected standard errors from Wursten and Reich 2023 LE, Hampton and Totty 2023
+
 ## Version 0.8.0
 - Corrected standard error from Wursten 2021
 - Refined journal names
