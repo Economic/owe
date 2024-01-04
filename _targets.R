@@ -3,10 +3,10 @@ source("packages.R")
 
 ## Globals
 citation_authors <- "Arindrajit Dube and Ben Zipperer"
-citation_year <- 2023
+citation_year <- 2024
 citation_title <- "Minimum wage own-wage elasticity database"
 citation_url <- "https://economic.github.io/owe"
-data_version <- "0.9.0"
+data_version <- "0.9.1"
 owe_sheet <- "1-uBymldLhp5IsG-qiRmUGDy883ij8vjYdx6YpbHAing"
 
 ## Functions
