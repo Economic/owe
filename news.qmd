@@ -5,7 +5,7 @@ editor: source
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
 ## Version 0.10.0
-- Added Neumark and Yen 2023, Belman and Wolfson 2010
+- Added Neumark and Yen 2023; Belman and Wolfson 2010; and Addison Blackburn Cotti 2015
 
 ## Version 0.9.1
 - Updated Jha Neumark Rodriguez-Lopez 2024 citation to latest version
