@@ -2,12 +2,14 @@ study,owe_b,owe_lb,owe_ub,group,overall,country,published,teens,restaurants_reta
 Addison Blackburn Cotti 2009,0.452,-0.402,1.307,Retail,0,US,1,0,1,0.6,Positive
 Addison Blackburn Cotti 2012,-0.035,-0.414,0.343,Restaurants,0,US,1,0,1,-0.2,Small negative
 Addison Blackburn Cotti 2013,-0.084,-0.324,0.156,Restaurants,0,US,1,0,1,-0.2,Small negative
+Addison Blackburn Cotti 2015,-0.251,-0.522,0.019,Restaurants,0,US,1,0,1,-0.2,Small negative
 Aitken Dolton Riley 2019,-0.254,-0.69,0.182,Low wage incumbents,1,UK,0,0,0,-0.2,Small negative
 Allegretto Dube Reich 2011,0.315,-0.472,1.103,Teens,0,US,1,1,0,0.2,Positive
 Allegretto Dube Reich Zipperer 2017,0.043,-0.325,0.411,Teens,0,US,1,1,0,0.2,Positive
 Allegretto and Nadler 2015,-0.024,-1.322,1.275,Restaurants,0,US,1,0,1,-0.2,Small negative
 Azar Huet-Vaughn Marinescu Taska Wachter 2023,0.088,-1.725,1.9,Retail,0,US,1,0,1,0.2,Positive
 Bailey DiNardo Stuart 2021,-0.135,-0.286,0.016,"Men, Ages 16-64",1,US,1,0,0,-0.2,Small negative
+Belman and Wolfson 2010,-0.455,NA,NA,Low-wage industries,1,US,1,0,0,-0.6,Medium negative
 Borgshulte and Cho 2020,0.419,-0.171,1.008,Ages 62-70,0,US,1,0,0,0.6,Positive
 Bossler and Gerner 2020,-0.278,-0.694,0.138,Low-wage establishments,1,Germany,1,0,0,-0.2,Small negative
 Brown and Herbst 2023,0.841,-0.834,2.516,Child care workers,0,US,0,0,0,1,Positive
@@ -54,6 +56,7 @@ Monras 2019,-0.667,NA,NA,High school or less,1,US,1,0,0,-0.6,Medium negative
 Nadler Allegretto Godoey Reich 2019,0.21,-0.184,0.604,Restaurants,0,US,0,0,1,0.2,Positive
 Neumark Schweitzer Wascher 2004,-0.227,-0.742,0.288,Low wage incumbents,1,US,1,0,0,-0.2,Small negative
 Neumark and Nizalova 2007,-0.913,-2.048,0.222,Teens,0,US,1,1,0,-1,Large negative
+Neumark and Yen 2023,-0.154,-0.957,0.649,Restaurants,0,US,1,0,1,-0.2,Small negative
 Orrenius and Zavodny 2008,-0.4,-1.186,0.386,"Less than High School, Immigrants, ages 20-54",0,US,1,0,0,-0.2,Small negative
 Renkin Montialoux Siegenthaler 2022,-0.093,-0.967,0.782,Groceries,0,US,1,0,1,-0.2,Small negative
 Riley and Bondibene 2017,0.064,-1.063,1.19,Low wage establishments,1,UK,1,0,0,0.2,Positive

@@ -89,7 +89,7 @@ test = my_plot.legend("color", {
 })
 ```
 
-## Estimates and confidence intervals from \${count_studies} studies
+## Estimates and 95% confidence intervals from \${count_studies} studies
 ```{ojs}
 Plot.plot({
   width: Math.max(width, 600),
@@ -134,6 +134,7 @@ Plot.plot({
 
 Plot = import("https://esm.sh/@observablehq/plot")
 ```
+The own-wage elasticity (OWE) of employment is an estimate of the employment change for a given wage change experienced by a group of workers, where in this case the changes in wages and employment are due to minimum wage increases. The median OWE of the \${count_studies} studies above is \${median_formatted}.
 
 For more information, explore a [table](table.html) of all the studies, view the [documentation](documentation.html), or download the underlying [data](download.html). If you use the data or this site in your own work, please reference or cite it:
 
