@@ -155,6 +155,27 @@ NA,NA,NA,NA,NA,NA,NA
 "owe se, average",0.2507688178,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
+Manning 2021,manning_2021_jep,NA,NA,NA,NA,NA
+"Age 16-19, average percent of total hours, Table 1",5.25,NA,NA,NA,NA,NA
+"Age 20-24, average percent of total hours, Table 1",12.825,NA,NA,NA,NA,NA
+"Age 16-19, average wage effect, b, Table A1",0.2277142857,NA,NA,NA,NA,NA
+"Age 16-19, average wage effect, variance, Table A1",0.0006406942857,NA,NA,NA,NA,NA
+"Age 20-24, average wage effect, b, Table A1",0.1134285714,NA,NA,NA,NA,NA
+"Age 20-24, average wage effect, variance, Table A1",0.00059602,NA,NA,NA,NA,NA
+"Age 16-19, emp effect, b, Table A2",-0.006357142857,NA,NA,NA,NA,NA
+"Age 16-19, emp effect, variance, Table A2",0.008495615714,NA,NA,NA,NA,NA
+"Age 20-24, emp effect, b, Table A2",0.004785714286,NA,NA,NA,NA,NA
+"Age 20-24, emp effect, variance, Table A2",0.001455434286,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Age 16-19 weight,0.2904564315,NA,NA,NA,NA,NA
+Age 20-24 weight,0.7095435685,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Weighted average wage effect, b",0.1466235922,NA,NA,NA,NA,NA
+"Weighted average wage effect, se",0.02467784297,NA,NA,NA,NA,NA
+"Weighted average emp effect, b",0.001549199763,NA,NA,NA,NA,NA
+"Weighted average emp effect, se",0.05916333544,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 Neumark Schweitzer Wascher 2004 JHR,nsw_2004_jhr,NA,NA,NA,NA,NA
 "weighted average owe b, using first three groups (up to 110% of mw), table 1 shares, and table 2 wage and headcount emp effects current + lag",NA,NA,NA,NA,NA,NA
 NA,group 1,group 2,group 3,NA,NA,NA
