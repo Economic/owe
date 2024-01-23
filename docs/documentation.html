@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.489">
+<meta name="generator" content="quarto-1.4.544">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>OWE database - Documentation</title>
+<title>OWE repository - Documentation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,6 +44,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -61,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">OWE database</span>
+    <span class="navbar-title">OWE repository</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -135,13 +136,13 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>The own-wage elasticity (OWE) of employment is an estimate of the employment change for a given wage change experienced by a group of workers, where in this case the changes in wages and employment are due to minimum wage increases.</p>
-<p>The <strong>Minimum Wage Own-Wage Elasticity Database</strong>, contains a representative estimate of the OWE of employment from every minimum wage study published since 1992, with the following restrictions:</p>
+<p>The <strong>Minimum Wage Own-Wage Elasticity Repository</strong>, contains a representative estimate of the OWE of employment from every minimum wage study published since 1992, with the following restrictions:</p>
 <ol type="1">
 <li><p>the study must estimate a statistically significant wage effect of the policy, in addition to estimating an employment effect</p></li>
 <li><p>studies not published in a peer-reviewed journal or equivalent are omitted if they are more than 10 years old</p></li>
 <li><p>the study must focus on the US, UK, Germany, or Canada (we will eventually relax this constraint!)</p></li>
 </ol>
-<p>The current version of the database, Version 0.10.0, contains 76 studies, 64 of which are published in peer-reviewed journals. Version 1.0 of the database is described in IMAGE AND LINK TO WORKING PAPER.</p>
+<p>The current version of the repository, Version 0.10.0, contains 76 studies, 64 of which are published in peer-reviewed journals. Version 1.0 of the repository is described in IMAGE AND LINK TO WORKING PAPER.</p>
 <p>For more information, explore a <a href="table.html">table</a> of all the studies or download the underlying <a href="download.html">data</a>. Please don’t hesitate to <a href="submit.html">submit</a> any corrections or studies we have accidentally omitted.</p>
 <p>If you use the data or this site in your own work, please reference or cite it:</p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -154,7 +155,7 @@ Source
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Arindrajit Dube and Ben Zipperer. 2024. <em>Minimum wage own-wage elasticity database</em>, Version 0.10.0. <a href="https://economic.github.io/owe" class="uri">https://economic.github.io/owe</a></p>
+<p>Arindrajit Dube and Ben Zipperer. 2024. <em>Minimum wage own-wage elasticity repository</em>, Version 0.10.0. <a href="https://economic.github.io/owe" class="uri">https://economic.github.io/owe</a></p>
 </div>
 </div>
 
@@ -289,38 +290,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -329,8 +320,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

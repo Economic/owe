@@ -29,7 +29,7 @@ The own-wage elasticity (OWE) of employment is an estimate of the employment
 change for a given wage change experienced by a group of workers, where in this
 case the changes in wages and employment are due to minimum wage increases.
 
-The **Minimum Wage Own-Wage Elasticity Database**, contains a representative 
+The **Minimum Wage Own-Wage Elasticity Repository**, contains a representative 
 estimate of the OWE of employment from every minimum wage study published 
 since 1992, with the following restrictions:
 
@@ -43,9 +43,9 @@ if they are more than 10 years old
 (we will eventually relax this constraint!)
 
 
-The current version of the database,  Version `r data_version`, contains 
+The current version of the repository,  Version `r data_version`, contains 
 `r study_count` studies, `r published_study_count` of which are published 
-in peer-reviewed journals. Version 1.0 of the database is described in 
+in peer-reviewed journals. Version 1.0 of the repository is described in 
 IMAGE AND LINK TO WORKING PAPER.
 
 

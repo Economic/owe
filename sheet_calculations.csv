@@ -1,0 +1,321 @@
+...1,...2,...3,...4,...5,...6,...7
+Addison Blackburn Cotti 2009,abc_2009_le,NA,NA,NA,NA,NA
+NA,Convenience stores,Specialty food stores,"Beer, wine, and liquor stores",NA,NA,NA
+Table 1 mean emp,276,746,262,NA,NA,NA
+Table 4 earnings b,0.3,0.266,0.1,NA,NA,NA
+Table 4 earnings se,0.059,0.049,0.042,NA,NA,NA
+Table 4 emp b,0.227,0.067,0.101,NA,NA,NA
+Table 4 emp se,0.116,0.11,0.048,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+emp share,0.214953271,0.5809968847,0.2040498442,NA,NA,NA
+earnings var,0.003481,0.002401,0.001764,NA,NA,NA
+emp var,0.013456,0.0121,0.002304,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+average emp b,0.1083302181,NA,NA,NA,NA,NA
+average emp se,0.1019441237,NA,NA,NA,NA,NA
+average wage b,0.2394361371,NA,NA,NA,NA,NA
+average wage se,0.05003168778,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Allegretto and Nadler 2015,an_2015_ir,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, earnings TW b",0.032,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, earnings TW se",0.017,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, earnings MW b",0.138,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, earnings MW se",0.03,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, employment TW b",0.011,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, employment TW se",0.084,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, employment MW b",-0.015,NA,NA,NA,NA,NA
+"Table 2, panel A, spec 4, employment MW se",0.075,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+wage_b,0.17,NA,NA,NA,NA,NA
+wage_se,0.0344818793,NA,NA,NA,NA,NA
+emp_b,-0.004,NA,NA,NA,NA,NA
+emp_se,0.1126099463,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Azar et al 2023,ahvmtw_2023_restud,NA,NA,NA,NA,NA
+"OWEs and SEs from email, but also shown in Figure 7",NA,NA,NA,NA,NA,NA
+NA,"Cashiers, Mid HHI",Retail Sales,Stock Clerks,NA,NA,NA
+owe b,0.2393625,0.4526794,-0.4335623,NA,NA,NA
+owe se,0.83623,0.8957029,1.031698,NA,NA,NA
+"sample sizes, table 3",56592,57280,56536,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+sample share,0.3320970846,0.3361344538,0.3317684616,NA,NA,NA
+owe var,0.6992806129,0.8022836851,1.064400763,NA,NA,NA
+average b,0.08781043401,NA,NA,NA,NA,NA
+average se,0.9246831051,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Currie and Fallick 1996,cf_1996_jhr,NA,NA,NA,NA,NA
+"Table 2 semi-elast emp, b",-0.184,NA,NA,NA,NA,NA
+"Table 2 semi-elast emp, se",0.032,NA,NA,NA,NA,NA
+"Table 1 proportion employed excl missing, 1987",0.97,NA,NA,NA,NA,NA
+"Table 4, panel b, wagegap, fixed effects, b",0.213,NA,NA,NA,NA,NA
+"Table 4, panel b, wagegap, fixed effects, se",0.069,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+emp elast b,-0.1896907216,NA,NA,NA,NA,NA
+emp elast se,0.03298969072,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Card 1992 regional,card_1992_ilrr_regional,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Table 4, structural employment demand (5), b",0.16,NA,NA,NA,NA,NA
+"Table 4, structural employment demand (5), se",0.28,NA,NA,NA,NA,NA
+"Table 2 employment rate average of three groups, all quarters 1989",0.4546666667,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+owe b,0.3519061584,NA,NA,NA,NA,NA
+owe se,0.6158357771,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Dickens Riley Wilkinson 2015,drw_2005_economica,NA,NA,NA,NA,NA
+NA,"wage growth from table 3, line 1998; emp semi-elast from table 5, line 1998; pre-period treatment group emp inferred from Figure 2; observation count from pre-period table 2",NA,NA,NA,NA,NA
+NA,female full-time,female part-time,male full-time,NA,NA,NA
+table 2 obs count,110346,58706,204096,NA,NA,NA
+table 3 wage growth estimate,0.042,0.06,0.069,NA,NA,NA
+table 3 wage growth se,0.005,0.005,0.006,NA,NA,NA
+figure 2 pre-nmw mean of treated group,0.715,0.705,0.6725,NA,NA,NA
+"table 5 emp effect, semi-elast",-0.013,-0.033,-0.028,NA,NA,NA
+"table 5 emp se, semi-elast",0.019,0.015,0.021,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+obs count shares,0.2957164449,0.1573263156,0.5469572395,NA,NA,NA
+"emp b, elast",-0.01818181818,-0.04680851064,-0.04163568773,NA,NA,NA
+"emp se, elast",0.02657342657,0.02127659574,0.0312267658,NA,NA,NA
+"emp var, elast",0.0007061469999,0.0004526935265,0.0009751109023,NA,NA,NA
+wage growth var,0.000025,0.000025,0.000036,NA,NA,NA
+"emp, b pooled",-0.03551381398,NA,NA,NA,NA,NA
+"emp, se pooled",0.02851988521,NA,NA,NA,NA,NA
+"wage, b pooled",0.05959971915,NA,NA,NA,NA,NA
+"wage, se pooled",0.00556924857,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Draca Machin Van Reenan,dmvr_2011_aeja,NA,NA,NA,NA,NA
+NA,high-market power,low-market power,NA,NA,NA,NA
+"Table 5, panel A, wage b",0.109,0.081,NA,NA,NA,NA
+"Table 5,. panel A, wage se",0.035,0.038,NA,NA,NA,NA
+"Table 5, panel C, emp b",0.104,-0.012,NA,NA,NA,NA
+"Table 5,. panel C, emp se",0.142,0.121,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Average wage b,0.095,NA,NA,NA,NA,NA
+Average wage se,0.03653080892,NA,NA,NA,NA,NA
+average emp b,0.046,NA,NA,NA,NA,NA
+average emp se,0.1319185355,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Even and Macpherson 2014,em_2014_sej,NA,NA,NA,NA,NA
+"Table 1 wage elast, tipped, b",0.045,NA,NA,NA,NA,NA
+"Table 1 wage elast, tipped, t",4,NA,NA,NA,NA,NA
+Table 1 wage elast headline b,0.152,NA,NA,NA,NA,NA
+"Table 1 wage elast, headline, t",5.27,NA,NA,NA,NA,NA
+"Table 2 emp elast, tipped, b",-0.102,NA,NA,NA,NA,NA
+"Table 2 emp elast, tipped, t",3.45,NA,NA,NA,NA,NA
+Table 2 emp elast headline b,-0.052,NA,NA,NA,NA,NA
+Table 2 emp elast headline t,1.24,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+tipped wage elast se,0.01125,NA,NA,NA,NA,NA
+headline wage elast se,0.02884250474,NA,NA,NA,NA,NA
+"total wage elast, b",0.197,NA,NA,NA,NA,NA
+"total wage elast, se",0.03095888531,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+tipped emp elast se,0.02956521739,NA,NA,NA,NA,NA
+headline emp elast se,0.04193548387,NA,NA,NA,NA,NA
+"total emp elast, b",-0.154,NA,NA,NA,NA,NA
+"total emp elast, se",0.05130971533,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Hampton Totty 2013,provides age group specific OWEs and confidence intervals; calculates a weighted average OWE using regression sample weights; we replicate this and extend to estimated standard errors,NA,NA,NA,NA,NA
+table 7,62-70,16-24,25-34,35-44,45-54,55-61
+"sample size, panel A",27000,212000,142000,103000,72000,29000
+owe estimate,0.816,-0.021,0.019,0.091,0.013,0.393
+owe ci span,1.83,0.18,0.228,0.262,0.38,1.16
+owe se,0.4668367347,0.04591836735,0.05816326531,0.06683673469,0.09693877551,0.2959183673
+sample share,0.04615384615,0.3623931624,0.2427350427,0.1760683761,0.1230769231,0.04957264957
+NA,NA,NA,NA,NA,NA,NA
+weighted average of owe estimates,0.07176752137,NA,NA,NA,NA,NA
+square root of weighted average of variances,0.1338952327,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Karabarbounis Lise Nath 2023,klb_2023_wp,NA,NA,NA,NA,NA
+"Table 2 Minneapolis wage, 2021 b",14.7,NA,NA,NA,NA,NA
+"Table 2 St. Paul wage, 2021 b",10.5,NA,NA,NA,NA,NA
+"Table 2 Minneapolis jobs, 2021 b",-14.6,NA,NA,NA,NA,NA
+"Table 2 St. Paul jobs, 2021 b",-13.2,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Average wage effect,12.6,NA,NA,NA,NA,NA
+average jobs effect,-13.9,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Machin Manning Rahman 2003,mmr_2003_jeea,NA,NA,NA,NA,NA
+"Table 6, spec 7, panel ""number employed"", b",-0.345,NA,NA,NA,NA,NA
+"Table 6, spec 7, panel ""number employed"", se",0.159,NA,NA,NA,NA,NA
+"Table 6, spec 8, panel ""number employed"", b",-0.561,NA,NA,NA,NA,NA
+"Table 6, spec 8, panel ""number employed"", se",0.317,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"owe b, average",-0.453,NA,NA,NA,NA,NA
+"owe se, average",0.2507688178,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Neumark Schweitzer Wascher 2004 JHR,nsw_2004_jhr,NA,NA,NA,NA,NA
+"weighted average owe b, using first three groups (up to 110% of mw), table 1 shares, and table 2 wage and headcount emp effects current + lag",NA,NA,NA,NA,NA,NA
+NA,group 1,group 2,group 3,NA,NA,NA
+"published share, table 1",0.026,0.046,0.031,NA,NA,NA
+wage current b,1.39,0.79,0.78,NA,NA,NA
+wage current se,0.25,0.1,0.12,NA,NA,NA
+wage lag b,-0.76,-0.6,-0.29,NA,NA,NA
+wage lag se,0.23,0.09,0.11,NA,NA,NA
+emp current b,0.034,-0.115,-0.145,NA,NA,NA
+emp current se,0.069,0.062,0.069,NA,NA,NA
+emp lag b,-0.014,-0.065,0.1,NA,NA,NA
+emp lag se,0.066,0.06,0.063,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+total wage b,0.63,0.19,0.49,NA,NA,NA
+"total wage se, assume 0 covariance",0.339705755,0.1345362405,0.162788206,NA,NA,NA
+total wage var,0.1154,0.0181,0.0265,NA,NA,NA
+total emp b,0.02,-0.18,-0.045,NA,NA,NA
+"total emp se, assume 0 covariance",0.09548298278,0.08627861844,0.09343446901,NA,NA,NA
+total emp var,0.009117,0.007444,0.00873,NA,NA,NA
+scaled group share,0.2524271845,0.4466019417,0.3009708738,NA,NA,NA
+"wage b, weighted average",0.3913592233,NA,NA,NA,NA,NA
+wage se,0.2125777984,NA,NA,NA,NA,NA
+"emp b, weighted average",-0.08888349515,NA,NA,NA,NA,NA
+emp se,0.09084800066,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Neumark and Yen 2024,ny_2024_jpam,NA,NA,NA,NA,NA
+"Table 2 wage elast, tipped, b",0.062,NA,NA,NA,NA,NA
+"Table 2 wage elast, tipped, se",0.014,NA,NA,NA,NA,NA
+Table 2 wage elast headline b,0.094,NA,NA,NA,NA,NA
+"Table 2 wage elast, headline, se",0.021,NA,NA,NA,NA,NA
+"Table 2 emp elast, tipped, b",-0.064,NA,NA,NA,NA,NA
+"Table 2 emp elast, tipped, se",0.037,NA,NA,NA,NA,NA
+Table 2 emp elast headline b,0.04,NA,NA,NA,NA,NA
+Table 2 emp elast headline se,0.052,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"total wage elast, b",0.156,NA,NA,NA,NA,NA
+"total wage elast, se",0.02523885893,NA,NA,NA,NA,NA
+"total emp elast, b",-0.024,NA,NA,NA,NA,NA
+"total emp elast, se",0.06382005954,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Slichter 2023 JAE,slichter_2023_jae,NA,NA,NA,NA,NA
+NA,t,t+1,t+2,t+3,t+4,NA
+"Table 6, Earnings change, b",0.0211,0.0258,0.0244,0.0224,0.0291,NA
+"Table 6, Earnings change, se",0.0028,0.0026,0.0025,0.0028,0.0041,NA
+"Table 2 Panel A, Employment change, b",-0.004,-0.0077,-0.0067,-0.0013,-0.0017,NA
+"Table 2 Panel A, Employment change, se",0.0027,0.0024,0.0032,0.0047,0.0073,NA
+NA,NA,NA,NA,NA,NA,NA
+earnings variance,0.00000784,0.00000676,0.00000625,0.00000784,0.00001681,NA
+emp variance,0.00000729,0.00000576,0.00001024,0.00002209,0.00005329,NA
+pooled earn b,0.02456,NA,NA,NA,NA,NA
+pooled earn se,0.003016620626,NA,NA,NA,NA,NA
+pooled emp b,-0.00428,NA,NA,NA,NA,NA
+pooled emp se,0.004442296703,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Stewart 2004 JEEA,NA,NA,NA,NA,NA,NA
+"wage effect from Table 1 using actual hours, full set of time dummies",NA,NA,NA,NA,NA,NA
+"emp effect from Table 2, linear dd using actual hours, adult men and women averaged",NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"adult men, emp b",0.015,NA,NA,NA,NA,NA
+"adult men, emp se",0.0306122449,NA,NA,NA,NA,NA
+"adule women, emp b",0.011,NA,NA,NA,NA,NA
+"adult women, emp se",0.01833333333,NA,NA,NA,NA,NA
+total emp sample size,54165,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"pooled wage effect, b",0.061,NA,NA,NA,NA,NA
+"pooled wage effect, se",0.02040133779,NA,NA,NA,NA,NA
+total wage sample size,44076,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+retentation rate,0.8137358073,NA,NA,NA,NA,NA
+simple average emp b,0.013,NA,NA,NA,NA,NA
+simple average emp se,0.02523113799,NA,NA,NA,NA,NA
+percent emp change b,0.01597570106,NA,NA,NA,NA,NA
+percent emp change se,0.03100654754,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Wursten 2021 working paper,wursten_2021_wp,NA,NA,NA,NA,NA
+low vulnerability earn elast,0.06,NA,NA,NA,NA,NA
+low vulnerability earn se,0.02,NA,NA,NA,NA,NA
+high vulnerability earn elast,0.2,NA,NA,NA,NA,NA
+high vulnerability earn se,0.03,NA,NA,NA,NA,NA
+low vulnerability emp elast,-0.02,NA,NA,NA,NA,NA
+low vulnerability emp se,0.02,NA,NA,NA,NA,NA
+high vulnerability emp elast,-0.05,NA,NA,NA,NA,NA
+high vulnerability emp se,0.02,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"pooled emp effect, b",-0.035,NA,NA,NA,NA,NA
+"pooled emp effect, se",0.02,NA,NA,NA,NA,NA
+"pooled earn effect, b",0.13,NA,NA,NA,NA,NA
+"pooled earn effect, se",0.02549509757,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Wursten Reich 2023 LE,wursten_reich_2023_le,NA,NA,NA,NA,NA
+NA,black,white,hispanic,NA,average,NA
+"table e4, hsol <$20 owe b",0.04,0,-0.01,NA,NA,NA
+"table e4, hsol <$20 owe se",0.04,0.01,0.03,NA,NA,NA
+table 2 shares,0.11,0.71,0.12,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"shares, scaled",0.1170212766,0.7553191489,0.1276595745,NA,NA,NA
+owe variance,0.0016,0.0001,0.0009,NA,NA,NA
+weighted average b,0.003404255319,NA,NA,NA,NA,NA
+weighted average se,0.01943346532,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Wursten Reich 2023 WP,wursten_reich_2023_wp,shares,NA,NA,NA,NA
+"Restaurant earn elast, Table 3, All, b",0.16,NA,NA,NA,NA,NA
+"Restaurant earn elast, Table 3, All, se",0.02,NA,NA,NA,NA,NA
+"Restaurant emp elast, Table 3, All, b",-0.02,NA,NA,NA,NA,NA
+"Restaurant emp elast, Table 3, All, se",0.02,NA,NA,NA,NA,NA
+"Restaurant group size, Table 3, All",11.7,0.5652173913,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Teen 14-18 earn elast, Table 5, All, b",0.21,NA,NA,NA,NA,NA
+"Teen 14-18 earn elast, Table 5, All, se",0.03,NA,NA,NA,NA,NA
+"Teen 14-18 emp elast, Table 5, All, b",-0.09,NA,NA,NA,NA,NA
+"Teen 14-18 emp elast, Table 5, All, se",0.05,NA,NA,NA,NA,NA
+"Teen group size, Table 5, All",3.1,0.1497584541,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Young adults 19-21 earn elast, Table 6, b",0.1,NA,NA,NA,NA,NA
+"Young adults 19-21 earn elast, Table 6, se",0.03,NA,NA,NA,NA,NA
+"Young adults 19-21 emp elast, Table 6, b",-0.04,NA,NA,NA,NA,NA
+"Young adults 19-21 emp elast, Table 6, se",0.02,NA,NA,NA,NA,NA
+"Young adults group size, Table 6, All",5.9,0.2850241546,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Average emp elast, b",-0.03618357488,NA,NA,NA,NA,NA
+"Average emp elast, se",0.02672999726,NA,NA,NA,NA,NA
+"Average wage elast, b",0.1503864734,NA,NA,NA,NA,NA
+"Average wage elast, se",0.02484736011,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Zavodny 2000,zavodny_2000_le,NA,NA,NA,NA,NA
+Table 1 col 7 hourly wage semi-elast b,0.685,NA,NA,NA,NA,NA
+Table 1 col 7 hourly wage semi-elast se,0.087,NA,NA,NA,NA,NA
+Table 1 col 1 employment elast b,-0.021,NA,NA,NA,NA,NA
+Table 1 col 1 employment elast se,0.108,NA,NA,NA,NA,NA
+Table 2 total sample (1) average real wage in first year,5.68,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+wage elast b,0.1205985915,NA,NA,NA,NA,NA
+wage elast se,0.01531690141,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Individual estiamtes (Table 3),Wage est,2.305,NA,NA,NA,NA
+NA,SE,5.68,NA,NA,NA,NA
+NA,"Average real wage (affected, col 2, Table 2)",4.08,NA,NA,NA,NA
+NA,wage b,0.5649509804,NA,NA,NA,NA
+NA,wage se,1.392156863,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,Prob emp change,-0.083,NA,NA,NA,NA
+NA,SE,0.04830859375,NA,NA,NA,NA
+NA,"Average emp (affected, col 3, Table 2)",0.7022,NA,NA,NA,NA
+NA,emp b,-0.118199943,NA,NA,NA,NA
+NA,emp se,0.0687960606,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,owe b,-0.2092215911,"* but the disemployment estimates driven by mean reversion, as table 5 suggets and author notes",NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Kabatek 2021,Wage effect (averaged across discontinuities),0.049,NA,NA,NA,NA
+NA,"Employment effect (level, pp)",-0.318,NA,NA,NA,NA
+NA,Employment rate (average),53,NA,NA,NA,NA
+NA,Employment (% change),-0.006,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,OWE,-0.1224489796,NA,NA,NA,NA

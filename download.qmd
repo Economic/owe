@@ -12,7 +12,7 @@ make_md_link <- function(name, url) {
 
 ```
 
-## OWE database
+## OWE repository
 Download the latest version of the data: `r make_md_link("csv", targets::tar_read(owe_csv_file))`
 
 ```{r}
@@ -45,10 +45,10 @@ targets::tar_read(owe_data) %>%
     journal = "Journal",
     url = "URL of study",
     source = "Description of how the OWE was calculated",
-    data_version = "Minimum wage OWE database version"
+    data_version = "Minimum wage OWE repository version"
   ) %>% 
   pivot_longer(everything(), names_to = "Column name", values_to = "Column description") %>% 
-  reactable(pagination = FALSE, elementId = "database_columns")
+  reactable(pagination = FALSE, elementId = "repository_columns")
 ```
 <br/>
 See the [documentation](documentation.html) for additional details.

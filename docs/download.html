@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.489">
+<meta name="generator" content="quarto-1.4.544">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>OWE database - Data files</title>
+<title>OWE repository - Data files</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,6 +44,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -68,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">OWE database</span>
+    <span class="navbar-title">OWE repository</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -141,13 +142,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="owe-database" class="level2">
-<h2 class="anchored" data-anchor-id="owe-database">OWE database</h2>
+<section id="owe-repository" class="level2">
+<h2 class="anchored" data-anchor-id="owe-repository">OWE repository</h2>
 <p>Download the latest version of the data: <a href="mw_owe_database.csv">csv</a></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="reactable html-widget html-fill-item" id="database_columns" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="database_columns">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Column name":["study","study_id","owe_b","owe_se","owe_lb","owe_ub","owe_magnitude","group","overall","teens","restaurants_retail","country","averaged","owe_reported","published","authors","year","title","journal","url","source","data_version"],"Column description":["Study name, as author-year","Study name, abbreviated","Effect size","Standard error","Lower bound of 95% confidence interval","Upper bound of 95% confidence interval","Qualitative description of magnitude of owe_b","Group of workers","Covers a very broad group of low-wage workers","Estimate focused on teens","Estimate focused on restaurants or retail","Country","Multiple estimates from the study were averaged","Authors report own-wage elasticities","Published in a peer-review journal or equivalent","Full names of authors","Year of study","Title of study","Journal","URL of study","Description of how the OWE was calculated","Minimum wage OWE database version"]},"columns":[{"id":"Column name","name":"Column name","type":"character"},{"id":"Column description","name":"Column description","type":"character"}],"pagination":false,"elementId":"database_columns","dataKey":"9f58e6ba80d9e4b58fa57f2742fcfebb"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item" id="repository_columns" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="repository_columns">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Column name":["study","study_id","owe_b","owe_se","owe_lb","owe_ub","owe_magnitude","group","overall","teens","restaurants_retail","country","averaged","owe_reported","published","authors","year","title","journal","url","source","data_version"],"Column description":["Study name, as author-year","Study name, abbreviated","Effect size","Standard error","Lower bound of 95% confidence interval","Upper bound of 95% confidence interval","Qualitative description of magnitude of owe_b","Group of workers","Covers a very broad group of low-wage workers","Estimate focused on teens","Estimate focused on restaurants or retail","Country","Multiple estimates from the study were averaged","Authors report own-wage elasticities","Published in a peer-review journal or equivalent","Full names of authors","Year of study","Title of study","Journal","URL of study","Description of how the OWE was calculated","Minimum wage OWE repository version"]},"columns":[{"id":"Column name","name":"Column name","type":"character"},{"id":"Column description","name":"Column description","type":"character"}],"pagination":false,"elementId":"repository_columns","dataKey":"47d8f1bcddaff026c008275df8e0dc84"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <p><br> See the <a href="documentation.html">documentation</a> for additional details.</p>
@@ -169,7 +170,7 @@ Source
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Arindrajit Dube and Ben Zipperer. 2024. <em>Minimum wage own-wage elasticity database</em>, Version 0.10.0. <a href="https://economic.github.io/owe" class="uri">https://economic.github.io/owe</a></p>
+<p>Arindrajit Dube and Ben Zipperer. 2024. <em>Minimum wage own-wage elasticity repository</em>, Version 0.10.0. <a href="https://economic.github.io/owe" class="uri">https://economic.github.io/owe</a></p>
 </div>
 </div>
 </section>
@@ -309,38 +310,28 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
     stripColumnClz(note)
-    const typesetMath = (el) => {
-      if (window.MathJax) {
-        // MathJax Typeset
-        window.MathJax.typeset([el]);
-      } else if (window.katex) {
-        // KaTeX Render
-        var mathElements = el.getElementsByClassName("math");
-        var macros = [];
-        for (var i = 0; i < mathElements.length; i++) {
-          var texText = mathElements[i].firstChild;
-          if (mathElements[i].tagName == "SPAN") {
-            window.katex.render(texText.data, mathElements[i], {
-              displayMode: mathElements[i].classList.contains('display'),
-              throwOnError: false,
-              macros: macros,
-              fleqn: false
-            });
-          }
-        }
-      }
-    }
     if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
-        typesetMath(container);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
         return container.innerHTML
       } else {
-        typesetMath(note);
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
@@ -349,8 +340,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (anchorLink) {
         anchorLink.remove();
       }
-      typesetMath(note);
-      return note.innerHTML;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {

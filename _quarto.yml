@@ -4,7 +4,7 @@ project:
   resources: mw_owe_database.csv, mw_owe_studies.csv, mw_owe_studies.bib
   
 website:
-  title: "OWE database"
+  title: "OWE repository"
   repo-url: https://github.com/economic/owe
   search: false
   navbar:

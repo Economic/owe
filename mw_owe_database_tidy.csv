@@ -965,27 +965,27 @@ jlpivw_2022_aejep,journal,American Economic Journal: Economic Policy
 jlpivw_2022_aejep,url,https://doi.org/10.1257/pol.20180578
 jlpivw_2022_aejep,source,"Wage elasticity from Table 6a, specification ""SC levels"", row ""2016:III"". Employment elasticity from Table 6c, specification ""SC levels"", row ""2016:III"". Communication with authors suggests synthetic control ""levels"" specification."
 jlpivw_2022_aejep,data_version,0.10.0
-jnrl_2024_wp,study,Jha Neumark Rodriguez-Lopez 2024
-jnrl_2024_wp,owe_b,-1.485
-jnrl_2024_wp,owe_se,0.89
-jnrl_2024_wp,owe_lb,-3.23
-jnrl_2024_wp,owe_ub,0.261
-jnrl_2024_wp,owe_magnitude,Large negative
-jnrl_2024_wp,group,Restaurants
-jnrl_2024_wp,overall,0
-jnrl_2024_wp,teens,0
-jnrl_2024_wp,restaurants_retail,1
-jnrl_2024_wp,country,US
-jnrl_2024_wp,averaged,0
-jnrl_2024_wp,owe_reported,0
-jnrl_2024_wp,published,0
-jnrl_2024_wp,authors,"Priyaranjan Jha, David Neumark and Antonio Rodriguez-Lopez"
-jnrl_2024_wp,year,2024
-jnrl_2024_wp,title,What’s across the Border? Re-Evaluating the Cross-Border Evidence on Minimum Wage Effects
-jnrl_2024_wp,journal,Working Paper
-jnrl_2024_wp,url,https://www.socsci.uci.edu/~jantonio/Papers/minwage_czones.pdf
-jnrl_2024_wp,source,"Wage and employment elasticities from Table 3, specification 1."
-jnrl_2024_wp,data_version,0.10.0
+jnrl_2023_wp,study,Jha Neumark Rodriguez-Lopez 2023
+jnrl_2023_wp,owe_b,-1.485
+jnrl_2023_wp,owe_se,0.89
+jnrl_2023_wp,owe_lb,-3.23
+jnrl_2023_wp,owe_ub,0.261
+jnrl_2023_wp,owe_magnitude,Large negative
+jnrl_2023_wp,group,Restaurants
+jnrl_2023_wp,overall,0
+jnrl_2023_wp,teens,0
+jnrl_2023_wp,restaurants_retail,1
+jnrl_2023_wp,country,US
+jnrl_2023_wp,averaged,0
+jnrl_2023_wp,owe_reported,0
+jnrl_2023_wp,published,0
+jnrl_2023_wp,authors,"Priyaranjan Jha, David Neumark and Antonio Rodriguez-Lopez"
+jnrl_2023_wp,year,2023
+jnrl_2023_wp,title,What’s across the Border? Re-Evaluating the Cross-Border Evidence on Minimum Wage Effects
+jnrl_2023_wp,journal,Working Paper
+jnrl_2023_wp,url,https://www.socsci.uci.edu/~jantonio/Papers/minwage_czones.pdf
+jnrl_2023_wp,source,"Wage and employment elasticities from Table 3, specification 1."
+jnrl_2023_wp,data_version,0.10.0
 kln_2023_wp,study,Karabarbounis Lise Nath 2023
 kln_2023_wp,owe_b,-1.103
 kln_2023_wp,owe_se,NA
@@ -1087,7 +1087,7 @@ lhr_2016_labour,published,1
 lhr_2016_labour,authors,"Shanshan Liu, Thomas J. Hyclack and Krishna Regmi"
 lhr_2016_labour,year,2016
 lhr_2016_labour,title,Impact of the Minimum Wage on Youth Labor Markets
-lhr_2016_labour,journal,Labour
+lhr_2016_labour,journal,LABOUR
 lhr_2016_labour,url,https://doi.org/10.1111/labr.12071
 lhr_2016_labour,source,"Employment and wage elasticities from Table 2, specifications ""14-18"", Panel B."
 lhr_2016_labour,data_version,0.10.0
@@ -1570,7 +1570,7 @@ wr_2023_wp,published,0
 wr_2023_wp,authors,Jesse Wursten and Michael Reich
 wr_2023_wp,year,2023
 wr_2023_wp,title,Small Business and the Minimum Wage
-wr_2023_wp,journal,ILRE Working Paper
+wr_2023_wp,journal,IRLE Working Paper
 wr_2023_wp,url,https://irle.berkeley.edu/wp-content/uploads/2023/03/Small-Businesses-and-the-Minimum-Wage-3-14-23.pdf
 wr_2023_wp,source,"Weighted average of three wage and employment elasticities for restaurants, teens, and young adults, where the weights are the ""Group size in 2019Q4"": Restaurants, Table 3, Firm size All; Teens 14-18, Table 5, Firm size All; Young adults 19-21, Table 6, Firm Size All."
 wr_2023_wp,data_version,0.10.0

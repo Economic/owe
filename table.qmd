@@ -1,5 +1,5 @@
 ---
-title: Explore the studies in the OWE database
+title: Explore the studies in the OWE repository
 editor: source
 execute:
   echo: false
@@ -135,7 +135,7 @@ tbl <- reactable(
     headerStyle = list(borderColor = "hsl(0, 0%, 90%)")
   ),
   class = "movies-tbl",
-  elementId = "database_explore"
+  elementId = "repository_explore"
 )
 ```
 

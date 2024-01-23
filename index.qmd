@@ -1,5 +1,5 @@
 ---
-pagetitle: "Minimum wage own-wage elasticity database"
+pagetitle: "Minimum wage own-wage elasticity repository"
 page-layout: full
 section-divs: false
 css: index.css
@@ -8,7 +8,7 @@ execute:
   echo: false
 ---
 ::: {.hero-banner}
-# Minimum wage own-wage elasticity database
+# Minimum wage own-wage elasticity repository
 :::
 ```{ojs}
 //| panel: input

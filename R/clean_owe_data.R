@@ -10,10 +10,31 @@ calculate_owe <- function(.data, x) {
   # emp_b^2 / wage_b^2 * (emp_se^2 / emp_b^2 + wage_se^2 / wage_b^2)
 }
 
-# grab papers
-make_bib <- function(owe_sheet, data_version) {
+download_sheet <- function(google_sheet, tab_name, csv_name, data_version, ...) {
   gs4_deauth()
-  read_sheet(owe_sheet, "papers") %>% 
+  
+  if (tab_name == "detailed_calculations") {
+    data <- read_sheet(
+      google_sheet, 
+      tab_name,
+      col_names = FALSE,
+      col_types = "c", 
+      .name_repair = "unique_quiet"
+    )
+  }
+  
+  else {
+    data <- read_sheet(google_sheet, tab_name)
+  }
+  
+  write_csv(data, csv_name)
+  
+  csv_name
+}
+
+# grab papers
+make_bib <- function(papers_csv) {
+  read_csv(papers_csv, show_col_types = FALSE) %>% 
     select(
       study_id, matches("author_"), year, 
       title, journal, volume, number, pages, url, country
@@ -82,10 +103,8 @@ make_bib_csv <- function(bib_data) {
   file
 }
 
-make_owe_data <- function(owe_sheet, bib_data, data_version) {
-  gs4_deauth()
-  
-  read_sheet(owe_sheet, "estimates") %>% 
+make_owe_data <- function(estimates_csv, bib_data, data_version) {
+  read_csv(estimates_csv, show_col_types = FALSE) %>% 
     # calculate new owe
     calculate_owe(owe_new) %>% 
     # if owe b or se was originally missing, use new calculated owe
