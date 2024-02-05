@@ -76,16 +76,21 @@ make_bib_bibtex <- function(bib_data) {
       author = str_replace_all(author, ",NA", ""),
       author = str_split(author, ",")
     ) %>% 
-    select(-matches("author_")) %>% 
-    mutate(category = if_else(published == 1, "ARTICLE", "TECHREPORT")) %>%
-    mutate(type = if_else(published == 0, journal, NA)) %>% 
-    mutate(institution = if_else(published == 0, journal, NA)) %>% 
+    mutate(
+      category = if_else(published == 1, "ARTICLE", "TECHREPORT"),
+      type = if_else(published == 0, journal, NA),
+      institution = if_else(published == 0, journal, NA)
+    ) %>%
+    mutate(
+      doi_detect = str_detect(url, "doi.org"),
+      doi = if_else(doi_detect, str_replace(url, "^.*doi.org/", ""), NA)
+    ) %>% 
     rename(CATEGORY = category, BIBTEXKEY = study_id) %>% 
     rename_with(
       toupper, 
-      author|year|title|journal|volume|number|pages|url|type|institution
+      author|year|title|journal|volume|number|pages|url|type|institution|doi
     ) %>% 
-    select(-country, -published) %>% 
+    select(-country, -published, -doi_detect, -matches("author_")) %>% 
     df2bib(file)
   
   file
