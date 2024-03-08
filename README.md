@@ -1,7 +1,7 @@
 # Minimum Wage OWE Repository
 
 The Minimum Wage Own-Wage Elasticity Repository contains a representative estimate of the 
-OWE of employment from minimum wage research studies.
+own-wage elasticity (OWE) of employment from minimum wage research studies.
 
 This code repository creates the [website](https://economic.github.io/owe/) for the OWE repository, 
 where you can [explore](https://economic.github.io/owe/table.html) a table of all the studies, 
