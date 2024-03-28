@@ -215,7 +215,7 @@ bw_2010_labour,owe_se,NA
 bw_2010_labour,owe_lb,NA
 bw_2010_labour,owe_ub,NA
 bw_2010_labour,owe_magnitude,Medium negative
-bw_2010_labour,group,Low-wage industries
+bw_2010_labour,group,Low wage industries
 bw_2010_labour,overall,1
 bw_2010_labour,teens,0
 bw_2010_labour,restaurants_retail,0
@@ -257,7 +257,7 @@ bg_2020_ilrr,owe_se,0.212
 bg_2020_ilrr,owe_lb,-0.694
 bg_2020_ilrr,owe_ub,0.138
 bg_2020_ilrr,owe_magnitude,Small negative
-bg_2020_ilrr,group,Low-wage establishments
+bg_2020_ilrr,group,Low wage establishments
 bg_2020_ilrr,overall,1
 bg_2020_ilrr,teens,0
 bg_2020_ilrr,restaurants_retail,0
@@ -530,7 +530,7 @@ dm_2021_qje,owe_se,0.16
 dm_2021_qje,owe_lb,-0.254
 dm_2021_qje,owe_ub,0.374
 dm_2021_qje,owe_magnitude,Positive
-dm_2021_qje,group,Overall
+dm_2021_qje,group,"Overall, ages 25-55"
 dm_2021_qje,overall,1
 dm_2021_qje,teens,0
 dm_2021_qje,restaurants_retail,0
