@@ -162,6 +162,28 @@ NA,NA,NA,NA,NA,NA,NA
 "owe se, average",0.2507688178,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
+Machin Wilson 2004,mw_2004_ej,NA,NA,NA,NA,NA
+NA,b,se,NA,NA,NA,NA
+"wage: Table 2, no controls, low pay proportion",0.132,0.011,NA,NA,NA,NA
+"wage: Table 2, no controls, wage gap",0.802,0.071,NA,NA,NA,NA
+"wage: Table 2, controls, low pay proportion",0.15,0.021,NA,NA,NA,NA
+"wage: Table 2, controls, wage gap",0.814,0.086,NA,NA,NA,NA
+"emp: Table 3, no controls, low pay proportion",-0.053,0.041,NA,NA,NA,NA
+"emp: Table 3, no controls, wage gap",-0.157,0.102,NA,NA,NA,NA
+"emp: Table 3, controls, low pay proportion",-0.133,0.056,NA,NA,NA,NA
+"emp: Table 3, controls, wage gap",-0.288,0.138,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+pooled wage: low pay proportion wage,0.141,0.01676305461,NA,NA,NA,NA
+pooled wage: wage gap,0.808,0.07885746636,NA,NA,NA,NA
+pooled emp: low pay proportion wage,-0.093,0.04907647094,NA,NA,NA,NA
+pooled emp: wage gap,-0.2225,0.1213424905,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"owe, low pay proportion",-0.6595744681,0.0366708331,NA,NA,NA,NA
+"owe, wage gap",-0.2753712871,0.1023291259,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+final owe,-0.4674728776,0.0768635154,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 Manning 2021,manning_2021_jep,NA,NA,NA,NA,NA
 "Age 16-19, average percent of total hours, Table 1",5.25,NA,NA,NA,NA,NA
 "Age 20-24, average percent of total hours, Table 1",12.825,NA,NA,NA,NA,NA
@@ -259,6 +281,19 @@ simple average emp b,0.013,NA,NA,NA,NA,NA
 simple average emp se,0.02523113799,NA,NA,NA,NA,NA
 percent emp change b,0.01597570106,NA,NA,NA,NA,NA
 percent emp change se,0.03100654754,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+vom Berge Frings 2019,vbf_2019,NA,NA,NA,NA,NA
+NA,spec 3,spec 4,spec 5,NA,NA,NA
+"table 1: wage treatment effect, East, b",0.095,0.098,0.105,NA,NA,NA
+"table 1: wage treatment effect, East, se",0.026,0.025,0.029,NA,NA,NA
+"table 3: emp treatment effect, East, b",-0.124,-0.162,-0.181,NA,NA,NA
+"table 3: emp treatment effect, East, se",0.19,0.183,0.186,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"pooled wage effect, b",0.09933333333,NA,NA,NA,NA,NA
+"pooled wage effect, se",0.02672077843,NA,NA,NA,NA,NA
+"pooled emp effect, b",-0.1556666667,NA,NA,NA,NA,NA
+"pooled emp effect, se",0.1863553952,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 Wursten 2021 working paper,wursten_2021_wp,NA,NA,NA,NA,NA

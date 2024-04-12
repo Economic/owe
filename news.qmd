@@ -4,6 +4,10 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 0.13.0
+- Added Harasztosi and Linder 2019, Manning and Wilson 2004, vom Berge and Frings 2019
+- Updated bibliography for Giupponi Joyce Lindner Waters Wernham Xu 2024
+
 ## Version 0.12.0
 - Added Rao and Risch 2024
 - Updated working paper Jha Neumark Rodridguez-Lopez 2023 to published in 2024

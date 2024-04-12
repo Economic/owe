@@ -10,6 +10,7 @@ Allegretto and Nadler 2015,-0.024,-1.322,1.275,Restaurants,0,US,1,0,1,-0.2,Small
 Azar Huet-Vaughn Marinescu Taska Wachter 2023,0.088,-1.725,1.9,Retail,0,US,1,0,1,0.2,Positive
 Bailey DiNardo Stuart 2021,-0.135,-0.286,0.016,"Men, Ages 16-64",1,US,1,0,0,-0.2,Small negative
 Belman and Wolfson 2010,-0.455,NA,NA,Low wage industries,1,US,1,0,0,-0.6,Medium negative
+Berge and Frings 2019,-1.567,-3,2.202,Construction,0,Germany,1,0,0,-1.4,Large negative
 Borgshulte and Cho 2020,0.419,-0.171,1.008,Ages 62-70,0,US,1,0,0,0.6,Positive
 Bossler and Gerner 2020,-0.278,-0.694,0.138,Low wage establishments,1,Germany,1,0,0,-0.2,Small negative
 Brown and Herbst 2023,0.841,-0.834,2.516,Child care workers,0,US,0,0,0,1,Positive
@@ -43,6 +44,7 @@ Godoey and Reich 2021,0.124,NA,NA,High school or less,1,US,1,0,0,0.2,Positive
 Godøy Reich Wursten Allegretto 2024,0.09,-0.714,0.894,Low wage jobs,1,US,1,0,0,0.2,Positive
 Gopalan Hamilton Kalda Sovich 2021,-0.38,NA,NA,Overall,1,US,1,0,0,-0.2,Small negative
 Hampton and Totty 2023,0.072,-0.191,0.334,Low wage workers,1,US,1,0,0,0.2,Positive
+Harasztosi and Lindner 2019,-0.18,-0.239,-0.121,Low wage firms,1,Hungary,1,0,0,-0.2,Small negative
 Hirsch Kaufman Zelenska 2015,0.392,-0.251,1.035,Restaurants,0,US,1,0,1,0.2,Positive
 Jardim Long Plotnick Inwegen Vigdor Wething 2022,-1.75,NA,NA,Low wage jobs,1,US,1,0,0,-1.4,Large negative
 Jha Neumark Rodriguez-Lopez 2024,-1.485,-3,0.261,Restaurants,0,US,1,0,1,-1.4,Large negative
@@ -52,6 +54,7 @@ Kim and Taylor 1995,-0.879,-1.14,-0.618,Retail,0,US,1,0,1,-1,Large negative
 Leung 2021,0.034,-1.249,1.316,Groceries,0,US,1,0,1,0.2,Positive
 Liu Hyclack Regmi 2016,-0.828,-1.326,-0.329,Teens,0,US,1,1,0,-1,Large negative
 Machin Manning Rahman 2003,-0.453,-0.945,0.039,Nursing homes,0,UK,1,0,0,-0.6,Medium negative
+Machin and Wilson 2004,-0.467,-0.618,-0.317,Nursing homes,0,UK,1,0,0,-0.6,Medium negative
 Manning 2021,0.011,-0.78,0.801,Ages 16-24,0,US,1,0,0,0.2,Positive
 Monras 2019,-0.667,NA,NA,High school or less,1,US,1,0,0,-0.6,Medium negative
 Nadler Allegretto Godoey Reich 2019,0.21,-0.184,0.604,Restaurants,0,US,0,0,1,0.2,Positive
