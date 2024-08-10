@@ -283,6 +283,26 @@ percent emp change b,0.01597570106,NA,NA,NA,NA,NA
 percent emp change se,0.03100654754,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
+Vadean and Allan (2021),va_2021_bjir,NA,NA,NA,NA,NA
+"Residential care emp share, p.311 text",0.5058823529,NA,NA,NA,NA,NA
+"Domiciliary care emp share, p.311 text",0.4941176471,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Table 3, column 1, ""share"" wage effect",0.058,NA,NA,NA,NA,NA
+"Table 3, column 1, ""share"" wage se",0.004,NA,NA,NA,NA,NA
+"Table 3, column 3, ""share"" emp effect",-0.015,NA,NA,NA,NA,NA
+"Table 3, column 3, ""share"" emp se",0.013,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"Table 4, column 1, ""share"" wage effect",0.063,NA,NA,NA,NA,NA
+"Table 4, column 1, ""share"" wage se",0.006,NA,NA,NA,NA,NA
+"Table 4, column 3, ""share"" emp effect",0.011,NA,NA,NA,NA,NA
+"Table 4, column 3, ""share"" emp se",0.032,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+pooled wage effect b,0.06047058824,NA,NA,NA,NA,NA
+pooled wage effect se,0.005087470191,NA,NA,NA,NA,NA
+pooled emp effect b,-0.002152941176,NA,NA,NA,NA,NA
+pooled emp effect se,0.02432016834,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 vom Berge Frings 2019,vbf_2019,NA,NA,NA,NA,NA
 NA,spec 3,spec 4,spec 5,NA,NA,NA
 "table 1: wage treatment effect, East, b",0.095,0.098,0.105,NA,NA,NA
