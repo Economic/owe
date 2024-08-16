@@ -39,10 +39,15 @@ tar_plan(
       data_version
     )
   ),
+  tar_file(
+    other_papers_csv, 
+    download_sheet(owe_sheet, "not admissible", "other_papers.csv", data_version)
+  ),
   
   # cleaned bib and owe data
   bib_data = make_bib(sheet_papers_csv),
   owe_data = make_owe_data(sheet_estimates_csv, bib_data, data_version),
+  other_papers_data = make_other_papers_data(other_papers_csv),
 
   # output files
   tar_file(bib_bibtex_file, make_bib_bibtex(bib_data)),
@@ -51,7 +56,7 @@ tar_plan(
   tar_file(owe_csv_tidy_file, make_owe_csv_tidy(owe_data)),
 
   # website
-  tar_quarto(website, execute_params = list(data_version = data_version))
+  tar_quarto(website, execute_params = list(data_version = data_version), quiet=FALSE)
 )
 
 

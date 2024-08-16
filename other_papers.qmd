@@ -1,0 +1,105 @@
+---
+title: Other minimum wage studies not in the repository
+page-layout: full
+editor: source
+execute:
+  echo: false
+  warning: false
+format: 
+  html
+title-block-style: none
+---
+
+```{r table}
+library(tidyverse)
+library(reactable)
+
+all_data <- targets::tar_read(other_papers) |> 
+  mutate(study = paste0(authors, " (", year, ")")) |> 
+  mutate(
+    journal = paste0("<a href='", url, "' target = '_blank'>", journal, "</a>")
+  ) |> 
+  select(study, journal, reason)
+
+tbl <- reactable(
+  all_data,
+  defaultColDef = colDef(
+    vAlign = "center", 
+    headerClass = "header"
+  ),
+  pagination = FALSE,
+  highlight = TRUE,
+  wrap = TRUE, 
+  columns = list(
+    study = colDef(name = "Study", minWidth = 150),
+    journal = colDef(name = "Journal", minWidth = 150, html = TRUE),
+    reason = colDef(name = "Reason excluded", minWidth = 100)
+  ),
+  # columns = list(
+  #   # study = colDef(
+  #   #   name = "Study",
+  #   #   minWidth = 60
+  #   # ),
+  #   group = colDef(
+  #     name = "Group",
+  #     width = 125,
+  #     align = "center"
+  #   ),
+  #   country = colDef(
+  #     name = "Country",
+  #     width = 100,
+  #     align = "center",
+  #     filterInput = function(values, name) {
+  #       tags$select(
+  #         # Set to undefined to clear the filter
+  #         onchange = sprintf("Reactable.setFilter('movies-tbl', '%s', event.target.value || undefined)", name),
+  #         # "All" has an empty value to clear the filter, and is the default option
+  #         tags$option(value = "", "All"),
+  #         lapply(unique(values), tags$option),
+  #         "aria-label" = sprintf("Filter %s", name),
+  #         style = "width: 100%; height: 28px;"
+  #       )
+  #     }
+  #   ),
+  #   owe_b = colDef(
+  #     name = "Elasticity",
+  #     format = colFormat(digits = 3),
+  #     width = 110,
+  #     filterable = FALSE,
+  #     align = "center"
+  #   ),
+  #   study = colDef(
+  #     name = "Study",
+  #     # Since there are so many rows, we use a JS render function to keep the
+  #     # page size down. This would be much easier to code in R, but that would
+  #     # significantly increase the file size.
+  #     cell = JS("renderMovie"),
+  #     html = TRUE,
+  #     minWidth = 250
+  #   ),
+  #   journal = colDef(show = FALSE),
+  #   title = colDef(show = FALSE),
+  #   authors = colDef(show = FALSE),
+  #   owe_se = colDef(show = FALSE),
+  #   url = colDef(show = FALSE),
+  #   averaged = colDef(show = FALSE),
+  #   owe_reported = colDef(show = FALSE)
+  #   # owe_se = colDef(
+  #   #   name = "Standard Error",
+  #   #   format = colFormat(digits = 2),
+  #   #   minWidth = 40,
+  #   #   filterable = FALSE
+  #   # )
+  # ),
+  # rowStyle = list(cursor = "pointer"),
+  # theme = reactableTheme(
+  #   highlightColor = "#f3fafb",
+  #   borderColor = "hsl(0, 0%, 93%)",
+  #   headerStyle = list(borderColor = "hsl(0, 0%, 90%)")
+  # ),
+  class = "other-papers-tbl",
+  elementId = "other-papers-explore"
+)
+
+tbl
+```

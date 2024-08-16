@@ -53,7 +53,7 @@ row_details <- function(index) {
   
   detail <- div(
     class = "package-detail",
-    div(class = "detail-header", pkg$study, span(class = "detail-title", tags$a(href = pkg$url, pkg$journal))),
+    div(class = "detail-header", pkg$study, span(class = "detail-title", tags$a(href = pkg$url, target = "_blank", pkg$journal))),
     pkg_field("Authors", pkg$authors),
     pkg_field("Title", pkg$title),
     pkg_field("Own-wage elasticity estimate", owe_pretty),
