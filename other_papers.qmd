@@ -13,13 +13,17 @@ title-block-style: none
 ```{r table}
 library(tidyverse)
 library(reactable)
+library(janitor)
 
-all_data <- targets::tar_read(other_papers) |> 
+all_data <- targets::tar_read(other_papers_data) |> 
+  clean_names() |> 
   mutate(study = paste0(authors, " (", year, ")")) |> 
   mutate(
     journal = paste0("<a href='", url, "' target = '_blank'>", journal, "</a>")
   ) |> 
-  select(study, journal, reason)
+  select(study, journal, reason) |> 
+  filter(!is.na(reason)) |> 
+  arrange(study)
 
 tbl <- reactable(
   all_data,
