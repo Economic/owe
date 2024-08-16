@@ -199,4 +199,8 @@ make_owe_csv_tidy <- function(owe_data) {
 }
 
 
+make_other_papers_data <- function(csv) {
+  read_csv(csv, show_col_types = FALSE) 
+}
+
 

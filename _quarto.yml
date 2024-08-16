@@ -17,6 +17,8 @@ website:
       - text: Download
         href: download.qmd
       - href: documentation.qmd
+      - text: Exclusions
+        href: other_papers.qmd
       - text: What's New
         href: news.qmd
       - text: Submit
