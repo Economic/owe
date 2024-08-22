@@ -57,12 +57,15 @@ emp elast b,-0.1896907216,NA,NA,NA,NA,NA
 emp elast se,0.03298969072,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
-Baskaya Rubinstein 2015,spec 5,spec8,NA,NA,NA,NA
-semi elasticity,NA,NA,NA,NA,NA,NA
-"notes: scale the emp effect by mean in appendix, take average",NA,NA,NA,NA,NA,NA
+Baskaya Rubinstein 2015,spec 5,spec8,pooled,NA,NA,NA
+"Table 10a semi-elast emp, b",-0.508,-0.314,NA,NA,NA,NA
+"Table 10a semi-elast emp, se",0.236,0.13,NA,NA,NA,NA
+Table A 2 emp sample mean,0.4242,0.4242,NA,NA,NA,NA
+Elast emp b,-1.197548326,-0.7402168788,-0.9688826025,NA,NA,NA
+Elast emp se,0.5563413484,0.3064592174,0.4491285717,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA
-NA,NA,NA,NA,NA,NA,NA
+"Table 10a elast wage, b",1.206,0.95,1.078,NA,NA,NA
+"Table 10a elast wage, se",0.593,0.465,0.5328573918,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 Card 1992 regional,card_1992_ilrr_regional,NA,NA,NA,NA,NA
@@ -140,6 +143,14 @@ sample share,0.04615384615,0.3623931624,0.2427350427,0.1760683761,0.1230769231,0
 NA,NA,NA,NA,NA,NA,NA
 weighted average of owe estimates,0.07176752137,NA,NA,NA,NA,NA
 square root of weighted average of variances,0.1338952327,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Huet Vaughn Piqueras,hvp_2023_iza,NA,NA,NA,NA,NA
+figure 2 wage b,0.0751,NA,NA,NA,NA,NA
+figure 2 wage p,NA,NA,NA,NA,NA,NA
+figure 3 emp b,-0.14,NA,NA,NA,NA,NA
+figure 3 wage p,0.21,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 Karabarbounis Lise Nath 2023,klb_2023_wp,NA,NA,NA,NA,NA
@@ -245,6 +256,17 @@ NA,NA,NA,NA,NA,NA,NA
 "total wage elast, se",0.02523885893,NA,NA,NA,NA,NA
 "total emp elast, b",-0.024,NA,NA,NA,NA,NA
 "total emp elast, se",0.06382005954,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+Pereira 2003,pereira_2003_eer,NA,NA,NA,NA,NA
+"Table 1, 1986-1988, 30-35 wage b",0.059,NA,NA,NA,NA,NA
+"Table 1, 1986-1988, 30-35 wage se",0.012,NA,NA,NA,NA,NA
+"Table 2, 1986-1988, 30-35 emp semi elast b",-0.107,NA,NA,NA,NA,NA
+"Table 2, 1986-1988, 30-35 emp semi elast se",0.033,NA,NA,NA,NA,NA
+"Mean 18-19 employment, footnote 16",0.785,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+emp effect b,-0.1363057325,NA,NA,NA,NA,NA
+emp effect se,0.04203821656,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 Slichter 2023 JAE,slichter_2023_jae,NA,NA,NA,NA,NA

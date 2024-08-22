@@ -5,7 +5,7 @@ editor: source
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
 ## Version 0.14.0
-- Added Vadean and Allan 2021
+- Added Vadean and Allan 2021; van Beezooijen, van den Berge, and Salomons 2024; Huet-Vaughn and Piqueras 2023
 
 ## Version 0.13.0
 - Added Harasztosi and Linder 2019, Manning and Wilson 2004, vom Berge and Frings 2019

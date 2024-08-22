@@ -24,26 +24,27 @@ Card and Krueger,2000,American Economic Review,https://doi.org/10.1257/aer.90.5.
 Chapman,2004,Economic Policy Institute Briefing Paper,https://files.epi.org/page/-/old/briefingpapers/150/bp150.pdf,Working paper too old,too old; no wage,NA
 Clemens and Wither,2019,Journal of Public Economics,https://doi.org/10.1016/j.jpubeco.2019.01.004,No usable wage effect,no wage,NA
 Connoly and Gregor,2002,Oxford Bulletin of Economics and Statistics,https://doi.org/10.1111/1468-0084.64.s.3,No usable wage effect,no wage effect,NA
-Couch Wittenburg,2001,Southern Economic Journal,https://doi.org/10.1002/j.2325-8012.2001.tb00406.x,No usable wage effect,no wage,NA
-Cribb et al UK paper,2021,Working Paper,NA,NA,N - superceded by Giupponi et al,NA
-"Deere, Murphy, & Welch",1995,American Economic Review: P&P,NA,NA,no wage,NA
-Dickens Riley Wilkinson UK RD paper,2014,NA,NA,NA,N - no usable wage effect,NA
-Dodson,2002,Journal of Labor Research,NA,NA,no wage effect,NA
-Dolton Bondibene Stops,2015,LE,NA,NA,no wage effect,NA
-Dolton Bondibene Wadsworth,2010,Fiscal Studies,NA,NA,no wage effect,NA
-Dolton Bondibene Wadsworth,2012,OBES,NA,NA,no usable wage effect,NA
+Couch and Wittenburg,2001,Southern Economic Journal,https://doi.org/10.1002/j.2325-8012.2001.tb00406.x,No usable wage effect,no wage,NA
+"Cribb, Giupponi, Joyce, Lindner, Waters, Wernham, and Xu",2021,IFS Working Paper,https://ifs.org.uk/sites/default/files/output_url_files/WP202148-The-distributional-and-employment-impacts-of-nationwide-Minimum-Wage-changes-1.pdf,Superceded by another paper,N - superceded by Giupponi et al,NA
+"Deere, Murphy, and Welch",1995,American Economic Review: P&P,https://www.jstor.org/stable/2117924,No usable wage effect,no wage,NA
+"Dickens, Riley, and Wilkinson",2014,Economica,https://doi.org/10.1111/ecca.12158,No usable wage effect,N - no usable wage effect,NA
+Dodson,2002,Journal of Labor Research,https://doi.org/10.1007/s12122-002-1015-5,No usable wage effect,no wage effect,NA
+Dolton Bondibene Stops,2015,Labour Economics,https://doi.org/10.1016/j.labeco.2015.09.002,No usable wage effect,no wage effect,NA
+Dolton Bondibene Wadsworth,2010,Fiscal Studies,https://doi.org/10.1111/j.1475-5890.2010.00123.x,No usable wage effect,no wage effect,NA
+Dolton Bondibene Wadsworth,2012,Oxford Bulletin of Economics and Statistics,https://doi.org/10.1111/j.1468-0084.2011.00653.x,No usable wage effect,no usable wage effect,NA
 Even & Macpherson,2019,Journal of Labor Research,NA,NA,no wage effect,NA
 fang and gunderson        2009,2009,british journal of industrial relations,NA,NA,N - no wage effect reported,NA
 Fang and Lin 2015,2015,NA,NA,NA,"N - country (China) out of scope, but there is wage effect",NA
 Frings,2013,GER,NA,NA,N - no wage effect estimated,NA
 Gandhi and Ruffini,2022,Working Paper,NA,NA,N - doesn't estimate a wage effect (uses other research for wage effect estimate),NA
-Gilyard & Podemska-Mikluch,2020,International Advances in Economic Research,NA,NA,Wage effect (FE) and employment results (FD or LD) use different specifications!,NA
+Gilyard & Podemska-Mikluch,2020,International Advances in Economic Research,https://doi.org/10.1007/s11294-020-09770-8,No usable wage effect,Wage effect (FE) and employment results (FD or LD) use different specifications!,NA
 Giupponi and Machin,2023,WP,NA,NA,Don't think there is an emp effect we can use? They have results on relative employment (share of under 25s),NA
+Gregory and Zierahn,2022,Journal of Public Economics,https://doi.org/10.1016/j.jpubeco.2021.104582,No usable wage effect,table 3 has average wage effects (column 2) for east and west separately using a binary treatment; closet emp specification to that is the dummy variable approach for all of germany in table 10,NA
 Hill Alexandra,NA,job market paper,NA,NA,N - no estimated wage or emp effect,NA
 Hoffman,2014,The B.E. Journal of Economic Analysis and Policy,NA,NA,no average wage effect,NA
 Hoffman,2016,ILR Review,NA,NA,no wage effect,NA
 Hoffman & Trace,2009,Eastern Economic Journal,NA,NA,no wage effect,NA
-Kabátek,2021,NA,NA,Not a statuory policy change,NA,NA
+Kabátek,2021,ILR Review,https://doi.org/10.1177/0019793919897914,Not a statuory policy change,NA,NA
 Kandilov & Kandilov,2020,Journal of Regional Science,NA,NA,N - no stat sig wage effect,NA
 Karakitsios,2016,WP?,NA,NA,no wage effect,NA
 Keil Robertson Symons,2009,NA,NA,NA,no wage effect,NA
@@ -82,4 +83,4 @@ Wolfson Belman,2001,EE,NA,NA,no wage effect,NA
 Wolfson Belman,2004,JBES,NA,NA,time series regressions,NA
 Williams,1993,Applied Economics,NA,NA,no wage effect,NA
 wiltshire wal-mart paper,NA,NA,NA,NA,N - only relative estimates: effect of min in wal-mart supercenter opening places vs those without,NA
-Yannelis,2014,WP,NA,Working paper too old,Employment measure is not total headcount but only full-time employment,NA
+Yannelis,2014,Working Paper,https://www.sole-jole.org/assets/docs/14015.pdf,Working paper too old,Employment measure is not total headcount but only full-time employment,NA

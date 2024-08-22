@@ -209,6 +209,27 @@ bds_2021_jole,journal,Journal of Labor Economics
 bds_2021_jole,url,https://doi.org/10.1086/712554
 bds_2021_jole,source,"Own-wage elasticity reported in Table 3, panel A (Employed during year), specification 3. Selected this particular estimate with authors over email."
 bds_2021_jole,data_version,0.14.0
+br_2015_wp,study,Baskaya and Rubinstein 2015
+br_2015_wp,owe_b,-0.899
+br_2015_wp,owe_se,0.609
+br_2015_wp,owe_lb,-2.093
+br_2015_wp,owe_ub,0.295
+br_2015_wp,owe_magnitude,Large negative
+br_2015_wp,group,Teens
+br_2015_wp,overall,0
+br_2015_wp,teens,1
+br_2015_wp,restaurants_retail,0
+br_2015_wp,country,US
+br_2015_wp,averaged,1
+br_2015_wp,owe_reported,0
+br_2015_wp,published,0
+br_2015_wp,authors,Yusuf Soner Baskaya and Yona Rubinstein
+br_2015_wp,year,2015
+br_2015_wp,title,Using Federal Minimum Wages to Identify the Impact of Minimum Wages on Employment and Earnings across the U.S. States
+br_2015_wp,journal,Working Paper
+br_2015_wp,url,NA
+br_2015_wp,source,"Employment elasiticity is the average of estimates from Table 10a, Panel A, row 1, specifications 5 and 8, where the estimates are divided by the sample mean employment rate in Appendix Table A2, column 1, last row. Wage elasticity is the average of estimates from Table 10b, Panel A, row 1, specifications 5 and 8."
+br_2015_wp,data_version,0.14.0
 bw_2010_labour,study,Belman and Wolfson 2010
 bw_2010_labour,owe_b,-0.455
 bw_2010_labour,owe_se,NA
@@ -251,6 +272,27 @@ vbf_2020_ee,journal,Empirical Economics
 vbf_2020_ee,url,https://doi.org/10.1007/s00181-019-01661-0
 vbf_2020_ee,source,"Wage and employment effects are the average across three specifications. Wage growth effects from Table 1, row ""Treatment effect (East)"", specifications 3 through 5. Employment growth effects from Table 3, row ""Treatment effect (East)"", specifications 3 through 5."
 vbf_2020_ee,data_version,0.14.0
+bbs_2024_ilrr,study,Bezooijen Berge Salomons 2024
+bbs_2024_ilrr,owe_b,0.226
+bbs_2024_ilrr,owe_se,0.143
+bbs_2024_ilrr,owe_lb,-0.054
+bbs_2024_ilrr,owe_ub,0.506
+bbs_2024_ilrr,owe_magnitude,Positive
+bbs_2024_ilrr,group,Age 22
+bbs_2024_ilrr,overall,0
+bbs_2024_ilrr,teens,0
+bbs_2024_ilrr,restaurants_retail,0
+bbs_2024_ilrr,country,Netherlands
+bbs_2024_ilrr,averaged,0
+bbs_2024_ilrr,owe_reported,1
+bbs_2024_ilrr,published,1
+bbs_2024_ilrr,authors,"Emiel van Bezooijen, Wiljan van den Berge and Anna Salomons"
+bbs_2024_ilrr,year,2024
+bbs_2024_ilrr,title,The Young Bunch: Youth Minimum Wages and Labor Market Outcomes
+bbs_2024_ilrr,journal,ILR Review
+bbs_2024_ilrr,url,https://doi.org/10.1177/00197939241239317
+bbs_2024_ilrr,source,"Own-wage elasticity from Table 4, Jobs specification"
+bbs_2024_ilrr,data_version,0.14.0
 bc_2020_ilrr,study,Borgshulte and Cho 2020
 bc_2020_ilrr,owe_b,0.419
 bc_2020_ilrr,owe_se,0.301
@@ -986,6 +1028,27 @@ hkz_2015_ir,journal,Industrial Relations
 hkz_2015_ir,url,https://doi.org/10.1111/irel.12091
 hkz_2015_ir,source,"Own-wage elasticity reported in Table 5, specification 7 (IV, Store FE), which authors refer to as their ""preferred employment elasticity"" on page 218."
 hkz_2015_ir,data_version,0.14.0
+hvp_2023_iza,study,Huet-Vaughn and Piqueras 2023
+hvp_2023_iza,owe_b,-1.864
+hvp_2023_iza,owe_se,NA
+hvp_2023_iza,owe_lb,NA
+hvp_2023_iza,owe_ub,NA
+hvp_2023_iza,owe_magnitude,Large negative
+hvp_2023_iza,group,Restaurants
+hvp_2023_iza,overall,0
+hvp_2023_iza,teens,0
+hvp_2023_iza,restaurants_retail,1
+hvp_2023_iza,country,US
+hvp_2023_iza,averaged,0
+hvp_2023_iza,owe_reported,0
+hvp_2023_iza,published,1
+hvp_2023_iza,authors,Emiliano Huet-Vaughn and Jon Piqueras
+hvp_2023_iza,year,2023
+hvp_2023_iza,title,The Asymmetric Effect of Wage Floors: A Natural Experiment with a Rising and Falling Minimum Wage
+hvp_2023_iza,journal,IZA Discussion Paper
+hvp_2023_iza,url,https://docs.iza.org/dp16684.pdf
+hvp_2023_iza,source,TK
+hvp_2023_iza,data_version,0.14.0
 jlpivw_2022_aejep,study,Jardim Long Plotnick Inwegen Vigdor Wething 2022
 jlpivw_2022_aejep,owe_b,-1.75
 jlpivw_2022_aejep,owe_se,NA
@@ -1322,6 +1385,27 @@ oz_2008_ilrr,journal,ILR Review
 oz_2008_ilrr,url,https://doi.org/10.1177/001979390806100406
 oz_2008_ilrr,source,"Wage elasticity from Table 3, row ""Less-Educated Immigrants"", specification 2. Employment elasticity from Table 4, panel A (""Real Minimum Wage""), row ""Less-Educated Immigrants"", specification 2."
 oz_2008_ilrr,data_version,0.14.0
+pereira_2003_eer,study,Pereira 2003
+pereira_2003_eer,owe_b,-2.31
+pereira_2003_eer,owe_se,0.854
+pereira_2003_eer,owe_lb,-3.983
+pereira_2003_eer,owe_ub,-0.637
+pereira_2003_eer,owe_magnitude,Large negative
+pereira_2003_eer,group,Ages 18-19
+pereira_2003_eer,overall,0
+pereira_2003_eer,teens,0
+pereira_2003_eer,restaurants_retail,0
+pereira_2003_eer,country,Portugal
+pereira_2003_eer,averaged,0
+pereira_2003_eer,owe_reported,0
+pereira_2003_eer,published,1
+pereira_2003_eer,authors,Sonia C. Pereira
+pereira_2003_eer,year,2003
+pereira_2003_eer,title,The impact of minimum wages on youth employment in Portugal
+pereira_2003_eer,journal,European Economic Review
+pereira_2003_eer,url,https://doi.org/10.1016/S0014-2921(02)00209-X
+pereira_2003_eer,source,"Employment effect from Table 2, column 2 (1986-1988), row 2 (ages 30-35), divided by mean employment of 0.785 referenced in footnote 16. Wage effect from Table 1, column 2 (1986 and 1988), row 2 (ages 30-35). Specifications chosen because of the reference to them on p. 236."
+pereira_2003_eer,data_version,0.14.0
 rr_2023_wp,study,Rao and Risch 2024
 rr_2023_wp,owe_b,-0.209
 rr_2023_wp,owe_se,0.011
