@@ -1028,27 +1028,27 @@ hkz_2015_ir,journal,Industrial Relations
 hkz_2015_ir,url,https://doi.org/10.1111/irel.12091
 hkz_2015_ir,source,"Own-wage elasticity reported in Table 5, specification 7 (IV, Store FE), which authors refer to as their ""preferred employment elasticity"" on page 218."
 hkz_2015_ir,data_version,0.14.0
-hvp_2023_iza,study,Huet-Vaughn and Piqueras 2023
-hvp_2023_iza,owe_b,-1.864
-hvp_2023_iza,owe_se,NA
-hvp_2023_iza,owe_lb,NA
-hvp_2023_iza,owe_ub,NA
-hvp_2023_iza,owe_magnitude,Large negative
-hvp_2023_iza,group,Restaurants
-hvp_2023_iza,overall,0
-hvp_2023_iza,teens,0
-hvp_2023_iza,restaurants_retail,1
-hvp_2023_iza,country,US
-hvp_2023_iza,averaged,0
-hvp_2023_iza,owe_reported,0
-hvp_2023_iza,published,1
-hvp_2023_iza,authors,Emiliano Huet-Vaughn and Jon Piqueras
-hvp_2023_iza,year,2023
-hvp_2023_iza,title,The Asymmetric Effect of Wage Floors: A Natural Experiment with a Rising and Falling Minimum Wage
-hvp_2023_iza,journal,IZA Discussion Paper
-hvp_2023_iza,url,https://docs.iza.org/dp16684.pdf
-hvp_2023_iza,source,TK
-hvp_2023_iza,data_version,0.14.0
+hvp_2023_wp,study,Huet-Vaughn and Piqueras 2023
+hvp_2023_wp,owe_b,-1.864
+hvp_2023_wp,owe_se,NA
+hvp_2023_wp,owe_lb,NA
+hvp_2023_wp,owe_ub,NA
+hvp_2023_wp,owe_magnitude,Large negative
+hvp_2023_wp,group,Restaurants
+hvp_2023_wp,overall,0
+hvp_2023_wp,teens,0
+hvp_2023_wp,restaurants_retail,1
+hvp_2023_wp,country,US
+hvp_2023_wp,averaged,0
+hvp_2023_wp,owe_reported,0
+hvp_2023_wp,published,0
+hvp_2023_wp,authors,Emiliano Huet-Vaughn and Jon Piqueras
+hvp_2023_wp,year,2023
+hvp_2023_wp,title,The Asymmetric Effect of Wage Floors: A Natural Experiment with a Rising and Falling Minimum Wage
+hvp_2023_wp,journal,IZA Discussion Paper
+hvp_2023_wp,url,https://docs.iza.org/dp16684.pdf
+hvp_2023_wp,source,TK
+hvp_2023_wp,data_version,0.14.0
 jlpivw_2022_aejep,study,Jardim Long Plotnick Inwegen Vigdor Wething 2022
 jlpivw_2022_aejep,owe_b,-1.75
 jlpivw_2022_aejep,owe_se,NA
