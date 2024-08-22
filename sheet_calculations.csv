@@ -112,6 +112,28 @@ average emp b,0.046,NA,NA,NA,NA,NA
 average emp se,0.1319185355,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
+Eriksson Pytlikova 2004,ep_2004_labour,NA,NA,NA,NA,NA
+Demand elasticities from:,"Czech, Table 6 1998-1999","Czech, Table 6 1999-2000","Slovak, Table 7 1998-1999","Slovak, Table 7 1999-2000",NA,NA
+2/3 b,0.185,-0.142,-0.108,0.416,NA,NA
+2/3 se,0.046,0.036,0.04,0.619,NA,NA
+gap b,-0.008,-0.036,0.138,-0.01,NA,NA
+gap se,0.01,0.01,0.147,0.016,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+"table 4, czech workers, 1998",1044640,NA,NA,NA,NA,NA
+"table 5, slovak workers, 1998",295210,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+czech worker share,0.779669366,NA,NA,NA,NA,NA
+slovak worker share,0.220330634,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+czech pooled b,-0.00025,NA,NA,NA,NA,NA
+czech pooled se,0.0300499584,NA,NA,NA,NA,NA
+slovak pooled b,0.109,NA,NA,NA,NA,NA
+slovak pooled se,0.3188361648,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+czech and slovak pooled b,0.02382112177,NA,NA,NA,NA,NA
+czech and slovak pooled se,0.1519936924,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 Even and Macpherson 2014,em_2014_sej,NA,NA,NA,NA,NA
 "Table 1 wage elast, tipped, b",0.045,NA,NA,NA,NA,NA
 "Table 1 wage elast, tipped, t",4,NA,NA,NA,NA,NA

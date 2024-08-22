@@ -671,27 +671,27 @@ dmvr_2011_aeja,journal,American Economic Journal: Applied Economics
 dmvr_2011_aeja,url,https://doi.org/10.1257/app.3.1.129
 dmvr_2011_aeja,source,Simple average from Table 5 of the high-market power and low-market power wage (panel A) and employment elasticities (panel C).
 dmvr_2011_aeja,data_version,0.14.0
-dube_2019_hmt_us,study,Dube 2019
-dube_2019_hmt_us,owe_b,0.32
-dube_2019_hmt_us,owe_se,0.37
-dube_2019_hmt_us,owe_lb,-0.405
-dube_2019_hmt_us,owe_ub,1.045
-dube_2019_hmt_us,owe_magnitude,Positive
-dube_2019_hmt_us,group,Overall
-dube_2019_hmt_us,overall,1
-dube_2019_hmt_us,teens,0
-dube_2019_hmt_us,restaurants_retail,0
-dube_2019_hmt_us,country,US
-dube_2019_hmt_us,averaged,0
-dube_2019_hmt_us,owe_reported,1
-dube_2019_hmt_us,published,1
-dube_2019_hmt_us,authors,Arindrajit Dube
-dube_2019_hmt_us,year,2019
-dube_2019_hmt_us,title,Impacts of minimum wages: review of the international evidence
-dube_2019_hmt_us,journal,Her Majesty's Treasury
-dube_2019_hmt_us,url,https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/844350/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf
-dube_2019_hmt_us,source,Own-wage elasticity reported in text at top of page 33.
-dube_2019_hmt_us,data_version,0.14.0
+dube_2019_wp,study,Dube 2019
+dube_2019_wp,owe_b,0.32
+dube_2019_wp,owe_se,0.37
+dube_2019_wp,owe_lb,-0.405
+dube_2019_wp,owe_ub,1.045
+dube_2019_wp,owe_magnitude,Positive
+dube_2019_wp,group,Overall
+dube_2019_wp,overall,1
+dube_2019_wp,teens,0
+dube_2019_wp,restaurants_retail,0
+dube_2019_wp,country,US
+dube_2019_wp,averaged,0
+dube_2019_wp,owe_reported,1
+dube_2019_wp,published,0
+dube_2019_wp,authors,Arindrajit Dube
+dube_2019_wp,year,2019
+dube_2019_wp,title,Impacts of minimum wages: review of the international evidence
+dube_2019_wp,journal,Her Majesty's Treasury
+dube_2019_wp,url,https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/844350/impacts_of_minimum_wages_review_of_the_international_evidence_Arindrajit_Dube_web.pdf
+dube_2019_wp,source,Own-wage elasticity reported in text at top of page 33.
+dube_2019_wp,data_version,0.14.0
 dlr_2010_restat,study,Dube Lester Reich 2010
 dlr_2010_restat,owe_b,0.079
 dlr_2010_restat,owe_se,0.286
@@ -818,6 +818,27 @@ dlsub_2022_qje,journal,Quarterly Journal of Economics
 dlsub_2022_qje,url,https://doi.org/10.1093/qje/qjab028
 dlsub_2022_qje,source,Own-wage elasticity reported in footnote 27 on page 316.
 dlsub_2022_qje,data_version,0.14.0
+ep_2004_labour,study,Eriksson and Pytlikova 2004
+ep_2004_labour,owe_b,0.024
+ep_2004_labour,owe_se,0.152
+ep_2004_labour,owe_lb,-0.274
+ep_2004_labour,owe_ub,0.322
+ep_2004_labour,owe_magnitude,Positive
+ep_2004_labour,group,Low wage firms
+ep_2004_labour,overall,1
+ep_2004_labour,teens,0
+ep_2004_labour,restaurants_retail,0
+ep_2004_labour,country,Czech and Slovak Republics
+ep_2004_labour,averaged,1
+ep_2004_labour,owe_reported,1
+ep_2004_labour,published,1
+ep_2004_labour,authors,Tor Eriksson and Mariola Pytlikova
+ep_2004_labour,year,2004
+ep_2004_labour,title,Firm-level Consequences of Large Minimum-wage Increases in the Czech and Slovak Republics
+ep_2004_labour,journal,LABOUR
+ep_2004_labour,url,https://doi.org/10.1111/j.1121-7081.2004.00259.x
+ep_2004_labour,source,"Weighted average of the reported own-wage elasticities in Tables 6 and 7. Czec OWE is the simple average of four OWE estimates in columns three and four of Table 6, Panel 1 (two-thirds) Total and Panel 2 (wage gap). Slovak OWE is the simple average of four OWE estimates in columns three and four of Table 7, Panel 1 (two-thirds) Total and Panel 2 (wage gap). We then report a weighted average of these two country-specific OWEs, where the weights are the total 1998 employment sizes reported in Table 4 (Czech) and Table 5 (Slovak)."
+ep_2004_labour,data_version,0.14.0
 em_2014_sej,study,Even and Macpherson 2014
 em_2014_sej,owe_b,-0.782
 em_2014_sej,owe_se,0.288
