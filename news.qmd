@@ -4,6 +4,10 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 0.15.0
+- Updated estimate from Wiltshire et al 2024
+- Moved Butcher and Dickinson 2023 to working paper status
+
 ## Version 0.14.0
 - Added Eriksson and Pytlikova 2004; Huet-Vaughn and Piqueras 2023; Vadean and Allan 2021; van Beezooijen, van den Berge, and Salomons 2024 
 

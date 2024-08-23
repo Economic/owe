@@ -17,7 +17,7 @@ Borgshulte and Cho 2020,0.419,-0.171,1.008,Ages 62-70,0,US,1,0,0,0.6,Positive
 Bossler and Gerner 2020,-0.278,-0.694,0.138,Low wage establishments,1,Germany,1,0,0,-0.2,Small negative
 Brown and Herbst 2023,0.841,-0.834,2.516,Child care workers,0,US,0,0,0,1,Positive
 Burkhauser Couch Wittenburg 2000,-0.604,-0.965,-0.242,Teens,0,US,1,1,0,-0.6,Medium negative
-Butcher and Dickens 2023,0.476,-0.298,1.25,All workers,1,UK,1,0,0,0.6,Positive
+Butcher and Dickens 2023,0.476,-0.298,1.25,All workers,1,UK,0,0,0,0.6,Positive
 Campolieti Gunderson Riddell 2006,-0.548,-1.252,0.156,Ages 16-24,0,Canada,1,0,0,-0.6,Medium negative
 Card 1992a,1.333,0.14,2.527,Teens,0,US,1,1,0,1.4,Positive
 Card 1992b,0.352,-0.855,1.559,Teens,0,US,1,1,0,0.2,Positive
@@ -81,7 +81,7 @@ Thompson 2009,-0.392,-0.709,-0.076,Teens,0,US,1,1,0,-0.2,Small negative
 Totty 2017,-0.155,-0.369,0.058,Restaurants,0,US,1,0,1,-0.2,Small negative
 Vadean and Allen 2021,-0.036,-0.824,0.753,Care sector,0,UK,1,0,0,-0.2,Small negative
 Vergara 2023,0.448,NA,NA,No college degree,1,US,0,0,0,0.6,Positive
-Wiltshire McPherson Reich 2023,1.2,0.45,1.95,Restaurants,0,US,0,0,1,1.4,Positive
+Wiltshire McPherson Reich Sosinskiy 2024,1.55,0.405,2.695,Restaurants,0,US,0,0,1,1.4,Positive
 Wursten 2020,-0.221,-0.515,0.074,Restaurants,0,US,0,0,1,-0.2,Small negative
 Wursten 2021,-0.269,-0.588,0.05,Restaurants,0,US,0,0,1,-0.2,Small negative
 Wursten and Reich 2023a,0.003,-0.035,0.041,Overall,1,US,1,0,0,0.2,Positive
