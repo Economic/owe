@@ -17,6 +17,6 @@ For archived versions of the data, see the Github [releases](https://github.com/
 
 ## Building the data and website
 
-If you simply want to use the data and documenation, visit the [website](https://economic.github.io/owe/).
+If you simply want to use the data and documentation, visit the [website](https://economic.github.io/owe/).
 
 To build the data and website, you will need to use the R package `targets` and quarto.
