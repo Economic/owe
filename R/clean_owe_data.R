@@ -180,7 +180,7 @@ make_owe_data <- function(estimates_csv, bib_data, data_version) {
 
 
 make_owe_csv <- function(owe_data) {
-  file <- "mw_owe_database.csv"
+  file <- "mw_owe_repository.csv"
   
   write_csv(owe_data, file)
   
@@ -188,7 +188,7 @@ make_owe_csv <- function(owe_data) {
 }
 
 make_owe_csv_tidy <- function(owe_data) {
-  file <- "mw_owe_database_tidy.csv"
+  file <- "mw_owe_repository_tidy.csv"
   
   owe_data %>% 
     mutate(across(everything(), as.character)) %>% 
