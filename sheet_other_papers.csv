@@ -5,7 +5,7 @@ Addison and Ozturk,2012,ILR Review,https://doi.org/10.1177/001979391206500402,No
 "Allegretto, Dube, and Reich",2009,IRLE Working Paper,https://irle.berkeley.edu/wp-content/uploads/2009/06/Spatial-Heterogeneity-and-Minimum-Wages.pdf,Working paper too old,NA,Not a statuory policy change
 "Ahlfeldt, Roth, and Seidel",2018,Economics Letters,https://doi.org/10.1016/j.econlet.2018.08.032,No usable wage effect,no average wage effect reported (only effects on percentiles),Superceded by another paper
 Ashenfelter and Jurajda,2022,Journal of Labor Economics,https://doi.org/10.1086/718190,No usable employment effect,NA,Working paper too old
-Bazen and Marimoutou,2002,Oxford Bulletin of Economics and Statistics,https://doi.org/10.1111/1468-0084.64.s.7,No usable wage effect,no wage effect,NA
+Bazen and Marimoutou,2002,Oxford Bulletin of Economics and Statistics,https://doi.org/10.1111/1468-0084.64.s.7,No usable wage effect,no wage effect,Needs quasi-experimental variation
 Bazen and Marimoutou,2018,Journal of Comments and Replications in Economics,https://doi.org/10.18718/81781.9,No usable wage effect,no wage effect,NA
 Bazen and Le Gallo,2009,Economics Letters,https://doi.org/10.1016/j.econlet.2009.08.017,No usable wage effect,no wage effect,NA
 Bazen and Skourias,1997,European Economic Review,https://doi.org/10.1016/S0014-2921(97)00004-4,No usable wage effect,NA,NA
@@ -43,22 +43,22 @@ Giupponi and Machin,2024,Working Paper,https://www.dropbox.com/scl/fi/fkqyn4l0ol
 Gregory and Zierahn,2022,Journal of Public Economics,https://doi.org/10.1016/j.jpubeco.2021.104582,No usable wage effect,table 3 has average wage effects (column 2) for east and west separately using a binary treatment; closet emp specification to that is the dummy variable approach for all of germany in table 10,NA
 Hoffman,2014,The B.E. Journal of Economic Analysis and Policy,https://doi.org/10.1515/bejeap-2012-0004,No usable wage effect,no average wage effect,NA
 Hoffman,2016,ILR Review,https://doi.org/10.1177/0019793915610558,No usable wage effect,no wage effect,NA
-Hoffman & Trace,2009,Eastern Economic Journal,https://doi.org/10.1057/eej.2008.1,No usable wage effect,no wage effect,NA
+Hoffman and Trace,2009,Eastern Economic Journal,https://doi.org/10.1057/eej.2008.1,No usable wage effect,no wage effect,NA
 Kabátek,2021,ILR Review,https://doi.org/10.1177/0019793919897914,Not a statuory policy change,NA,NA
-Kandilov & Kandilov,2020,Journal of Regional Science,NA,NA,N - no stat sig wage effect,NA
-Karakitsios,2016,WP?,NA,NA,no wage effect,NA
-Keil Robertson Symons,2009,NA,NA,NA,no wage effect,NA
-Kim & Jang,2020,IJHM,NA,NA,no valid quasi-experimental variation: seems to use federal minimum wage,NA
-"Kreiner, Reck and Skov",2020,RESTAT,NA,NA,not a policy change,NA
-Ku,2022,JOLE,NA,NA,N - no estimated wage effect,NA
-Meer & West,2016,Journal of Human Resources,NA,NA,no wage effect,NA
-Michl,2000,Eastern Economic Journal,NA,NA,no wage effect,NA
-Lordan & Neumark,2018,Labour Economics,NA,NA,N - no wage effect reported,NA
-Neumark,2001,Industrial Relations,NA,NA,no wage effect,NA
-Neumark & Wascher,1992,ILR Review,NA,NA,no w age effect,NA
-Neumark & Wascher,1994,ILR Review,NA,NA,N - not sure I can get percent wage increase from Table 4,NA
-Neumark & Wascher,1995,Journal of Business & Economic Statistics,NA,NA,no wage effect,NA
-Neumark & Wascher,1995,American Economic Review: P&P,NA,NA,N - no wage effect reported,NA
+Kandilov and Kandilov,2020,Journal of Regional Science,https://doi.org/10.1111/jors.12474,No usable wage effect,N - no stat sig wage effect,NA
+Karakitsios,2016,Working Paper,https://conference.iza.org/conference_files/SUMS_2016/karakitsios_a23986.pdf,No usable wage effect,no wage effect,NA
+Keil Robertson Symons,2009,Working Paper,https://www.csus.edu/indiv/w/wangt/keil.pdf,Working paper too old,no wage effect,NA
+Kim and Jang,2020,International Journal of Hospitality Management,https://doi.org/10.1016/j.ijhm.2019.102325,Needs quasi-experimental variation,no valid quasi-experimental variation: seems to use federal minimum wage,NA
+"Kreiner, Reck and Skov",2020,Review of Economics and Statistics,https://doi.org/10.1162/rest_a_00825,Not a statuory policy change,not a policy change,NA
+Ku,2022,Journal of Labor Economics,https://doi.org/10.1086/716347,No usable wage effect,N - no estimated wage effect,NA
+Meer & West,2016,Journal of Human Resources,https://doi.org/10.3368/jhr.51.2.0414-6298R1,No usable wage effect,no wage effect,NA
+Michl,2000,Eastern Economic Journal,https://www.jstor.org/stable/40325997,No usable wage effect,no wage effect,NA
+Lordan & Neumark,2018,Labour Economics,https://doi.org/10.1016/j.labeco.2018.03.006,No usable wage effect,N - no wage effect reported,NA
+Neumark,2001,Industrial Relations,https://doi.org/10.1111/0019-8676.00199,No usable wage effect,no wage effect,NA
+Neumark & Wascher,1992,ILR Review,https://doi.org/10.2307/2524738,No usable wage effect,no w age effect,NA
+Neumark & Wascher,1994,ILR Review,https://doi.org/10.2307/2524980,No usable wage effect,N - not sure I can get percent wage increase from Table 4,NA
+Neumark & Wascher,1995,Journal of Business & Economic Statistics,https://doi.org/10.2307/1392374,No usable wage effect,no wage effect,NA
+Neumark & Wascher,1995,American Economic Review: P&P,https://www.jstor.org/stable/2117926,No usable wage effect,N - no wage effect reported,NA
 Neumark & Wascher,1996,FEDS Working Paper,NA,NA,N - no wage effect reported,NA
 Neumark & Wascher,2000,American Economic Review,NA,NA,N - no wage effect reported,NA
 Neumark & Wascher,2002,Journal of Human Resources,NA,NA,N - table 2 and table 3 don't include state fixed effects; violate modern methods requirement,NA
