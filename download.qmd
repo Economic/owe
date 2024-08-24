@@ -1,5 +1,5 @@
 ---
-title: "Data files"
+pagetitle: "Download the data"
 editor: source
 execute:
   echo: false
@@ -9,11 +9,11 @@ execute:
 make_md_link <- function(name, url) {
   paste0("[", name, "](", url, ")")  
 }
-
 ```
 
-## OWE repository
-Download the latest version of the data: `r make_md_link("csv", targets::tar_read(owe_csv_file))`
+## OWE repository data
+
+* `r make_md_link(targets::tar_read(owe_csv_file), targets::tar_read(owe_csv_file))`
 
 ```{r}
 #| echo: false
@@ -53,10 +53,10 @@ targets::tar_read(owe_data) %>%
 <br/>
 See the [documentation](documentation.html) for additional details.
 
-## References
-A complete list of the studies in formats convenient for bibliographies: `r make_md_link("bibtex", targets::tar_read(bib_bibtex_file))` `r make_md_link("csv", targets::tar_read(bib_csv_file))`
+## Bibliographic references
+A complete list of the studies in the repository in formats convenient for bibliographies: `r make_md_link("bibtex", targets::tar_read(bib_bibtex_file))` `r make_md_link("csv", targets::tar_read(bib_csv_file))`
 
-## Citation and use of the data
+## Citation
 If you use the data or this site in your own work, please reference or cite it:
 
 ::: {.callout-note}

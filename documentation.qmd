@@ -25,22 +25,24 @@ data_version <- all_data %>%
   pull(data_version)
 ```
 
-The own-wage elasticity (OWE) of employment is an estimate of the employment 
-change for a given wage change experienced by a group of workers, where in this
-case the changes in wages and employment are due to minimum wage increases.
+The own-wage elasticity (OWE) of employment measures the proportional change in a group's employment caused by a minimum wage increase, divided by the proportional change in that group’s average wage.
 
 The **Minimum Wage Own-Wage Elasticity Repository** contains a representative 
 estimate of the OWE of employment from every minimum wage study published 
 since 1992, with the following restrictions:
 
-1. the study must estimate a statistically significant wage effect of the 
-policy, in addition to estimating an employment effect
+1. the study must evaluate a statutory change in the minimum wage
 
-1. studies not published in a peer-reviewed journal or equivalent are omitted
-if they are more than 10 years old
+1. the study must estimate a statistically significant, positive wage effect of the 
+minimum wage, in addition to estimating an employment effect
 
-1. the study must focus on the US, UK, Germany, or Canada 
-(we will eventually relax this constraint!)
+1. the study must be published after 1992 and include "quasi-experimental" 
+or "experimental" variations
+
+1. if the study has not yet been published in a peer-reviewed journal, it cannot be more than 10 years old
+
+1. The study must focus on the United States, United Kingdom, countries in the
+European Union, or Canada (we will eventually relax this restriction)
 
 The current version of the repository,  Version `r data_version`, contains 
 `r study_count` studies, `r published_study_count` of which are published 
@@ -53,7 +55,6 @@ Arindrajit Dube and Ben Zipperer. 2024.
 "Own-Wage Elasticity: Quantifying the Impact of Minimum Wages on Employment".
 Working Paper. <https://someurl.somewhere>
 :::
-
 
 For more information, explore a [table](table.html) of all the studies or 
 download the underlying [data](download.html). Please don't hesitate to 

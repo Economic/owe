@@ -9,6 +9,10 @@ execute:
 ---
 ::: {.hero-banner}
 # Minimum wage own-wage elasticity repository
+
+The **Minimum Wage Own-Wage Elasticity Repository** contains a representative 
+estimate of the own-wage elasticity (OWE) of employment from every minimum wage study published 
+since 1992. The OWE measures the employment change caused by a minimum wage increase, divided by the change in average wages due to the minimum wage.
 :::
 ```{ojs}
 //| panel: input
@@ -134,8 +138,6 @@ Plot.plot({
 
 Plot = import("https://cdn.jsdelivr.net/npm/@observablehq/plot/+esm")
 ```
-
-The own-wage elasticity (OWE) of employment is an estimate of the employment change for a given wage change experienced by a group of workers, where in this case the changes in wages and employment are due to minimum wage increases. The median OWE of the \${count_studies} studies above is \${median_formatted}.
 
 For more information, explore a [table](table.html) of all the studies, view the [documentation](documentation.html), or download the underlying [data](download.html). If you use the data or this site in your own work, please reference or cite it:
 
