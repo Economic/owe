@@ -900,7 +900,7 @@ giuliano_2013_jole,year,2013
 giuliano_2013_jole,title,"Minimum Wage Effects on Employment, Substitution, and the Teenage Labor Supply: Evidence from Personnel Data"
 giuliano_2013_jole,journal,Journal of Labor Economics
 giuliano_2013_jole,url,https://doi.org/10.1086/666921
-giuliano_2013_jole,source,"Own-wage elasticity reported in Table 4, column 6. Standard error calculated using our usual approximation, dividing Table 4 employment effect by Table 1, All stores FTE mean."
+giuliano_2013_jole,source,"Own-wage elasticity reported in Table 4, column 6. To calculate the standard error, we use the reported employment and wage elasticities and their standard errors. Wage elasticity from Table 4, column 6, row 1. Employment semi elasticity from Table 4, row 2, column 6 divided by the Table 1, All Stores FTE mean of 14.7."
 giuliano_2013_jole,data_version,0.15.0
 gjlwwx_2024_jole,study,Giupponi Joyce Lindner Waters Wernham Xu 2024
 gjlwwx_2024_jole,owe_b,-0.2
