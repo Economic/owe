@@ -14,8 +14,9 @@ Bernstein and Schmitt,2000,Economic Policy Institute Briefing Paper,https://file
 Bernstein and Schmitt,1998,Economic Policy Institute Briefing Paper,https://files.epi.org/page/-/pdf/studies-making-work-pay.pdf,Working paper too old,too old for unpublished,NA
 Böckerman and Uusitalo,2009,British Journal of Industrial Relations,https://doi.org/10.1111/j.1467-8543.2009.00720.x,Not a statutory policy change,not a statutory policy change,NA
 Brochu and Green,2013,The Economic Journal,https://doi.org/10.1111/ecoj.12032,No usable wage effect,not admissible due to no estimated wage effect,NA
-Brummund and Strain,2018,Journal of Human Resources,https://doi.org/10.3368/jhr.55.2.1216.8404R2,No usable wage effect,"not admissible because cannot assess first stage of indexed models, and indexing seems to be the point of the paper",NA
+Brummund and Strain,2020,Journal of Human Resources,https://doi.org/10.3368/jhr.55.2.1216.8404R2,No usable wage effect,"not admissible because cannot assess first stage of indexed models, and indexing seems to be the point of the paper",NA
 "Burkhauser, Couch, and Wittenburg",2000,Southern Economic Journal,https://doi.org/10.1002/j.2325-8012.2000.tb00319.x,No usable wage effect,no estimated wage effect,NA
+"Burkhauser, Couch, and Wittenburg",2000,Journal of Labor Research,https://doi.org/10.1086/209972,No usable wage effect,no estimated wage effect,NA
 Butschek,2022,American Economic Journal: Economic Policy,https://doi.org/10.1257/pol.20190534,No usable employment effect,N - no published emp effect,NA
 "Caliendo, Fedorets, Preuss, Schröder, and Wittbrodt",2018,Labour Economics,https://doi.org/10.1016/j.labeco.2018.07.002,No usable wage effect,no wage effect,NA
 Card and Krueger,1994,American Economic Review,http://www.jstor.org/stable/2677856,No usable wage effect,no wage,NA
@@ -59,28 +60,27 @@ Neumark and Wascher,1992,ILR Review,https://doi.org/10.2307/2524738,No usable wa
 Neumark and Wascher,1994,ILR Review,https://doi.org/10.2307/2524980,No usable wage effect,N - not sure I can get percent wage increase from Table 4,NA
 Neumark and Wascher,1995,Journal of Business & Economic Statistics,https://doi.org/10.2307/1392374,No usable wage effect,no wage effect,NA
 Neumark and Wascher,1995,American Economic Review: P&P,https://www.jstor.org/stable/2117926,No usable wage effect,N - no wage effect reported,NA
-Neumark and Wascher,1996,FEDS Working Paper,NA,NA,N - no wage effect reported,NA
-Neumark and Wascher,2000,American Economic Review,NA,NA,N - no wage effect reported,NA
-Neumark and Wascher,2002,Journal of Human Resources,NA,NA,N - table 2 and table 3 don't include state fixed effects; violate modern methods requirement,NA
-Neumark and Wascher,2003,Economics of Education Review,NA,NA,N - no wage effect reported,NA
-Neumark and Wascher,2011,ILRR,NA,NA,"borderline case, but probably not a significant wage effect. key result is Table 2a. MW and EITC values are demeaned, but it doesn't seem like the kids variable is. for a main effect of min wage, then rows MW x kids and MW are relevant. see second page of Table 2a: only specification 5 has a (marginally) significant wage effect, but only on main MW effect without kids... we could in principle use some weighted average of the kids and no kids effects (table1a has shares of women with kids). the resulting OWE would be positive (see first page of Table 2a for semi-elasticity of employment wrt mw and mw + kids)",NA
-"Neumark, Salas, and Wascher",2014,ILR Review,NA,NA,N - no wage effect reported,NA
-"Neumark, Salas, and Wascher",2014,IZA Journal of Labor Policy,NA,NA,N - no wage effect reported,NA
-Omberg,2021,JLP,NA,NA,N - no wage effect estimated (uses coverage rates to approximate wage effect),NA
-Orazem and Mattila,2002,Journal of Labor Research,NA,NA,N - no stat sig positive wage effect,NA
-Partridge and Partridge,1999,Journal of Labor Research,NA,NA,no wage effect,NA
-Persky and Baiman,2010,Journal of Regional Analysis and Policy,NA,NA,no wage outcomes,NA
-Portugal and Cardoso,2006,JEEA,NA,NA,no wage effect,NA
-Powell,2022,JBES,NA,NA,no wage effect,NA
-"Sabia, Burkhauser, and Hansen",2016,ILR Review,NA,NA,N - NY analysis does not show wage effects; wage effects for other states (table 2) but not focus of the paper and discussion seems to cast doubt on some of them,NA
+Neumark and Wascher,1996,FEDS Working Paper,https://www.federalreserve.gov/pubs/feds/1996/199628/199628pap.pdf,Working paper too old,N - no wage effect reported,NA
+Neumark and Wascher,2000,American Economic Review,https://doi.org/10.1257/aer.90.5.1362,No usable wage effect,N - no wage effect reported,NA
+Neumark and Wascher,2002,Journal of Human Resources,https://doi.org/10.2307/3069603,Needs quasi-experimental variation,N - table 2 and table 3 don't include state fixed effects; violate modern methods requirement,NA
+Neumark and Wascher,2003,Economics of Education Review,https://doi.org/10.1016/S0272-7757(02)00006-7,No usable wage effect,N - no wage effect reported,NA
+Neumark and Wascher,2011,ILR Review,https://doi.org/10.1177/001979391106400405,No usable wage effect,"borderline case, but probably not a significant wage effect. key result is Table 2a. MW and EITC values are demeaned, but it doesn't seem like the kids variable is. for a main effect of min wage, then rows MW x kids and MW are relevant. see second page of Table 2a: only specification 5 has a (marginally) significant wage effect, but only on main MW effect without kids... we could in principle use some weighted average of the kids and no kids effects (table1a has shares of women with kids). the resulting OWE would be positive (see first page of Table 2a for semi-elasticity of employment wrt mw and mw + kids)",NA
+"Neumark, Salas, and Wascher",2014,ILR Review,https://doi.org/10.1177/00197939140670S307,No usable wage effect,N - no wage effect reported,NA
+"Neumark, Salas, and Wascher",2014,IZA Journal of Labor Policy,https://doi.org/10.1186/2193-9004-3-24,No usable wage effect,N - no wage effect reported,NA
+Omberg,2021,IZA Journal of Labor Policy,https://doi.org/10.2478/izajolp-2021-0009,No usable wage effect,N - no wage effect estimated (uses coverage rates to approximate wage effect),NA
+Orazem and Mattila,2002,Journal of Labor Research,https://doi.org/10.1007/s12122-002-1014-6,No usable wage effect,N - no stat sig positive wage effect,NA
+Partridge and Partridge,1999,Journal of Labor Research,https://doi.org/10.1007/s12122-999-1007-9,No usable wage effect,no wage effect,NA
+Persky and Baiman,2010,Journal of Regional Analysis and Policy,https://jrap.scholasticahq.com/article/9550-do-state-minimum-wage-laws-reduce-employment-mixed-messages-from-fast-food-outlets-in-illinois-and-indiana,No usable wage effect,no wage outcomes,NA
+Portugal and Cardoso,2006,Journal of the European Economic Association,https://www.jstor.org/stable/40004962,No usable wage effect,no wage effect,NA
+Powell,2022,JBES,https://doi.org/10.1080/07350015.2021.1927743,No usable wage effect,no wage effect,NA
+"Sabia, Burkhauser, and Hansen",2016,ILR Review,https://doi.org/10.1177/0019793915610558,No usable wage effect,N - NY analysis does not show wage effects; wage effects for other states (table 2) but not focus of the paper and discussion seems to cast doubt on some of them,NA
 Schmitz,2019,German Economic Review,https://doi.org/10.1111/geer.12196,No usable wage effect,no wage analysis,NA
-Singell and Terborg,2007,Economic Inquiry,NA,NA,no average wage effect,NA
-Stewart 2002,2002,OBES,NA,NA,no wage effect,NA
-Stewart 2004,2004,The Economic Journal,NA,NA,N - no reported wage effect,NA
-Turner Demiralp,2001,RBPE,NA,NA,no average wage effect,NA
-"Wang, Phillips, and Su",2019,Economics Letters,NA,NA,no wage effect,NA
-Wellington,1991,JHR,NA,NA,time series regressions,NA
-Wolfson and Belman,2001,EE,NA,NA,no wage effect,NA
-Wolfson and Belman,2004,JBES,NA,NA,time series regressions,NA
-Williams,1993,Applied Economics,NA,NA,no wage effect,NA
+Singell and Terborg,2007,Economic Inquiry,https://doi.org/10.1111/j.1465-7295.2006.00018.x,No usable wage effect,no average wage effect,NA
+Stewart 2002,2002,OBES,http://dx.doi.org/10.1111/1468-0084.64.s.2,No usable wage effect,no wage effect,NA
+Stewart 2004,2004,The Economic Journal,https://doi.org/10.1111/j.0013-0133.2003.00200.x,No usable wage effect,N - no reported wage effect,NA
+Turner Demiralp,2001,RBPE,https://doi.org/10.1007/s12114-001-1010-8,No usable wage effect,no average wage effect,NA
+"Wang, Phillips, and Su",2019,Economics Letters,https://doi.org/10.1016/j.econlet.2018.11.002,No usable wage effect,no wage effect,NA
+Wolfson and Belman,2001,EE,https://doi.org/10.1007/s001810000067,No usable wage effect,no wage effect,NA
+Wolfson and Belman,2004,JBES,https://www.jstor.org/stable/1392597,Needs quasi-experimental variation,time series regressions,NA
+Williams,1993,Applied Economics,https://doi.org/10.1080/00036849300000156,No usable wage effect,no wage effect,NA
 Yannelis,2014,Working Paper,https://www.sole-jole.org/assets/docs/14015.pdf,Working paper too old,Employment measure is not total headcount but only full-time employment,NA
