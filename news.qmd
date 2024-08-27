@@ -4,6 +4,9 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 0.16.0
+- Removed Belman Wolfson 2010 due to time series variation only
+
 ## Version 0.15.0
 - Updated estimate from Wiltshire et al 2024 
 - Moved Butcher and Dickinson 2023 to working paper status
