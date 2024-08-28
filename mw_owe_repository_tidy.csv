@@ -583,7 +583,7 @@ cf_1996_jhr,published,1
 cf_1996_jhr,authors,Janet Currie and Bruce C. Fallick
 cf_1996_jhr,year,1996
 cf_1996_jhr,title,The Minimum Wage and the Employment of Youth Evidence from the NLSY
-cf_1996_jhr,journal,The Journal of Human Resources
+cf_1996_jhr,journal,Journal of Human Resources
 cf_1996_jhr,url,https://doi.org/10.2307/146069
 cf_1996_jhr,source,"Employment elasticity uses semi-elasticity from table 2, specification 4 (Fixed Effects), divided by 0.97, the proportion employed in next year, 1987, from Table 1. Wage elasticity from Table 4, Panel B, specification 2 (Fixed Effects)."
 cf_1996_jhr,data_version,0.16.0
@@ -961,7 +961,7 @@ grwa_2024_jhr,published,1
 grwa_2024_jhr,authors,"Anna Godøy, Michael Reich, Jesse Wursten and Sylvia Allegretto"
 grwa_2024_jhr,year,2024
 grwa_2024_jhr,title,Parental Labor Supply: Evidence from Minimum Wage Changes
-grwa_2024_jhr,journal,The Journal of Human Resources
+grwa_2024_jhr,journal,Journal of Human Resources
 grwa_2024_jhr,url,https://doi.org/10.3368/jhr.1119-10540R2
 grwa_2024_jhr,source,"Own-wage elasticity reported in Table 2, column ""Any, Any""."
 grwa_2024_jhr,data_version,0.16.0
@@ -1339,7 +1339,7 @@ nsw_2004_jhr,published,1
 nsw_2004_jhr,authors,"David Neumark, Mark Schweitzer and William Wascher"
 nsw_2004_jhr,year,2004
 nsw_2004_jhr,title,Minimum Wage Effects throughout the Distribution
-nsw_2004_jhr,journal,The Journal of Human Resources
+nsw_2004_jhr,journal,Journal of Human Resources
 nsw_2004_jhr,url,https://doi.org/10.3368/jhr.XXXIX.2.425
 nsw_2004_jhr,source,Weighted average
 nsw_2004_jhr,data_version,0.16.0
@@ -1360,7 +1360,7 @@ nn_2007_jhr,published,1
 nn_2007_jhr,authors,David Neumark and Olena Nizalova
 nn_2007_jhr,year,2007
 nn_2007_jhr,title,Minimum Wage Effects in the Longer Run
-nn_2007_jhr,journal,The Journal of Human Resources
+nn_2007_jhr,journal,Journal of Human Resources
 nn_2007_jhr,url,https://doi.org/10.3368/jhr.XLII.2.435
 nn_2007_jhr,source,"Wage elasticity from Table 2, specification 1, panel ""16-19"". Employment semi-elasticity from Table 2, specification 2, panel ""16-19"", divided by 46.45, the mean employment from Table 1, specification ""16-19-year olds"", ""Whole sample""."
 nn_2007_jhr,data_version,0.16.0
