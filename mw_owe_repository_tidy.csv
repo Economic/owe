@@ -335,6 +335,27 @@ bh_2023_wp,journal,IZA Discussion Paper
 bh_2023_wp,url,https://docs.iza.org/dp16257.pdf
 bh_2023_wp,source,Earnings and employment elasticities reported in specification 1 (All) of Table 1.
 bh_2023_wp,data_version,0.16.0
+bs_2020_jhr,study,Brummund and Strain 2020
+bs_2020_jhr,owe_b,-1.259
+bs_2020_jhr,owe_se,0.699
+bs_2020_jhr,owe_lb,-2.63
+bs_2020_jhr,owe_ub,0.111
+bs_2020_jhr,owe_magnitude,Large negative
+bs_2020_jhr,group,Restaurants
+bs_2020_jhr,overall,0
+bs_2020_jhr,teens,0
+bs_2020_jhr,restaurants_retail,1
+bs_2020_jhr,country,US
+bs_2020_jhr,averaged,1
+bs_2020_jhr,owe_reported,0
+bs_2020_jhr,published,1
+bs_2020_jhr,authors,Peter Brummund and Michael R. Strain
+bs_2020_jhr,year,2020
+bs_2020_jhr,title,Does Employment Respond Differently to Minimum Wage Increases in the Presence of Inflation Indexing?
+bs_2020_jhr,journal,Journal of Human Resources
+bs_2020_jhr,url,https://doi.org/10.3368/jhr.55.2.1216.8404R2
+bs_2020_jhr,source,Employment and earnings elasticities from an equally weighted average of the three specifications Table 5. The earnings and employment elasticities for each column are the sum of the ln(Minimum Wage) and Indexed X ln(Min wage) coefficients. The standard errors for the sum of these coefficients is the square root of the sum of the variances. The final pooled employment and earnings elasticities are the equally weighted averages across columns.
+bs_2020_jhr,data_version,0.16.0
 bcw_2000_jole,study,Burkhauser Couch Wittenburg 2000
 bcw_2000_jole,owe_b,-0.604
 bcw_2000_jole,owe_se,0.184

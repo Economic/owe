@@ -5,6 +5,7 @@ editor: source
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
 ## Version 0.16.0
+- Added Brummund and Strain 2020
 - Removed Belman Wolfson 2010 due to time series variation only
 
 ## Version 0.15.0
