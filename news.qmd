@@ -4,6 +4,9 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 1.0.0
+- First public release of the data.
+
 ## Version 0.16.0
 - Added Brummund and Strain 2020
 - Removed Belman Wolfson 2010 due to time series variation only
@@ -28,41 +31,3 @@ Archived releases of the data, and the code used to generate them, are available
 - Added Manning 2021 and Sabia 2009b
 - Updated Vergara 2023
 
-## Version 0.10.0
-- Added Neumark and Yen 2023; Belman and Wolfson 2010; and Addison Blackburn Cotti 2015
-
-## Version 0.9.1
-- Updated Jha Neumark Rodriguez-Lopez 2024 citation to latest version
-
-## Version 0.9.0
-- Corrected standard errors from Wursten and Reich 2023 LE, Hampton and Totty 2023
-
-## Version 0.8.0
-- Corrected standard error from Wursten 2021
-- Refined journal names
-
-## Version 0.7.1
-- Refined working paper bibliographic entries in mw_owe_studies.bib output
-
-## Version 0.7.0
-- Added Riley and Bondibene 2017
-
-## Version 0.6.1
-- Added teens and restaurants_retail columns to data
-- Added owe_magnitude column to data
-
-## Version 0.6.0
-- Added "year" column to data
-- Used weighted average for elasticities from Reich and Wursten 2023, small business paper.
-- Corrected elasticities from Even and Macpherson 2014.
-
-## Version 0.5.0
-- Corrected employment elasticity from Dow Godøy Lowenstein Reich 2020
-- Added "averaged" and "owe_reported" columns to data
-
-## Version 0.4.0
-- Added Brown and Herbst 2023
-- Corrected country of Bossler and Gerner 2020
-
-## Version 0.3.0
-- Finally added changelog

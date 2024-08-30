@@ -6,21 +6,25 @@ execute:
 ---
 
 ```{r}
-make_md_link <- function(name, url) {
-  paste0("[", name, "](", url, ")")  
-}
-```
-
-## OWE repository data
-
-* `r make_md_link(targets::tar_read(owe_csv_file), targets::tar_read(owe_csv_file))`
-
-```{r}
 #| echo: false
 #| warning: false
 library(tidyverse)
 library(reactable)
 
+make_md_link <- function(name, url) {
+  paste0("[", name, "](", url, ")")  
+}
+
+version = targets::tar_read(owe_data) |> 
+  distinct(data_version) |> 
+  pull()
+```
+
+## OWE repository data
+
+* Download version `r version` of the data: `r make_md_link(targets::tar_read(owe_csv_file), targets::tar_read(owe_csv_file))`
+
+```{r}
 targets::tar_read(owe_data) %>% 
   filter(row_number() == 1) %>% 
   transmute(
