@@ -1257,7 +1257,7 @@ mw_2004_ej,year,2004
 mw_2004_ej,title,Minimum Wages in a Low-Wage Labour Market: Care Homes in the UK
 mw_2004_ej,journal,The Economic Journal
 mw_2004_ej,url,https://doi.org/10.1111/j.0013-0133.2003.00199.x
-mw_2004_ej,source,CONFIRM SOURCE TK
+mw_2004_ej,source,"We use the ""All areas"" specification (1) in Table 2 to calculate the low pay proportion based wage effects with and without controls, and average them; we similarly calculate the average wage gap based effect. We do the same for employment effects from Table 3, calculating the average low pay proportion based employment effect and average wage gap based employment effect. Then we calculate the implied low-pay proportion based OWE (-0.66) and implied wage gap based OWE (-0.28). We report the average of these two elasticities."
 mw_2004_ej,data_version,1.0.0
 manning_2021_jep,study,Manning 2021
 manning_2021_jep,owe_b,0.011
@@ -1341,7 +1341,7 @@ nsw_2004_jhr,year,2004
 nsw_2004_jhr,title,Minimum Wage Effects throughout the Distribution
 nsw_2004_jhr,journal,Journal of Human Resources
 nsw_2004_jhr,url,https://doi.org/10.3368/jhr.XXXIX.2.425
-nsw_2004_jhr,source,Weighted average
+nsw_2004_jhr,source,"Wage and employment effects are a group size weighted average of wage and employment effects the three lowest wage groups (up to 110% of the minimum wage). Group size shares are from the ""Proportion"" column in Table 1. The wage (employment) effect for each group is the sum of ""Current"" and ""Lagged"" effects in the ""Wages"" (""Employment"") column of Table 2. The OWE is the group weighted average employment effect divided by the group weighted average wage effect."
 nsw_2004_jhr,data_version,1.0.0
 nn_2007_jhr,study,Neumark and Nizalova 2007
 nn_2007_jhr,owe_b,-0.913
@@ -1593,7 +1593,7 @@ sbh_2012_ilrr,year,2012
 sbh_2012_ilrr,title,Are the Effects of Minimum Wage Increases Always Small? New Evidence from a Case Study of New York State
 sbh_2012_ilrr,journal,ILR Review
 sbh_2012_ilrr,url,https://doi.org/10.1177/001979391206500207
-sbh_2012_ilrr,source,wage: Table 2 column 5; emp: Table 3 column 5
+sbh_2012_ilrr,source,"The wage and employment elasticities are the estimates in italics in Tables 2 and 3 under the ""Diff-in-diff"" column 5 for 16-to-29 year olds without high school degrees. The standard errors are the standard errors of the semi-elasticity multiplied by the ratio of the elasticity and semi-elasticity."
 sbh_2012_ilrr,data_version,1.0.0
 slichter_2023_jae,study,Slichter 2023
 slichter_2023_jae,owe_b,-0.174
@@ -1656,7 +1656,7 @@ thompson_2009_ilrr,year,2009
 thompson_2009_ilrr,title,Using Local Labor Market Data to Re-examine the Employment Effects of the Minimum Wage
 thompson_2009_ilrr,journal,ILR Review
 thompson_2009_ilrr,url,https://doi.org/10.1177/001979390906200305
-thompson_2009_ilrr,source,"Wage: Table 6, column 1 row 1; Emp: Table 5, column 1 row 1"
+thompson_2009_ilrr,source,"The wage effect is from Table 6, column 1, row 1. The employment effect is from Table 5, column 1, row 1."
 thompson_2009_ilrr,data_version,1.0.0
 totty_2017_ei,study,Totty 2017
 totty_2017_ei,owe_b,-0.155
@@ -1677,7 +1677,7 @@ totty_2017_ei,year,2017
 totty_2017_ei,title,The Effect of Minimum Wages on Employment: A Factor Model Approach
 totty_2017_ei,journal,Economic Inquiry
 totty_2017_ei,url,https://doi.org/10.1111/ecin.12472
-totty_2017_ei,source,"Wage: Table 9, IFE; Emp: Table 3, IFE"
+totty_2017_ei,source,Restaurant wage and employment elasticities are the IFE specifications in Tables 9 and Table 3.
 totty_2017_ei,data_version,1.0.0
 va_2021_bjir,study,Vadean and Allen 2021
 va_2021_bjir,owe_b,-0.036
@@ -1761,7 +1761,7 @@ wursten_2020_wp,year,2020
 wursten_2020_wp,title,Is Politics the Missing Piece of the Minimum Wage Puzzle?
 wursten_2020_wp,journal,Working Paper
 wursten_2020_wp,url,http://dx.doi.org/10.13140/RG.2.2.14177.20329
-wursten_2020_wp,source,"wage = Table 5, panel A, column 5; emp = table 2, panel B, column 1"
+wursten_2020_wp,source,"Wage elasticity from Table 5, panel A, column 5. Employment elasticity from Table 2, panel B, column 1."
 wursten_2020_wp,data_version,1.0.0
 wursten_2021_wp,study,Wursten 2021
 wursten_2021_wp,owe_b,-0.269
