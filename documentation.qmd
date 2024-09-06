@@ -54,7 +54,7 @@ is in the paper
 ## Paper
 Arindrajit Dube and Ben Zipperer. 2024. 
 "Own-Wage Elasticity: Quantifying the Impact of Minimum Wages on Employment".
-Working Paper. [NBER Working Paper 32925](http://www.nber.org/papers/w32925>).
+Working Paper. [NBER Working Paper 32925](http://www.nber.org/papers/w32925).
 :::
 
 For more information, explore a [table](table.html) of all the studies or 
