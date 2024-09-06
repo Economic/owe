@@ -10,8 +10,8 @@ The [website](https://github.com/economic/owe) contains the latest version of th
 
 The main data products are also available in the root of this repository:
 
-* [mw_owe_repository.csv](https://github.com/Economic/owe/blob/main/mw_owe_repository.csv) (the OWE repository estimates)
-* [mw_owe_studies.bib](https://github.com/Economic/owe/blob/main/mw_owe_studies.bib) or [mw_owe_studies.csv](https://github.com/Economic/owe/blob/main/mw_owe_studies.csv) (bibliography of studies)
+-   [mw_owe_repository.csv](https://github.com/Economic/owe/blob/main/mw_owe_repository.csv) (the OWE repository estimates)
+-   [mw_owe_studies.bib](https://github.com/Economic/owe/blob/main/mw_owe_studies.bib) or [mw_owe_studies.csv](https://github.com/Economic/owe/blob/main/mw_owe_studies.csv) (bibliography of studies)
 
 For archived versions of the data, see the Github [releases](https://github.com/Economic/owe/releases) and associated [changelog](https://economic.github.io/owe/news.html).
 
@@ -19,4 +19,4 @@ For archived versions of the data, see the Github [releases](https://github.com/
 
 If you simply want to use the data and documentation, visit the [website](https://economic.github.io/owe/).
 
-To build the data and website, you will need to use the R package `targets` and quarto.
+To build the data and website, you will need to use the R package [`targets`](https://docs.ropensci.org/targets/) and [quarto](https://quarto.org/).

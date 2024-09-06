@@ -31,17 +31,18 @@ The **Minimum Wage Own-Wage Elasticity Repository** contains a representative
 estimate of the OWE of employment from every minimum wage study published 
 since 1992, with the following restrictions:
 
-1. the study must evaluate a statutory change in the minimum wage
+1. the study must evaluate the employment effects of changes in the statutory
+minimum wage
 
-1. the study must estimate a statistically significant, positive wage effect of the 
-minimum wage, in addition to estimating an employment effect
+1. the study must estimate a statistically significant, positive wage effect of the
+minimum wage, in addition to estimating the employment effect, for the same group of workers using a similar research design
 
 1. the study must be published after 1992 and include "quasi-experimental" 
 or "experimental" variations
 
-1. if the study has not yet been published in a peer-reviewed journal, it cannot be more than 10 years old
+1. studies older than 10 years must have been published in an academic journal
 
-1. The study must focus on the United States, United Kingdom, countries in the
+1. the study must focus on the United States, United Kingdom, countries in the
 European Union, or Canada (we will eventually relax this restriction)
 
 The current version of the repository,  Version `r data_version`, contains 
@@ -50,10 +51,10 @@ in peer-reviewed journals. A description of Version 1.0 of the repository
 is in the paper
 
 ::: {.callout-note}
-## Source
+## Paper
 Arindrajit Dube and Ben Zipperer. 2024. 
 "Own-Wage Elasticity: Quantifying the Impact of Minimum Wages on Employment".
-Working Paper. <https://someurl.somewhere>
+Working Paper. [NBER Working Paper 32925](http://www.nber.org/papers/w32925>).
 :::
 
 For more information, explore a [table](table.html) of all the studies or 
@@ -63,7 +64,7 @@ download the underlying [data](download.html). Please don't hesitate to
 If you use the data or this site in your own work, please reference or cite it:
 
 ::: {.callout-note}
-## Source
+## Repository source
 ```{r}
 #| output: asis
 cat(targets::tar_read(citation_full_md))
