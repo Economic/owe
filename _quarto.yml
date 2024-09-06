@@ -5,8 +5,14 @@ project:
   
 website:
   title: "OWE repository"
+  site-url: https://economic.github.io/owe
   repo-url: https://github.com/economic/owe
   search: false
+  twitter-card:
+    title: "Minimum Wage Own Wage Elasticity Repository"
+    description: "Representative estimates from minimum wage studies"
+    image: "web_assets/twitter_card.png"
+    card-style: "summary_large_image"
   navbar:
     background: light
     left:

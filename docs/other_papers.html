@@ -60,6 +60,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
 
 
+<meta name="twitter:title" content="Minimum Wage Own Wage Elasticity Repository">
+<meta name="twitter:description" content="Representative estimates from minimum wage studies">
+<meta name="twitter:image" content="https://economic.github.io/owe/web_assets/twitter_card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="418">
+<meta name="twitter:image-width" content="800">
 </head>
 
 <body class="nav-fixed">
@@ -236,7 +242,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/economic\.github\.io\/owe");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
