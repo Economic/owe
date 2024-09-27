@@ -4,6 +4,9 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 1.1.0
+- Added Bossler Shank 2023 and Garcia-Louzao Tarasonis 2023
+
 ## Version 1.0.0
 - First public release of the data.
 
