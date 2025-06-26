@@ -545,27 +545,27 @@ cdlz_2019_qje,journal,Quarterly Journal of Economics
 cdlz_2019_qje,url,https://doi.org/10.1093/qje/qjz014
 cdlz_2019_qje,source,"Own-wage elasticity reported in Table 1, specification 1, row ""Emp. elasticity w.r.t affected wage"""
 cdlz_2019_qje,data_version,2025.6.25
-cs_2021_wp,study,Clemens and Strain 2021
-cs_2021_wp,owe_b,-0.245
-cs_2021_wp,owe_se,NA
-cs_2021_wp,owe_lb,NA
-cs_2021_wp,owe_ub,NA
-cs_2021_wp,owe_magnitude,Small negative
-cs_2021_wp,group,"Ages 16-25, Less than High School, Ages 16-21"
-cs_2021_wp,overall,0
-cs_2021_wp,teens,0
-cs_2021_wp,restaurants_retail,0
-cs_2021_wp,country,US
-cs_2021_wp,averaged,1
-cs_2021_wp,owe_reported,1
-cs_2021_wp,published,0
-cs_2021_wp,authors,Jeffrey Clemens and Michael R. Strain
-cs_2021_wp,year,2021
-cs_2021_wp,title,The Heterogeneous Effects of Large and Small Minimum Wage Changes: Evidence over the Short and Medium Run Using a Pre-Analysis Plan
-cs_2021_wp,journal,NBER Working Paper
-cs_2021_wp,url,https://www.nber.org/system/files/working_papers/w29264/w29264.pdf
-cs_2021_wp,source,"Authors suggested simple average of own-wage elasticities reported in Table 10, specifications 1 (Low-Skill, All Changers) and 5 (Young, All Changers)."
-cs_2021_wp,data_version,2025.6.25
+cs_2025_jole,study,Clemens and Strain 2025
+cs_2025_jole,owe_b,-0.253
+cs_2025_jole,owe_se,NA
+cs_2025_jole,owe_lb,NA
+cs_2025_jole,owe_ub,NA
+cs_2025_jole,owe_magnitude,Small negative
+cs_2025_jole,group,"Ages 16-25, Less than High School, Ages 16-21"
+cs_2025_jole,overall,0
+cs_2025_jole,teens,0
+cs_2025_jole,restaurants_retail,0
+cs_2025_jole,country,US
+cs_2025_jole,averaged,1
+cs_2025_jole,owe_reported,1
+cs_2025_jole,published,1
+cs_2025_jole,authors,Jeffrey Clemens and Michael R. Strain
+cs_2025_jole,year,2025
+cs_2025_jole,title,The Heterogeneous Effects of Large and Small Minimum Wage Changes: Evidence over the Short and Medium Run Using a Pre-Analysis Plan
+cs_2025_jole,journal,Journal of Labor Economics
+cs_2025_jole,url,https://doi.org/10.1086/736552
+cs_2025_jole,source,"Authors suggested simple average of own-wage elasticities reported in Table 10, specifications 1 (Low-Skill, All Changers) and 5 (Young, All Changers)."
+cs_2025_jole,data_version,2025.6.25
 cdp_2022_jpe,study,Coviello Deserranno Persico 2022
 cdp_2022_jpe,owe_b,-0.219
 cdp_2022_jpe,owe_se,NA
