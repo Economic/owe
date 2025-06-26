@@ -3,10 +3,10 @@ source("packages.R")
 
 ## Globals
 citation_authors <- "Arindrajit Dube and Ben Zipperer"
-citation_year <- 2024
+citation_year <- 2025
 citation_title <- "Minimum wage own-wage elasticity repository"
 citation_url <- "https://economic.github.io/owe"
-data_version <- "1.1.0"
+data_version <- "2025.6.25"
 owe_sheet <- "1-uBymldLhp5IsG-qiRmUGDy883ij8vjYdx6YpbHAing"
 
 ## Functions
@@ -20,30 +20,35 @@ tar_plan(
     citation_url,
     data_version
   ),
-  
+
   # csv versions of the key google sheets
   tar_file(
-    sheet_papers_csv, 
+    sheet_papers_csv,
     download_sheet(owe_sheet, "papers", "sheet_papers.csv", data_version)
   ),
   tar_file(
-    sheet_estimates_csv, 
+    sheet_estimates_csv,
     download_sheet(owe_sheet, "estimates", "sheet_estimates.csv", data_version)
   ),
   tar_file(
-    sheet_calculations_csv, 
+    sheet_calculations_csv,
     download_sheet(
-      owe_sheet, 
-      "detailed_calculations", 
-      "sheet_calculations.csv", 
+      owe_sheet,
+      "detailed_calculations",
+      "sheet_calculations.csv",
       data_version
     )
   ),
   tar_file(
-    other_papers_csv, 
-    download_sheet(owe_sheet, "not admissible", "sheet_other_papers.csv", data_version)
+    other_papers_csv,
+    download_sheet(
+      owe_sheet,
+      "not admissible",
+      "sheet_other_papers.csv",
+      data_version
+    )
   ),
-  
+
   # cleaned bib and owe data
   bib_data = make_bib(sheet_papers_csv),
   owe_data = make_owe_data(sheet_estimates_csv, bib_data, data_version),
@@ -56,7 +61,8 @@ tar_plan(
   tar_file(owe_csv_tidy_file, make_owe_csv_tidy(owe_data)),
 
   # website
-  tar_quarto(website, execute_params = list(data_version = data_version))
+  tar_quarto(
+    website,
+    execute_params = list(data_version = data_version)
+  )
 )
-
-
