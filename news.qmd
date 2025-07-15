@@ -4,8 +4,11 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 2025.7.15
+- Added Clemens Edwards Meer 2025
+
 ## Version 2025.6.26
-- Updated estimates and publication status for Wiltshre et al 2025; Clemens and Strain 2025
+- Updated estimates and publication status for Wiltshire et al 2025; Clemens and Strain 2025
 
 ## Version 1.1.0
 - Added Bossler Shank 2023 and Garcia-Louzao Tarasonis 2023
