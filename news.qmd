@@ -4,6 +4,10 @@ editor: source
 ---
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
+## Version 2025.8.1
+- Updated Vergara 2023 to Vergara 2025
+- Added Chen 2019; Hamdi and Sovich 2025
+
 ## Version 2025.7.15
 - Added Clemens Edwards Meer 2025
 
