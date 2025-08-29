@@ -650,6 +650,27 @@ cf_1996_jhr,journal,Journal of Human Resources
 cf_1996_jhr,url,https://doi.org/10.2307/146069
 cf_1996_jhr,source,"Employment elasticity uses semi-elasticity from table 2, specification 4 (Fixed Effects), divided by 0.97, the proportion employed in next year, 1987, from Table 1. Wage elasticity from Table 4, Panel B, specification 2 (Fixed Effects)."
 cf_1996_jhr,data_version,2025.9.1
+dps_2025_wp,study,Davies Park Stansbury 2025
+dps_2025_wp,owe_b,-0.859
+dps_2025_wp,owe_se,0.448
+dps_2025_wp,owe_lb,-1.738
+dps_2025_wp,owe_ub,0.02
+dps_2025_wp,owe_magnitude,Large negative
+dps_2025_wp,group,Low wage jobs
+dps_2025_wp,overall,1
+dps_2025_wp,teens,0
+dps_2025_wp,restaurants_retail,0
+dps_2025_wp,country,US
+dps_2025_wp,averaged,1
+dps_2025_wp,owe_reported,1
+dps_2025_wp,published,0
+dps_2025_wp,authors,"Michael Davies, R. Jisung Park and Anna Stansbury"
+dps_2025_wp,year,2025
+dps_2025_wp,title,Minimum Wages and Workplace Injuries
+dps_2025_wp,journal,Working Paper
+dps_2025_wp,url,https://dx.doi.org/10.2139/ssrn.5062047
+dps_2025_wp,source,Average of own-wage elasticities reported in Table A16.
+dps_2025_wp,data_version,2025.9.1
 dm_2021_qje,study,Derenoncourt and Montialoux 2021
 dm_2021_qje,owe_b,0.06
 dm_2021_qje,owe_se,0.16
