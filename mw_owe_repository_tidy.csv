@@ -1322,6 +1322,27 @@ kk_1992_ilrr,journal,ILR Review
 kk_1992_ilrr,url,https://doi.org/10.1177/001979399204600102
 kk_1992_ilrr,source,"Own-wage elasticity reported in Table 5, specification 2."
 kk_1992_ilrr,data_version,2025.9.1
+klm_2025_le,study,Kim Levere Magenheim 2025
+klm_2025_le,owe_b,0.281
+klm_2025_le,owe_se,0.848
+klm_2025_le,owe_lb,-1.382
+klm_2025_le,owe_ub,1.943
+klm_2025_le,owe_magnitude,Positive
+klm_2025_le,group,Nonprofits
+klm_2025_le,overall,0
+klm_2025_le,teens,0
+klm_2025_le,restaurants_retail,0
+klm_2025_le,country,US
+klm_2025_le,averaged,0
+klm_2025_le,owe_reported,0
+klm_2025_le,published,1
+klm_2025_le,authors,"Jiyoon Kim, Michael Levere and Ellen Magenheim"
+klm_2025_le,year,2025
+klm_2025_le,title,Do minimum wage increases induce changes in work behavior for people with disabilities? Evidence from the AbilityOne program
+klm_2025_le,journal,Labour Economics
+klm_2025_le,url,https://doi.org/10.1016/j.labeco.2024.102663
+klm_2025_le,source,"Employment effect from Table 3, Panel A, specification 2. Wage effect from Table 3, Panel C, specification 2, scaled by variable average wage of 10.94."
+klm_2025_le,data_version,2025.9.1
 kt_1995_jbes,study,Kim and Taylor 1995
 kt_1995_jbes,owe_b,-0.879
 kt_1995_jbes,owe_se,0.133
