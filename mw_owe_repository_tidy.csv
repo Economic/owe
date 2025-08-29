@@ -839,6 +839,27 @@ dnr_2007_ilrr,journal,ILR Review
 dnr_2007_ilrr,url,https://doi.org/10.1177/001979390706000404
 dnr_2007_ilrr,source,"Employment log change from Table 7, panel ""Ln(employment)"", specification 1 (""Full sample""). Wage effect from Table 2, specification 1 (""Full sample""), divided by 10.22, the Table 1, Wave 1, Treatment Group, Average Wage."
 dnr_2007_ilrr,data_version,2025.9.1
+drbs_2024_wp,study,Dube Reich Bhatt Sosinskiy 2024
+drbs_2024_wp,owe_b,-0.12
+drbs_2024_wp,owe_se,0.289
+drbs_2024_wp,owe_lb,-0.686
+drbs_2024_wp,owe_ub,0.447
+drbs_2024_wp,owe_magnitude,Small negative
+drbs_2024_wp,group,Restaurants
+drbs_2024_wp,overall,0
+drbs_2024_wp,teens,0
+drbs_2024_wp,restaurants_retail,1
+drbs_2024_wp,country,US
+drbs_2024_wp,averaged,1
+drbs_2024_wp,owe_reported,1
+drbs_2024_wp,published,0
+drbs_2024_wp,authors,"Arindrajit Dube, Michael Reich, Akash Bhatt and Denis Sosinskiy"
+drbs_2024_wp,year,2024
+drbs_2024_wp,title,"Restaurant Employment, Minimum Wages, and Border Discontinuities"
+drbs_2024_wp,journal,NBER Working Paper
+drbs_2024_wp,url,http://www.nber.org/papers/w32902
+drbs_2024_wp,source,"Average of weighted (panel A) and unweighted (panel B) own-wage elasticities reported in Table 3, specification 3."
+drbs_2024_wp,data_version,2025.9.1
 dl_2021_jep,study,Dube and Lindner 2021
 dl_2021_jep,owe_b,-0.12
 dl_2021_jep,owe_se,0.38
