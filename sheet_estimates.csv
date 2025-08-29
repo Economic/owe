@@ -54,6 +54,7 @@ hl_2019_aer,NA,NA,NA,NA,-0.18,0.03,Low wage firms,1,Own-wage elasticity reported
 ht_2023_jpubeco,NA,NA,NA,NA,0.07176752136752136,0.13389523269982737,Low wage workers,1,"Weighted average of the own-wage elasticities reported in Table 7, where the weights are the sample sizes in Panel A. Standard errors for each group are calculated from the confidence interval span divided by 2 times 1.96.",1,1,NA,NA,NA,NA,NA
 hs_2025_wp,NA,NA,NA,NA,0.1868,0.1446,Restaurants,0,"Own-wage elasticity reported in Table IA.7, specification 1.",0,1,NA,NA,NA,NA,NA
 hvp_2023_wp,0.0751,NA,-0.14,NA,NA,NA,Restaurants,0,Wage change from Figure 2 inset and employment change from Figure 3 inset.,0,0,NA,NA,NA,NA,NA
+jknrl_2025_wp,0.2195,0.02102379604162864,-0.159,0.04350287346831241,NA,NA,Restaurants,0,"Employment and wage elasticities averaged from Table 2, columns 3 and 4, main effects, row ln(minimum wage).",1,0,NA,NA,NA,NA,NA
 jlpivw_2022_aejep,0.036,NA,-0.063,NA,NA,NA,Low wage jobs,1,"Wage elasticity from Table 6a, specification ""SC levels"", row ""2016:III"". Employment elasticity from Table 6c, specification ""SC levels"", row ""2016:III"". Communication with authors suggests synthetic control ""levels"" specification.",0,1,NA,NA,NA,waiting on response: wage dep var in preferred spec is growth rate?,NA
 jnrl_2024_jpem,0.163,0.055,-0.242,0.12,NA,NA,Restaurants,0,"Wage and employment elasticities from Table 3, specification 1.",0,0,NA,NA,NA,NA,NA
 kk_1992_ilrr,NA,NA,NA,NA,1.734,0.934,Restaurants,0,"Own-wage elasticity reported in Table 5, specification 2.",0,1,NA,NA,NA,NA,NA

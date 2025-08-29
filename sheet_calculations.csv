@@ -194,6 +194,21 @@ figure 3 emp b,-0.14,NA,NA,NA,NA,NA
 figure 3 wage p,0.21,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
+Jha Kala Neumark Rodriguez Lopez 2025,jknrl_2025_wp,NA,NA,NA,NA,NA
+column 3 emp b,-0.132,NA,NA,NA,NA,NA
+column 3 emp se,0.043,NA,NA,NA,NA,NA
+column 4 emp b,-0.186,NA,NA,NA,NA,NA
+column 4 emp se,0.044,NA,NA,NA,NA,NA
+column 3 earn b,0.211,NA,NA,NA,NA,NA
+column 3 earn se,0.02,NA,NA,NA,NA,NA
+column 4 earn b,0.228,NA,NA,NA,NA,NA
+column 4 earn se,0.022,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
+pooled emp b,-0.159,NA,NA,NA,NA,NA
+pooled emp se,0.04350287347,NA,NA,NA,NA,NA
+pooled earn b,0.2195,NA,NA,NA,NA,NA
+pooled earn se,0.02102379604,NA,NA,NA,NA,NA
+NA,NA,NA,NA,NA,NA,NA
 NA,NA,NA,NA,NA,NA,NA
 Karabarbounis Lise Nath 2023,klb_2023_wp,NA,NA,NA,NA,NA
 "Table 2 Minneapolis wage, 2021 b",14.7,NA,NA,NA,NA,NA
