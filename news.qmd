@@ -5,7 +5,12 @@ editor: source
 Archived releases of the data, and the code used to generate them, are available on [Github](https://github.com/Economic/owe/releases).
 
 ## Version 2025.9.1
-- Added Jha Kala Neumark Rodriguez-Lopez 2025; Davies Park Stansbury 2025; Dube Reich Bhatt Sosinskiy 2024; Kim Levere Magenheim 2025
+- Added several studies: 
+    * Davies Park Stansbury 2025
+    * Dube Reich Bhatt Sosinskiy 2024
+    * Jha Kala Neumark Rodriguez-Lopez 2025
+    * Kim Levere Magenheim 2025
+- Updated estimate and publication status for Rao and Risch 2024; now Rao and Risch 2025
 
 ## Version 2025.8.1
 - Updated Vergara 2023 to Vergara 2025

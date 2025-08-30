@@ -1616,27 +1616,27 @@ pereira_2003_eer,journal,European Economic Review
 pereira_2003_eer,url,https://doi.org/10.1016/S0014-2921(02)00209-X
 pereira_2003_eer,source,"Employment effect from Table 2, column 2 (1986-1988), row 2 (ages 30-35), divided by mean employment of 0.785 referenced in footnote 16. Wage effect from Table 1, column 2 (1986 and 1988), row 2 (ages 30-35). Specifications chosen because of the reference to them on p. 236."
 pereira_2003_eer,data_version,2025.9.1
-rr_2023_wp,study,Rao and Risch 2024
-rr_2023_wp,owe_b,-0.209
-rr_2023_wp,owe_se,0.011
-rr_2023_wp,owe_lb,-0.231
-rr_2023_wp,owe_ub,-0.187
-rr_2023_wp,owe_magnitude,Small negative
-rr_2023_wp,group,Lower wage industries
-rr_2023_wp,overall,0
-rr_2023_wp,teens,0
-rr_2023_wp,restaurants_retail,0
-rr_2023_wp,country,US
-rr_2023_wp,averaged,0
-rr_2023_wp,owe_reported,1
-rr_2023_wp,published,0
-rr_2023_wp,authors,Nirupama Rao and Max Risch
-rr_2023_wp,year,2024
-rr_2023_wp,title,Who's Afraid of the Minimum Wage? Measuring the Impacts on Independent Businesses Using Matched U.S. Tax Returns
-rr_2023_wp,journal,Working Paper
-rr_2023_wp,url,https://www.nirupamarao.org/_files/ugd/ed3ee5_5b251b066aa74388917e8024285973db.pdf
-rr_2023_wp,source,Own-wage elasticity and standard error reported on p. 14.
-rr_2023_wp,data_version,2025.9.1
+rr_2025_qje,study,Rao and Risch 2025
+rr_2025_qje,owe_b,-0.245
+rr_2025_qje,owe_se,0.13
+rr_2025_qje,owe_lb,-0.5
+rr_2025_qje,owe_ub,0.01
+rr_2025_qje,owe_magnitude,Small negative
+rr_2025_qje,group,Lower wage industries
+rr_2025_qje,overall,0
+rr_2025_qje,teens,0
+rr_2025_qje,restaurants_retail,0
+rr_2025_qje,country,US
+rr_2025_qje,averaged,0
+rr_2025_qje,owe_reported,1
+rr_2025_qje,published,1
+rr_2025_qje,authors,Nirupama Rao and Max Risch
+rr_2025_qje,year,2025
+rr_2025_qje,title,Who's Afraid of the Minimum Wage? Measuring the Impacts on Independent Businesses Using Matched U.S. Tax Returns
+rr_2025_qje,journal,Quarterly Journal of Economics
+rr_2025_qje,url,https://drive.google.com/file/d/1T1F-w9R3zekptwkMQ2yMWUw7JhMPMW9_/
+rr_2025_qje,source,Own-wage elasticity and standard error reported on p. 15.
+rr_2025_qje,data_version,2025.9.1
 rms_2022_restat,study,Renkin Montialoux Siegenthaler 2022
 rms_2022_restat,owe_b,-0.093
 rms_2022_restat,owe_se,0.446
